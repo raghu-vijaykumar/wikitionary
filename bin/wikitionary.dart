@@ -173,11 +173,7 @@ Future<void> processPage(String title, String textContent, String outputDir,
         batchData[dbPath] = [];
       }
 
-      batchData[dbPath]!.add({
-        'word': title,
-        'language': normalizedLanguage,
-        ...languageSections[language]!
-      });
+      batchData[dbPath]!.add({'word': title, ...languageSections[language]!});
 
       // If batch size reaches 100, insert into the database
       if (batchData[dbPath]!.length >= 1000) {
