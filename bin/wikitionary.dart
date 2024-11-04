@@ -8,6 +8,13 @@ import 'package:xml/xml_events.dart';
 
 int pageCount = 0;
 final pageCountLock = Object();
+final batchData = <String, List<Map<String, dynamic>>>{}; // Global batch data
+
+void main() async {
+  final filePath = './data/enwiktionary-latest-pages-articles.xml';
+  final outputDir = './output';
+  await processXmlStream(filePath, outputDir);
+}
 
 Future<void> createDatabase(String dbPath) async {
   final db = await databaseFactoryIo.openDatabase(dbPath);
@@ -50,6 +57,8 @@ Future<void> processXmlStream(String filePath, String outputDir) async {
   bool isRelevantNamespace = false;
   bool isNamespace = false;
 
+  final dbCache = <String, Database>{};
+
   await for (final event in xmlStream) {
     if (event is XmlStartElementEvent) {
       if (event.name == 'page') {
@@ -70,11 +79,10 @@ Future<void> processXmlStream(String filePath, String outputDir) async {
         if (isRelevantNamespace &&
             currentTitle != null &&
             textBuffer.isNotEmpty) {
-          // ignore if title contains numbers
-          if (RegExp(r'[0-9!@#$%^&*(),?":{}|<>]').hasMatch(currentTitle)) {
-            continue;
+          if (!RegExp(r'[0-9!@#$%^&*()?":{}|<>]').hasMatch(currentTitle)) {
+            await processPage(
+                currentTitle, textBuffer.toString(), outputDir, dbCache);
           }
-          await processPage(currentTitle, textBuffer.toString(), outputDir);
         }
         isPage = false;
       } else if (event.name == 'title') {
@@ -95,10 +103,23 @@ Future<void> processXmlStream(String filePath, String outputDir) async {
       }
     }
   }
+
+  // Insert any remaining data in the global batchData
+  for (var dbPath in batchData.keys) {
+    if (batchData[dbPath]!.isNotEmpty) {
+      await _insertBatch(dbPath, batchData[dbPath]!, dbCache);
+      print('Inserted remaining batch into $dbPath');
+    }
+  }
+
+  // Close all cached databases
+  for (var db in dbCache.values) {
+    await db.close();
+  }
 }
 
-Future<void> processPage(
-    String title, String textContent, String outputDir) async {
+Future<void> processPage(String title, String textContent, String outputDir,
+    Map<String, Database> dbCache) async {
   if (RegExp(r'\d').hasMatch(title)) return;
 
   final lines = LineSplitter.split(textContent);
@@ -147,15 +168,23 @@ Future<void> processPage(
         .contains(language.toLowerCase().replaceAll('old ', ''))) {
       final normalizedLanguage = language.toLowerCase().replaceAll('old ', '');
       final dbPath = p.join(outputDir, '$normalizedLanguage.db');
-      final db = await databaseFactoryIo.openDatabase(dbPath);
-      final store = intMapStoreFactory.store('words');
 
-      await store.add(db, {
+      if (!batchData.containsKey(dbPath)) {
+        batchData[dbPath] = [];
+      }
+
+      batchData[dbPath]!.add({
         'word': title,
         'language': normalizedLanguage,
         ...languageSections[language]!
       });
-      await db.close();
+
+      // If batch size reaches 100, insert into the database
+      if (batchData[dbPath]!.length >= 1000) {
+        await _insertBatch(dbPath, batchData[dbPath]!, dbCache);
+        //print('Inserted batch of 1000 entries into $dbPath');
+        batchData[dbPath]!.clear();
+      }
     }
   }
 
@@ -167,8 +196,17 @@ Future<void> processPage(
   });
 }
 
-void main() async {
-  final filePath = './data/enwiktionary-latest-pages-articles.xml';
-  final outputDir = './output';
-  await processXmlStream(filePath, outputDir);
+Future<void> _insertBatch(String dbPath, List<Map<String, dynamic>> batchData,
+    Map<String, Database> dbCache) async {
+  if (!dbCache.containsKey(dbPath)) {
+    dbCache[dbPath] = await databaseFactoryIo.openDatabase(dbPath);
+  }
+  final db = dbCache[dbPath]!;
+  final store = intMapStoreFactory.store('words');
+
+  await db.transaction((txn) async {
+    for (var data in batchData) {
+      await store.add(txn, data);
+    }
+  });
 }
