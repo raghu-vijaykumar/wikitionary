@@ -26,7 +26,7 @@ filipino
 french
 western frisian
 irish
-scots gaelic
+scots
 galician
 gujarati
 hausa

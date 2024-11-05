@@ -13,7 +13,11 @@ final batchData = <String, List<Map<String, dynamic>>>{}; // Global batch data
 void main() async {
   final filePath = './data/enwiktionary-latest-pages-articles.xml';
   final outputDir = './output';
+  final stopwatch = Stopwatch()..start(); // Start the stopwatch
+
   await processXmlStream(filePath, outputDir);
+  stopwatch.stop(); // Stop the stopwatch
+  print('Processing completed in ${stopwatch.elapsed.inSeconds} seconds.');
 }
 
 Future<void> createDatabase(String dbPath) async {
@@ -164,9 +168,22 @@ Future<void> processPage(String title, String textContent, String outputDir,
   }
 
   for (var language in languageSections.keys) {
-    if (languageInclusions
-        .contains(language.toLowerCase().replaceAll('old ', ''))) {
-      final normalizedLanguage = language.toLowerCase().replaceAll('old ', '');
+    final normalizedLanguage = language.toLowerCase().replaceAll('old ', '');
+    if (languageInclusions.contains(normalizedLanguage)) {
+      // Skip saving word if it contains  only "Proper noun"
+      if (languageSections[language]!.containsKey('Proper noun') &&
+          (!languageSections[language]!.containsKey('Noun') ||
+              !languageSections[language]!.containsKey('Adjective') ||
+              !languageSections[language]!.containsKey('Verb') ||
+              !languageSections[language]!.containsKey('Adverb') ||
+              !languageSections[language]!.containsKey('Pronoun') ||
+              !languageSections[language]!.containsKey('Preposition') ||
+              !languageSections[language]!.containsKey('Interjection') ||
+              !languageSections[language]!.containsKey('Conjunction') ||
+              !languageSections[language]!.containsKey('Determiner'))) {
+        continue;
+      }
+
       final dbPath = p.join(outputDir, '$normalizedLanguage.db');
 
       if (!batchData.containsKey(dbPath)) {
@@ -175,7 +192,7 @@ Future<void> processPage(String title, String textContent, String outputDir,
 
       batchData[dbPath]!.add({'word': title, ...languageSections[language]!});
 
-      // If batch size reaches 100, insert into the database
+      // If batch size reaches 1000, insert into the database
       if (batchData[dbPath]!.length >= 1000) {
         await _insertBatch(dbPath, batchData[dbPath]!, dbCache);
         //print('Inserted batch of 1000 entries into $dbPath');
