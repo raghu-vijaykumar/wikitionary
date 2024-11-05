@@ -217,7 +217,7 @@ Future<void> saveWordsToTrie(String outputDir) async {
     }
     final db = dbCache[dbPath.path]!;
     final store = intMapStoreFactory.store('words');
-    final trie = CompressedTrie(); // Create a new Trie instance
+    final trie = Trie(); // Create a new Trie instance
 
     // Fetch all words from the database
     final stopwatch = Stopwatch()..start(); // Start the stopwatch
