@@ -6,6 +6,8 @@ import 'package:sembast/sembast_io.dart';
 import 'package:synchronized/extension.dart';
 import 'package:xml/xml_events.dart';
 
+import 'trie.dart';
+
 int pageCount = 0;
 final pageCountLock = Object();
 final batchData = <String, List<Map<String, dynamic>>>{}; // Global batch data
@@ -15,36 +17,14 @@ void main() async {
   final outputDir = './output';
   final stopwatch = Stopwatch()..start(); // Start the stopwatch
 
-  await processXmlStream(filePath, outputDir);
+  //await processXmlStream(filePath, outputDir);
   stopwatch.stop(); // Stop the stopwatch
   print('Processing completed in ${stopwatch.elapsed.inSeconds} seconds.');
-}
-
-Future<void> createDatabase(String dbPath) async {
-  final db = await databaseFactoryIo.openDatabase(dbPath);
-  intMapStoreFactory.store('words');
-  await db.close();
-}
-
-Future<Set<String>> loadLanguages(String filePath) async {
-  final file = File(filePath);
-  final lines = await file.readAsLines(encoding: utf8);
-  return lines.map((line) => line.trim().toLowerCase()).toSet();
-}
-
-Future<void> initializeDatabases(
-    String outputDir, Set<String> languages) async {
-  for (var language in languages) {
-    final normalizedLanguage = language.replaceAll('old ', '');
-    final dbPath = p.join(outputDir, '$normalizedLanguage.db');
-    await createDatabase(dbPath);
-  }
+  print('Saving words to trie...');
+  await saveWordsToTrie(outputDir);
 }
 
 Future<void> processXmlStream(String filePath, String outputDir) async {
-  final languageInclusions = await loadLanguages('./bin/languages.txt');
-  await initializeDatabases(outputDir, languageInclusions);
-
   final file = File(filePath);
   final stream = file.openRead();
 
@@ -127,7 +107,6 @@ Future<void> processPage(String title, String textContent, String outputDir,
   if (RegExp(r'\d').hasMatch(title)) return;
 
   final lines = LineSplitter.split(textContent);
-  final languageInclusions = await loadLanguages('./bin/languages.txt');
   final languageSections = <String, Map<String, dynamic>>{};
   String? currentLanguage;
   List<Map<String, dynamic>> sectionStack = [];
@@ -138,8 +117,7 @@ Future<void> processPage(String title, String textContent, String outputDir,
       final sectionName =
           line.substring(headingLevel, line.length - headingLevel).trim();
 
-      if (headingLevel == 2 &&
-          languageInclusions.contains(sectionName.toLowerCase())) {
+      if (headingLevel == 2) {
         currentLanguage = sectionName;
         if (!languageSections.containsKey(currentLanguage)) {
           languageSections[currentLanguage] = {};
@@ -168,36 +146,38 @@ Future<void> processPage(String title, String textContent, String outputDir,
   }
 
   for (var language in languageSections.keys) {
-    final normalizedLanguage = language.toLowerCase().replaceAll('old ', '');
-    if (languageInclusions.contains(normalizedLanguage)) {
-      // Skip saving word if it contains  only "Proper noun"
-      if (languageSections[language]!.containsKey('Proper noun') &&
-          (!languageSections[language]!.containsKey('Noun') ||
-              !languageSections[language]!.containsKey('Adjective') ||
-              !languageSections[language]!.containsKey('Verb') ||
-              !languageSections[language]!.containsKey('Adverb') ||
-              !languageSections[language]!.containsKey('Pronoun') ||
-              !languageSections[language]!.containsKey('Preposition') ||
-              !languageSections[language]!.containsKey('Interjection') ||
-              !languageSections[language]!.containsKey('Conjunction') ||
-              !languageSections[language]!.containsKey('Determiner'))) {
-        continue;
-      }
+    final dbPath = p.join(outputDir, '${language.toLowerCase()}.db');
 
-      final dbPath = p.join(outputDir, '$normalizedLanguage.db');
+    // Create the database on the fly if it doesn't exist
+    if (!dbCache.containsKey(dbPath)) {
+      dbCache[dbPath] = await databaseFactoryIo.openDatabase(dbPath);
+    }
 
-      if (!batchData.containsKey(dbPath)) {
-        batchData[dbPath] = [];
-      }
+    // Skip saving word if it contains only "Proper noun"
+    if (languageSections[language]!.containsKey('Proper noun') &&
+        (!languageSections[language]!.containsKey('Noun') ||
+            !languageSections[language]!.containsKey('Adjective') ||
+            !languageSections[language]!.containsKey('Verb') ||
+            !languageSections[language]!.containsKey('Adverb') ||
+            !languageSections[language]!.containsKey('Pronoun') ||
+            !languageSections[language]!.containsKey('Preposition') ||
+            !languageSections[language]!.containsKey('Interjection') ||
+            !languageSections[language]!.containsKey('Conjunction') ||
+            !languageSections[language]!.containsKey('Determiner'))) {
+      continue;
+    }
 
-      batchData[dbPath]!.add({'word': title, ...languageSections[language]!});
+    if (!batchData.containsKey(dbPath)) {
+      batchData[dbPath] = [];
+    }
 
-      // If batch size reaches 1000, insert into the database
-      if (batchData[dbPath]!.length >= 1000) {
-        await _insertBatch(dbPath, batchData[dbPath]!, dbCache);
-        //print('Inserted batch of 1000 entries into $dbPath');
-        batchData[dbPath]!.clear();
-      }
+    batchData[dbPath]!.add({'word': title, ...languageSections[language]!});
+
+    // If batch size reaches 1000, insert into the database
+    if (batchData[dbPath]!.length >= 1000) {
+      await _insertBatch(dbPath, batchData[dbPath]!, dbCache);
+      //print('Inserted batch of 1000 entries into $dbPath');
+      batchData[dbPath]!.clear();
     }
   }
 
@@ -222,4 +202,38 @@ Future<void> _insertBatch(String dbPath, List<Map<String, dynamic>> batchData,
       await store.add(txn, data);
     }
   });
+}
+
+Future<void> saveWordsToTrie(String outputDir) async {
+  final dbCache = <String, Database>{};
+  // Read all .db files from the output directory
+  final directory = Directory(outputDir);
+  final dbFiles =
+      directory.listSync().where((file) => file.path.endsWith('.db'));
+  // Read words from each database file
+  for (var dbPath in dbFiles) {
+    if (!dbCache.containsKey(dbPath.path)) {
+      dbCache[dbPath.path] = await databaseFactoryIo.openDatabase(dbPath.path);
+    }
+    final db = dbCache[dbPath.path]!;
+    final store = intMapStoreFactory.store('words');
+    final trie = CompressedTrie(); // Create a new Trie instance
+
+    // Fetch all words from the database
+    final stopwatch = Stopwatch()..start(); // Start the stopwatch
+    final records = await store.find(db);
+    if (records.isNotEmpty) {
+      for (var record in records) {
+        trie.insert(record['word'] as String); // Insert each word into the Trie
+      }
+      await db.close();
+      stopwatch.stop(); // Stop the stopwatch
+      // Construct the trie filename based on the db filename
+      final trieFileName = '${p.basenameWithoutExtension(dbPath.path)}.trie';
+      final trieFilePath = p.join(outputDir, trieFileName);
+      await trie.saveToFile(trieFilePath);
+      print(
+          '$trieFilePath created in for ${records.length} records in ${stopwatch.elapsed.inMilliseconds} milliseconds.');
+    }
+  }
 }
