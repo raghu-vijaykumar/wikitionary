@@ -4,24 +4,30 @@ import 'dart:io';
 import 'package:path/path.dart' as p;
 import 'package:sembast/sembast_io.dart';
 import 'package:synchronized/extension.dart';
+import 'package:wikitionary/parser/wiki_template_parser.dart'; // Import the parser
+import 'package:wikitionary/util/trie.dart';
 import 'package:xml/xml_events.dart';
-
-import 'trie.dart';
 
 int pageCount = 0;
 final pageCountLock = Object();
 final batchData = <String, List<Map<String, dynamic>>>{}; // Global batch data
+// Instantiate the WikiTemplateParser
+final parser = WikiTemplateParser();
 
 void main() async {
   final filePath = './data/enwiktionary-latest-pages-articles.xml';
   final outputDir = './output';
   final stopwatch = Stopwatch()..start(); // Start the stopwatch
 
-  //await processXmlStream(filePath, outputDir);
+  await processXmlStream(filePath, outputDir);
   stopwatch.stop(); // Stop the stopwatch
   print('Processing completed in ${stopwatch.elapsed.inSeconds} seconds.');
   print('Saving words to trie...');
   await saveWordsToTrie(outputDir);
+
+  final trie = await Trie.loadFromJsonFile('./output/english.trie');
+  print(trie.autocomplete('elo'));
+  print(trie.search('hello'));
 }
 
 Future<void> processXmlStream(String filePath, String outputDir) async {
@@ -112,14 +118,25 @@ Future<void> processPage(String title, String textContent, String outputDir,
   List<Map<String, dynamic>> sectionStack = [];
 
   for (var line in lines) {
-    final headingLevel = line.indexOf(RegExp(r'[^=]'));
-    if (headingLevel > 0 && line.endsWith('=' * headingLevel)) {
-      final sectionName =
-          line.substring(headingLevel, line.length - headingLevel).trim();
+    final cleanedLine = removeComments(line);
+
+    final headingLevel = cleanedLine.indexOf(RegExp(r'[^=]'));
+    if (headingLevel > 0 && cleanedLine.endsWith('=' * headingLevel)) {
+      final sectionName = cleanedLine
+          .substring(headingLevel, cleanedLine.length - headingLevel)
+          .trim();
+
+      // Skip "References" and "Further reading" sections
+      if (sectionName == 'References' ||
+          sectionName == 'Further reading' ||
+          sectionName == 'Related terms') {
+        continue; // Skip these sections
+      }
 
       if (headingLevel == 2) {
         currentLanguage = sectionName;
         if (!languageSections.containsKey(currentLanguage)) {
+          // Initialize the map for the language
           languageSections[currentLanguage] = {};
         }
         sectionStack = [languageSections[currentLanguage]!];
@@ -140,17 +157,22 @@ Future<void> processPage(String title, String textContent, String outputDir,
       final contentKey = 'content';
       if (!currentSectionMap.containsKey(contentKey)) {
         currentSectionMap[contentKey] = '';
+        currentSectionMap['parsedContent'] = ''; // Initialize parsedContent
       }
-      currentSectionMap[contentKey] += '${line.trim()}\n';
+      currentSectionMap[contentKey] += '${cleanedLine.trim()}\n';
     }
   }
 
+  // Parse the language sections using the WikiTemplateParser
   for (var language in languageSections.keys) {
     final dbPath = p.join(outputDir, '${language.toLowerCase()}.db');
-
-    // Create the database on the fly if it doesn't exist
-    if (!dbCache.containsKey(dbPath)) {
-      dbCache[dbPath] = await databaseFactoryIo.openDatabase(dbPath);
+    try {
+      // Create the database on the fly if it doesn't exist
+      if (!dbCache.containsKey(dbPath)) {
+        dbCache[dbPath] = await databaseFactoryIo.openDatabase(dbPath);
+      }
+    } catch (e) {
+      print('Error opening database $dbPath: $e');
     }
 
     // Skip saving word if it contains only "Proper noun"
@@ -166,6 +188,25 @@ Future<void> processPage(String title, String textContent, String outputDir,
             !languageSections[language]!.containsKey('Determiner'))) {
       continue;
     }
+
+    // if any language sections contains text within <!-- -->, remove those are comments recursively
+    cleanCommentsInSections(languageSections[language]!);
+
+    // Recursive function to parse content in sections
+    void parseSections(
+        Map<String, dynamic> sections, String language, String title) {
+      for (var section in sections.entries) {
+        if (section.key == 'content') {
+          final parsedContent = parser.parse(section.value, language, title);
+          sections['parsedContent'] = parsedContent; // Store parsed content
+        } else if (section.value is Map<String, dynamic>) {
+          parseSections(
+              section.value, language, title); // Recursively parse nested maps
+        }
+      }
+    }
+
+    parseSections(languageSections[language]!, language, title);
 
     if (!batchData.containsKey(dbPath)) {
       batchData[dbPath] = [];
@@ -231,9 +272,33 @@ Future<void> saveWordsToTrie(String outputDir) async {
       // Construct the trie filename based on the db filename
       final trieFileName = '${p.basenameWithoutExtension(dbPath.path)}.trie';
       final trieFilePath = p.join(outputDir, trieFileName);
-      await trie.saveToFile(trieFilePath);
+      await trie.saveToJsonFile(trieFilePath);
       print(
           '$trieFilePath created in for ${records.length} records in ${stopwatch.elapsed.inMilliseconds} milliseconds.');
+    }
+  }
+}
+
+String removeComments(String content) {
+  return content.replaceAll(RegExp(r'<!--.*?-->', dotAll: true), '');
+}
+
+void cleanCommentsInSections(Map<String, dynamic> sections) {
+  // Create a list of keys to avoid concurrent modification
+  final keys = List<String>.from(sections.keys);
+
+  for (var key in keys) {
+    var value = sections[key];
+    if (value is String) {
+      sections[key] = removeComments(value);
+    } else if (value is List) {
+      for (var item in value) {
+        if (item is Map<String, dynamic>) {
+          cleanCommentsInSections(item);
+        }
+      }
+    } else if (value is Map<String, dynamic>) {
+      cleanCommentsInSections(value);
     }
   }
 }

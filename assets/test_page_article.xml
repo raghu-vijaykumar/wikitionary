@@ -1,0 +1,4154 @@
+<mediawiki>
+    <page>
+        <title>capital</title>
+        <ns>0</ns>
+        <id>5736</id>
+        <revision>
+            <id>81971930</id>
+            <parentid>81631914</parentid>
+            <timestamp>2024-09-27T11:33:38Z</timestamp>
+            <contributor>
+                <username>WingerBot</username>
+                <id>2024159</id>
+            </contributor>
+            <minor />
+            <comment>templatize topical categories for langcode=en using {{C}}</comment>
+            <origin>81971930</origin>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text bytes="24769" sha1="8kryypa5erqunpam11brwivmwoi3lwv" xml:space="preserve">{{also|capitâl}}
+==English==
+{{wikipedia}}
+
+===Alternative forms===
+* {{alter|en|capitall||obsolete}}
+
+===Pronunciation===
+* {{IPA|en|/ˈkæpɪtəl/|a=UK,US}}
+** {{IPA|en|[ˈkʰæp.ɪ.ɾɫ̩]|a=US}}
+*** {{audio|en|en-us-capital.ogg|a=US}}
+* {{homophones|en|capitol}}
+* {{rhymes|en|æpɪtəl|s=3}}
+
+===Etymology 1===
+From {{inh|en|enm|capital}}, borrowed partly from {{der|en|fro|capital}} and partly from {{der|en|la|capitālis|t=of the head}}&lt;ref&gt;{{R:MED Online|entry=capitā̆l|pos=adj|id=MED6727}}&lt;/ref&gt;&lt;ref&gt;{{R:OED Online|pos=''adj.'' and ''n.''&lt;sup&gt;2&lt;/sup&gt;|noformat=1|id=8654406974}}&lt;/ref&gt; (in sense “head of [[cattle]]”), from {{m|la|caput|t=head}} ({{cog|en|cap}}) + {{m|la|-ālis|pos=suffix forming adjectives}}. Use in trade and finance originated in Medieval economies when a common but expensive transaction involved trading heads of cattle. The noun is from the adjective.&lt;ref&gt;{{R:MED Online|entry=capitā̆l|pos=''n.''(1)|noformat=1|id=MED6725}}&lt;/ref&gt;
+
+Compare {{m|en|chattel}} and {{m|en|kith and kine|t=all one’s possessions}}, which also use “cow” to mean “property”.
+
+{{doublet|en|cattle|chattel}}.
+
+====Noun====
+{{en-noun|~}}
+
+# {{lb|en|uncountable|economics}} Already-produced durable goods available for use as a [[factor of production]], such as steam shovels (equipment) and office buildings (structures).
+# {{lb|en|uncountable|business|finance|insurance}} [[money|Money]] and [[wealth]]. The means to acquire [[goods]] and [[services]], especially in a non-[[barter]] system.
+#: {{ux|en|He does not have enough '''capital''' to start a business.}}
+# {{lb|en|countable}} A [[city]] [[designate]]d as a legislative seat by the [[government]] or some other [[authority]], often the city in which the government is [[locate]]d; otherwise the most [[important]] city within a [[country]] or a [[subdivision]] of it.
+#* {{quote-book
+|en
+|year=1995
+|author=Linda Fang
+|title=The Chʻi-lin Purse: A Collection of Ancient Chinese Stories
+|url=https://archive.org/details/chilinpursecolle0000fang/
+|location=[[New York]]
+|publisher=w:Farrar Straus Giroux
+|ISBN=0-374-31241-9
+|LCCN=94-9909
+|OCLC=214972990
+|OL=1086004M
+|page=54
+|pageurl=https://archive.org/details/chilinpursecolle0000fang/page/54/
+|text=Lin Hsiang-ju immediately said to the king of Ch’in, “If ''Ta-wang'' wants fifteen cities from Chao, the king of Chao should also get something in return. What about giving him Hsien-yang as a gift?’ Hsien-yang was the '''capital''' of Ch’in.}}
+#* {{quote-journal|en|date=2013-06-08|volume=407|issue=8839|page=52|magazine=w:The Economist
+|title=[http://www.economist.com/news/international/21579039-chinas-growing-empire-ports-abroad-mainly-about-trade-not-aggression-new-masters The new masters and commanders]
+|passage=From the ground, Colombo’s port does not look like much.{{...}}&amp;nbsp; But viewed from high up in one of the growing number of skyscrapers in Sri Lanka’s '''capital''', it is clear that something extraordinary is happening: China is creating a shipping hub just 200 miles from India’s southern tip.}}
+#: {{ux|en|Washington D.C. is the '''capital''' of the United States of America.}}
+#: {{ux|en|The Welsh government claims that Cardiff is Europe’s youngest '''capital'''.}}
+# {{lb|en|countable}} The most [[important]] [[city]] in the [[field]] specified.
+#* '''2010''' September, Charlie Brennan, &quot;Active Athletes&quot;, [[w:St. Louis Magazine|''St. Louis'' magazine]], ISSN 1090-5723, volume 16, issue 9, page 83:
+#*: Hollywood is the film '''capital''', New York the theater '''capital''', Las Vegas the gambling '''capital'''.
+# {{lb|en|countable}} An [[uppercase]] [[letter]].
+# {{lb|en|uncountable}} [[knowledge|Knowledge]]; [[awareness]]; [[proficiency]].
+#: {{ux|en|Interpreters need a good amount of cultural '''capital''' in order to function efficiently in the profession.}}
+# {{lb|en|countable|by extension}} The chief or most important thing.
+
+=====Usage notes=====
+The homophone ''[[capitol]]'' refers only to a [[building]], usually one that houses the legislative branch of a government, and often one located in a '''capital''' city.
+
+=====Synonyms=====
+* {{sense|An uppercase letter}} {{l|en|caps}} (in the plural), [[majuscule]]
+
+=====Antonyms=====
+* {{antsense|An uppercase letter}} {{l|en|minuscule}}
+
+=====Translations=====
+{{trans-see|capital city}}
+
+{{trans-top|money and wealth}}
+* Afrikaans: {{t+|af|kapitaal}}
+* Albanian: {{t+|sq|kapital|f}}
+* Apache:
+*: Western Apache: {{t|apw|haago zhaali nadehí bigozʼąąyú}}
+* Arabic: {{t+|ar|رَأْسْمَال|m}}, {{t|ar|رَأْس مَال|m}}
+*: Egyptian Arabic: {{t|arz|راس المال|m|tr=rās el-māl}}
+* Armenian: {{t+|hy|կապիտալ}}
+* Assamese: {{t|as|মূলধন|?}}
+* Azerbaijani: {{t|az|sərmayə}}, {{t+|az|maya}}, {{t|az|kapital}}
+* Belarusian: {{t|be|капіта́л|m}}, {{t+|be|бага́цце|n}}
+* Bengali: {{t+|bn|পুঁজি}}
+* Bulgarian: {{t+|bg|капита́л|m}}
+* Burmese: {{t+|my|အရင်း}}
+* Catalan: {{t+|ca|capital|m}}
+* Cebuano: {{t|ceb|kapital}}
+* Chinese:
+*: Mandarin: {{t+|cmn|資本}}
+* Czech: {{t+|cs|kapitál|m}}
+* Danish: {{t|da|kapital|c}}
+* Dutch: {{t+|nl|kapitaal|n}}
+* Esperanto: {{t|eo|kapitalo}}
+* Estonian: {{t|et|kapital}}
+* Finnish: {{t+|fi|pääoma}}
+* French: {{t+|fr|capital|m}}
+* Galician: {{t+|gl|capital|m}}, {{t+|gl|fondo|m}}, {{t|gl|fondos|m-p}}
+* Georgian: {{t|ka|კაპიტალი}}
+* German: {{t+|de|Kapital|n}}
+* Greek: {{t+|el|κεφάλαιο|n}}
+* Gujarati: {{t|gu|પૂંજી|f}}
+* Hebrew: {{t+|he|הוֹן|m|tr=hon}}
+* Hindi: {{t|hi|पूंजी|f}}, {{t+|hi|मूलधन|m}}, {{t+|hi|पूँजी|f}}, {{t+|hi|संपद|m}}
+* Hungarian: {{t+|hu|tőke}}
+* Icelandic: {{t+|is|fjármagn|n}}
+* Ido: {{t+|io|kapitalo}}
+* Indonesian: {{t+|id|modal}}, {{t+|id|kapital}}
+* Irish: {{t|ga|caipiteal|m}}
+* Italian: {{t+|it|capitale|m}}
+* Japanese: {{t+|ja|資本|tr=しほん, shihon}}
+* Kazakh: {{t|kk|қаражат}}, {{t|kk|капитал}}
+* Khmer: {{t+|km|មូល}}, {{t+|km|មូលធន}}, {{t+|km|ធន}}
+* Korean: {{t+|ko|자본(資本)}}
+* Kyrgyz: {{t+|ky|капитал}}
+* Lao: {{t|lo|ທຶນ}}, {{t+|lo|ຕົ້ນທຶນ}}
+* Macedonian: {{t|mk|капитал|m}}
+* Malay: {{t|ms|modal}}
+* Malayalam: {{t+|ml|മൂലധനം}}
+* Manx: {{t|gv|bun-argid|m}}
+* Maori: {{t|mi|moni haupū rawa}}, {{t|mi|moni haupū}}, {{t|mi|pūrawa}}
+* Marathi: {{t|mr|भांडवल|n}}
+* Nepali: {{t|ne|पूँजी|tr=pũnji}}
+* Norwegian:
+*: Bokmål: {{t+|nb|kapital|m}}
+* Ottoman Turkish: {{t|ota|سرمایه|tr=sermaye}}
+* Persian: {{t+|fa|سرمایه|tr=sarmâye}}
+* Polish: {{t+|pl|kapitał|m}}
+* Portuguese: {{t+|pt|capital|m}}
+* Romanian: {{t+|ro|capital|n}}
+* Romansch: {{t|rm|chapital|m}} {{qualifier|Rumantsch Grischun, Vallader}}, {{t|rm|capital|m}} {{qualifier|Sursilvan, Sutsilvan, Surmiran}}, {{t|rm|chapitêl|m}} {{qualifier|Puter}}
+* Russian: {{t+|ru|капита́л|m}}, {{t+|ru|состоя́ние|n}}, {{t+|ru|бога́тство|n}}
+* Scottish Gaelic: {{t|gd|airgead-calpa|m}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|капѝта̄л|m}}
+*: Roman: {{t+|sh|kapìtāl|m}}
+* Slovak: {{t|sk|kapitál|m}}
+* Slovene: {{t+|sl|kapital|m}}
+* Spanish: {{t+|es|capital|m}}
+* Swahili: {{t+|sw|rasilimali}}
+* Swedish: {{t+|sv|kapital|n}}
+* Tagalog: {{t|tl|kabisera}}, {{t|tl|kapital}}
+* Tajik: {{t+|tg|сармоя}}
+* Telugu: {{t+|te|పెట్టుబడి}}, {{t+|te|సంపద}}
+* Thai: {{t+|th|ทุน}}
+* Turkish: {{t+|tr|anapara}}, {{t+|tr|anamal}}, {{t+|tr|sermaye}}, {{t+|tr|kapital}}
+* Ukrainian: {{t+|uk|капіта́л|m}}, {{t+|uk|бага́тство|n}}
+* Urdu: {{t|ur|سَرْمایَہ|m|tr=sarmāyā}}
+* Uyghur: {{t|ug|كاپىتال}}, {{t|ug|دىر}}
+* Uzbek: {{t+|uz|kapital}}
+* Vietnamese: {{t+|vi|vốn}}, {{t+|vi|chính}}, {{t+|vi|tư bản}}
+* Volapük: {{t+|vo|katäd}}
+* Welsh: {{t+|cy|cyfalaf|m}}
+* Yiddish: {{t|yi|קאַפּיטאַל|n}}
+{{trans-bottom}}
+
+{{trans-see|capital letter}}
+
+{{checktrans-top}}
+* Interlingua: {{t-check|ia|capital}} (1,2)
+* Somali: {{t+check|so|raasumaal}}
+{{trans-bottom}}
+
+====Adjective====
+{{en-adj|-}}
+
+# Of [[prime]] [[importance]].
+#* {{quote-text|en|year=1708|author=w:Francis Atterbury|title=Fourteen Sermons Preach'd on Several Occasions|section=Preface
+|passage=a '''capital''' article in religion}}
+#* {{quote-book|en|year=1852|author=Isaac Taylor|title=Saturday Evening|passage=whatever is '''capital''' and essential in Christianity}}
+# Chief, in a political sense, as being the seat of the general government of a state or nation.
+#: {{ux|en|London and Paris are '''capital''' cities.}}
+# {{lb|en|comparable|UK|dated}} Excellent.
+#: {{ux|en|That is a '''capital''' idea!}}
+#* {{RQ:James International Episode|passage= “He is a '''capital''' fellow,” the Englishman in London had said, “and he has got an awfully pretty wife. {{...}}”}}
+#* {{quote-book|1=en|year=1887|author=Harriet W. Daly|title=Digging, Squatting, and Pioneering Life in the Northern Territory of South Australia|page=166|passage=Sometimes he laughed heartily as if he heard some '''capital''' joke; by degrees this lessened, and he spoke rapidly, but in very low tones.}}
+# {{lb|en|crime}} [[punishable|Punishable]] by, or involving [[punishment]] by, [[death]].
+#: {{ux|en|[[capital punishment|'''capital''' punishment]]; [[capital murder|'''capital''' murder]]}}
+#* {{RQ:Swift Advancement of Religion|pages=53–54|pageref=54|passage=Neither could the Legiſlature in any thing more conſult the Publick Good, than by providing ſome effectual Remedy againſt this Evil, which in ſeveral Caſes deſerves greater Puniſhment than many Crimes that are '''capital''' among us.}}
+#* {{RQ:Milton Eikonoklastes|passage=to put to death a '''capital''' offender}}
+#* {{quote-text|en|year=2002|author={{w|Colin Jones (historian)|Colin Jones}}|title=The Great Nation|page=517|publisher=Penguin|year_published=2003
+|passage=Some 1,600 priests were deported, for example, while the total number of '''capital''' victims of the military commissions down to 1799 was only around 150.}}
+# [[uppercase|Uppercase]].
+#: {{ant|en|lower-case}}
+#: {{ux|en|One begins a sentence with a '''capital''' letter.}}
+## {{n-g|used to emphasise greatness or absoluteness}}
+##: {{ux|en|You're a genius with a '''capital''' G!}}
+##: {{ux|en|He's dead with a '''capital''' D!}}
+##* {{quote-web|en|date=February 9 2021|url=https://www.bbc.com/culture/article/20210208-is-tom-hanks-part-of-a-dying-breed-of-genuine-movie-stars|work=BBC|title=Is {{w|Tom Hanks}} part of a dying breed of genuine movie stars?
+|author=Christina Newland|passage= In recent years, much has been made of the lack of new heavyweight male star power in mainstream Hollywood. Talented performers may be everywhere, but Movie Stars, '''capital''' M, '''capital''' S, are something else.}}
+# Of or relating to the [[head]].
+#* {{RQ:Milton Paradise Lost|book=10|passage=Needs must the Serpent now his '''capital''' bruise / Expect with mortal pain.|year=1873}}
+
+=====Translations=====
+{{trans-top|of prime importance}}
+* Bulgarian: {{t+|bg|главен}}, {{t+|bg|основен}}
+* Catalan: {{t+|ca|capital}}
+* Chinese:
+*: Mandarin: {{t+|cmn|主要|alt=主要的|tr=zhǔyào de}}
+* Dutch: {{t|nl|hoofd-}}, {{t+|nl|kapitaal}}
+* Finnish: {{t+|fi|ensisijainen}}, {{t+|fi|pääasiallinen}}, {{t|fi|pää-}} {{qualifier|in compounds}}
+* German: {{t|de|[[Haupt]]-}}
+* Greek: {{t+|el|κεφαλαιώδης}}
+*: Ancient: {{t|grc|κεφάλαιος}}
+* Hungarian: {{t+|hu|fontos}}, {{t+|hu|lényeges}}, {{t+|hu|jelentős}}, {{t+|hu|döntő}}
+* Italian: {{t+|it|capitale}}, {{t+|it|principale}}
+* Japanese: {{t+|ja|主|alt=主な|tr=おもな, omo na}}, {{t+|ja|主要|alt=主要な|tr=しゅような, shuyō na}}
+* Korean: {{t+|ko|중요하다(重要)}}, {{t+|ko|주요하다(主要)}}
+* Portuguese: {{t+|pt|capital}}, {{t+|pt|fundamental}}
+* Russian: {{t+|ru|гла́вный}}, {{t+|ru|основно́й}}, {{t+|ru|капита́льный}}
+* Spanish: {{t+|es|capital}}
+* Swedish: {{t+|sv|huvudsaklig}}
+{{trans-bottom}}
+{{trans-top|''(UK, dated)'' excellent}}
+* Catalan: {{t+|ca|excel·lent}}
+* Chinese:
+*: Mandarin: {{t+|cmn|優秀|tr=yōuxiù}}
+* Dutch: {{t+|nl|uitstekend}}, {{t+|nl|excellent}}
+* Finnish: {{t+|fi|mahtava}}, {{t+|fi|suurenmoinen}}, {{t+|fi|loistava}}, {{t+|fi|fantastinen}}
+* French: {{t+|fr|excellent}}
+* German: {{t+|de|großartig}}
+* Hungarian: {{t+|hu|remek}}, {{t+|hu|ragyogó}}, {{t+|hu|kitűnő}}, {{t+|hu|príma}}, {{t+|hu|nagyszerű}}
+* Italian: {{t+|it|ottimo}}, {{t+|it|magnifico}}, {{t+|it|eccellente}}, {{t+|it|splendido}}
+* Japanese: {{t|ja|優れた|tr=[[すぐれた]], sugureta}}, {{t+|ja|素晴らしい|tr=[[すばらしい]], subarashii}}
+* Korean: {{t|ko|[[최고(最高)]]-의}}, {{t|ko|[[최상(最上)]]-의}}
+* Portuguese: {{t+|pt|excelente}}
+* Russian: {{t+|ru|превосхо́дный}}, {{t+|ru|капита́льный}}, {{t+|ru|отли́чный}}
+* Spanish: {{t+|es|excelente}}
+{{trans-bottom}}
+{{trans-top|punishable by, or involving punishment by, death}}
+* Catalan: {{t+|ca|capital}}
+* Dutch: {{t+|nl|doodstraf}}, {{t+|nl|dood}}
+* Finnish: {{t|fi|[[kuolemalla]] [[rangaistava]]}}
+* French: {{t+|fr|capital|m}}, {{t+|fr|capital|f|alt=capitale}}
+* German: {{t|de|[[Kapital]]-}}
+* Hindi: {{t+|hi|मरण}}
+* Hungarian: {{q|punishment}} {{t+|hu|halál|alt=halál-}}, {{q|sin}} {{t|hu|[[halálbüntetés]]sel [[büntet|büntetett/büntetendő]]}}, {{t+|hu|főbenjáró}}
+* Italian: {{t+|it|capitale}}
+* Japanese: {{t+|ja|致命的|alt=致命的な|tr=ちめいてきな, chimeiteki na}}
+* Korean: {{t|ko|[[사형(死刑)]]-의}}
+* Malayalam: {{t|ml|മരണ ശിക്ഷ}}
+* Portuguese: {{t+|pt|capital}}
+* Spanish: {{t+|es|capital}}
+* Tagalog: {{t|tl|kabisera}}
+{{trans-bottom}}
+{{trans-top|uppercase}}
+* Armenian: {{t+|hy|մեծատառ}}
+* Bulgarian: {{t+|bg|главен}}
+* Catalan: {{t+|ca|majúscula}}
+* Chinese:
+*: Mandarin: {{t+|cmn|大寫|alt=大寫的|tr=dàxiě de}}
+* Dutch: {{t|nl|[[hoofd]](letter)}}
+* Finnish: {{t+|fi|versaali}}, {{t+|fi|iso}}
+* French: {{t+|fr|majuscule}}
+* German: {{t|de|Groß-}}
+* Greek: {{t+|el|κεφαλαίος}}
+* Hungarian: {{q|letter}} {{t+|hu|nagy}}, {{q|word, term, phrase, sentence etc.}} {{t+|hu|nagybetűs}}, {{t|hu|[[nagy]] [[kezdőbetűs]]}}
+* Indonesian: {{t+|id|kapital}}
+* Italian: {{t+|it|maiuscolo}}
+* Japanese: {{t+|ja|大文字|alt=大文字の|tr=おおもじの, ōmoji no}}
+* Korean: {{t|ko|[[대문자(大文字)]]-의}}
+* Polish: {{t+|pl|duży|m}}, {{t|pl|duża|f}}
+* Portuguese: {{t+|pt|maiúsculo}}
+* Russian: {{t+|ru|загла́вный}}, {{t+|ru|большо́й}}
+* Spanish: {{t+|es|mayúscula}}
+* Volapük: {{t|vo|mayudik}}
+{{trans-bottom}}
+{{trans-top|of or relating to the head}}
+* Hungarian: {{t+|hu|fej|alt=fej-}}, {{t+|hu|feji}}
+{{trans-bottom}}
+{{checktrans-top}}
+* Interlingua: {{t-check|ia|capital}} (1); {{t-check|ia|excellente}} (2)
+{{trans-bottom}}
+
+====Derived terms====
+{{col-auto|en|anticapital|biocapital|capitaldom|capitaled|capitalistic|capitalitis|capitalize|capitally|capitalness|capitonym|countercapital|cybercapital|National Capital Region|noncapital|subcapital|block capitals|capital asset|capital city|capital goods|capitalism|capital punishment|capital ship|capital stock|economic capital|financial capital|human capital|personal capital|real capital|share capital|social capital|block capital|capital account|capital adequacy|capital appreciation bond|capital budgeting|capital crime|capital equipment|capital expenditure|capital expense|capital flight|capital gain|capital gains tax|capital grant|capital intensive|capital loss|capital market|capital market line|capital messuage|capital murder|capitalness|capital offence|capital offense|capital share|capital structure|capital surplus|capital value|capital-intensive|cultural capital|intellectual capital|make capital out of|marginal cost of capital|medial capital|provincial capital|risk capital|small capital|state capital|venture capital|weighted-average cost of capital|working capital|world capital|capital good|capital investment|erotic capital|fixed capital|sexual capital|capital control|trust capital|working capital requirement|political capital|subcultural capital}}
+
+====Related terms====
+{{rel3|en|captain|capita|capitol|capitulate|capitulation|chapiter|chapter}}
+
+===Etymology 2===
+{{root|en|ine-pro|*kap-}}{{root|en|ine-pro|*kap-|id1=head}}
+{{multiple images
+|perrow=2
+|total_width=320
+|image1=Chapiteau-Parthenon.jpg
+|width1=1200|height1=803
+|caption1=A [[Doric]] capital
+|image2=15 Halytska Square, Lviv (05).jpg
+|width2=3842|height2=2868
+|caption2=An [[Ionic]] capital
+|image3=126 rue de rivoli Paris 2012 17.jpg
+|width3=5184|height3=3456
+|caption3=A [[Corinthian]] capital
+|image4=Composite capital, Palace of Justice (today Ethnographic Museum), Budapest.jpg
+|width4=940|height4=1410
+|caption4=A [[composite|Composite]] capital
+}}
+
+From {{inh|en|enm|capitale}}, partly from {{der|en|fro|capital}} and partly from {{der|en|LL.|capitellum|t=capital or chapiter of a column}},&lt;ref&gt;{{R:OED Online|pos=''n.''&lt;sup&gt;1&lt;/sup&gt;|noformat=1|id=2289960437}}&lt;/ref&gt; a form of {{der|en|la|capitulum|t=head-like object or structure; chapter}} (whence English {{m|en|capitulum}}, {{m|en|chapter}}, and the synonym {{m|en|chapiter|t=uppermost part of a column}}), from {{m|la|caput|t=head}} + {{m|la|-ulum|pos=diminutive suffix}}. {{doublet|en|caddie|cadel|cadet|capitellum|caudillo|Kadet}}.
+
+====Noun====
+{{en-noun}}
+
+# {{senseid|en|architecture}} {{lb|en|countable|architectural element}} The uppermost part of a [[column]].
+#: {{syn|en|chapiter}}
+
+=====Translations=====
+{{trans-top|uppermost part of a column|id=architecture}}
+* Arabic: {{t|ar|تَاج العَمُود|m}}
+* Armenian: {{t+|hy|խոյակ}}
+* Azerbaijani: {{t|az|kapitel}}
+* Basque: {{t|eu|kapitel}}
+* Belarusian: {{t|be|капітэль|f}}
+* Bulgarian: {{t|bg|капите́л|m}}
+* Catalan: {{t+|ca|capitell|m}}
+* Chinese:
+*: Cantonese: {{t|yue|柱頭}}
+*: Mandarin: {{t+|cmn|柱頭}}
+* Czech: {{t+|cs|hlavice|f}}
+* Danish: {{t+|da|kapitæl|c}}
+* Dutch: {{t+|nl|kapiteel|n}}
+* Esperanto: {{t|eo|kapitelo}}
+* Estonian: {{t|et|kapiteel}}
+* Finnish: {{t+|fi|kapiteeli}}
+* French: {{t+|fr|chapiteau|m}}
+* Galician: {{t+|gl|capitel|m}}
+* Georgian: {{t|ka|კაპიტელი}}
+* German: {{t+|de|Kapitell|n}}, {{t|de|Säulenkopf|m}}
+* Greek: {{t+|el|κιονόκρανο|n}}
+* Hebrew: {{t+|he|כּוֹתֶרֶת|f|tr=kotéret}}, {{t+|he|צֶפֶת|f|tr=tséfet}}  {{qualifier|rare}}
+* Hungarian: {{t+|hu|oszlopfő}}
+* Icelandic: {{t|is|súluhöfuð|n}}
+* Ido: {{t+|io|kapitelo}}
+* Indonesian: {{t+|id|kapital}}
+* Italian: {{t+|it|capitello|m}}
+* Japanese: {{t+|ja|柱頭|tr=ちゅうとう, chūtō}}
+* Korean: {{t|ko|주두(柱頭)}}
+* Latvian: {{t|lv|kapitelis|m}}
+* Lithuanian: {{t+|lt|kapitelis|m}}
+* Macedonian: {{t|mk|капител|m}}
+* Norwegian:
+*: Bokmål: {{t+|nb|kapitel|n}}
+* Occitan: {{t+|oc|capitèl|m}}
+* Ottoman Turkish: {{t|ota|باشلق|tr=başlık}}
+* Persian: {{t|fa|سر ستون|tr=sar sotun}}
+* Polish: {{t+|pl|kapitel|m}}, {{t+|pl|głowica|f}}
+* Portuguese: {{t+|pt|capitel|m}}
+* Romanian: {{t+|ro|capitel|n}}
+* Russian: {{t+|ru|капите́ль|f}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|капѝтел|m}}
+*: Roman: {{t+|sh|kapìtel|m}}
+* Slovak: {{t|sk|hlavica|f}}
+* Slovene: {{t+|sl|kapitel|m}}
+* Spanish: {{t+|es|capitel|m}}
+* Swedish: {{t+|sv|kapitäl|c}}
+* Turkish: {{t|tr|sütun başı}}
+* Ukrainian: {{t|uk|капіте́ль|f}}
+* Uzbek: {{t+|uz|kapital}}
+{{trans-bottom}}
+
+===References===
+* {{R:Online Etymology Dictionary}}
+* {{R:OneLook}}
+&lt;references/&gt;
+
+===Anagrams===
+* {{anagrams|en|a=aacilpt|palatic|placita}}
+
+{{C|en|Capitalism}}
+
+==Asturian==
+
+===Etymology===
+Borrowed from {{bor|ast|la|capitālis}}.
+
+===Adjective===
+{{ast-adj-mf|pl=capitales}}
+
+# {{l|en|capital}}
+
+===Noun===
+{{ast-noun|f|capitales}}
+
+# {{l|en|capital city}} {{gloss|city designated as seat of government}}
+
+===Noun===
+{{ast-noun|m|capitales}}
+
+# {{l|en|capital}} (money)
+
+==Catalan==
+
+===Etymology===
+{{bor+|ca|la|capitālis}}.
+
+===Pronunciation===
+* {{ca-IPA}}
+* {{audio|ca|LL-Q7026 (cat)-Unjoanqualsevol-capital.wav}}
+
+===Adjective===
+{{ca-adj}}
+
+# {{l|en|capital}}
+
+====Derived terms====
+* {{l|ca|pena capital}}
+* {{l|ca|set pecats capitals}}
+
+===Noun===
+{{ca-noun|f}}
+
+# {{l|en|capital}} {{gloss|city}}
+
+===Noun===
+{{ca-noun|m}}
+
+# {{l|en|capital}} {{gloss|finance}}
+
+====Derived terms====
+* {{l|ca|capitalisme}}
+* {{l|ca|capitalista}}
+* {{l|ca|capitalitzar}}
+
+====Further reading====
+* {{R:ca:IEC2}}
+
+==French==
+
+===Etymology===
+{{bor+|fr|la|capitālis}}. {{doublet|fr|cheptel}}.
+
+===Pronunciation===
+* {{fr-IPA}}
+* {{audio|fr|Fr-capital.ogg}}
+
+===Noun===
+{{fr-noun|m}}
+
+# {{l|en|capital}} {{gloss|money and wealth}}
+
+===Adjective===
+{{fr-adj}}
+
+# {{l|en|capital}} {{gloss|important}}
+#: {{ux|fr|La peine '''capitale''' est abolie en France depuis les années 1980.|'''Capital''' punishment was abolished in France in the 1980s.}}
+
+====Derived terms====
+{{col3|fr
+|navire capital
+|péché capital
+|peine capitale}}
+
+===Related terms===
+* {{l|fr|capitale}}
+* {{l|fr|capitaliser}}
+* {{l|fr|capitalisme}}
+
+===Further reading===
+* {{R:fr:TLFi}}
+
+===Anagrams===
+* {{l|fr|plaçait}}
+
+==Latin==
+
+===Etymology===
+Substantive form of {{m|la|capitālis|t=mortal, relating to the head}}.
+
+===Pronunciation===
+* {{la-IPA|capital}}
+
+===Noun===
+{{la-noun|capital&lt;3&gt;|g=n}}
+
+# a [[capital]] [[offence]]; a crime punishable by [[death]], [[civil death]], or [[exile]]
+#: {{uxi|la|'''capital''' facere|to commit a capital offence}}
+
+====Declension====
+{{la-ndecl|capital&lt;3&gt;}}
+
+===References===
+* {{R:L&amp;S}}
+* {{R:Elementary Lewis}}
+
+==Portuguese==
+
+===Etymology===
+Borrowed from {{bor|pt|la|capitālis}}. {{doublet|pt|cabedal|caudal}}.
+
+===Pronunciation===
+{{pt-IPA}}
+* {{rhymes|pt|al|aw|s=3}}
+* {{hyphenation|pt|ca|pi|tal}}
+
+===Noun===
+{{pt-noun|f}}
+
+# {{senseid|pt|capital city}} {{lb|pt|geopolitics}} {{l|en|capital}}; [[capital city]] {{gloss|place where the seat of a government is located}}
+# {{senseid|pt|most important place}} {{lb|pt|figurative}} {{l|en|capital}} {{gloss|the most important place associated with something}}
+
+===Noun===
+{{pt-noun|m}}
+
+# {{senseid|pt|money}} {{lb|pt|finances}} {{l|en|capital}} {{gloss|money that can be used to acquire goods and services}}
+# {{senseid|pt|anything important}} {{lb|pt|figurative}} anything of prime importance
+
+====Derived terms====
+* {{l|pt|capitalismo}}
+* {{l|pt|capitalista}}
+
+===Adjective===
+{{pt-adj}}
+
+# {{senseid|pt|of prime importance}} {{l|en|capital}} {{gloss|of prime importance}}
+# {{senseid|pt|involving punishment by death}} {{lb|pt|legal}} {{l|en|capital}} {{gloss|involving punishment by death}}
+# {{senseid|pt|relating to the head}} {{lb|pt|rare|anatomy}} {{l|en|capital}} {{gloss|relating to the head}}
+
+====Related terms====
+* {{l|pt|cabeça}}
+* {{l|pt|cabedal}}
+* {{l|pt|cabo}}
+* {{l|pt|caput}}
+* {{l|pt|caudal}}
+* {{l|pt|per capita}}
+
+==Romanian==
+
+===Alternative forms===
+* {{alt|ro|капитал||post-1930s (Moldovan) Cyrillic spelling}}
+
+===Etymology===
+{{bor+|ro|fr|capital}}, {{bor|ro|la|capitālis}}.
+
+===Pronunciation===
+* {{IPA|ro|/ka.piˈtal/}}
+* {{rhyme|ro|al|s=3}}
+* {{hyph|ro|ca|pi|tal}}
+
+===Noun===
+{{ro-noun|n|capitaluri}}
+
+# {{lb|ro|economics|business}} {{l|en|capital}}
+
+====Declension====
+{{ro-noun-n-uri}}
+
+===Adjective===
+{{ro-adj}}
+
+# {{l|en|capital}}, [[important]]
+
+====Declension====
+{{ro-decl-adj}}
+
+==Romansch==
+
+===Alternative forms===
+* {{alt|rm|chapital||Rumantsch Grischun|Vallader}}
+* {{alt|rm|chapitêl||Puter}}
+
+===Etymology===
+From {{der|rm|la|capitālis}}, from {{m|la|caput||head}}.
+
+===Noun===
+{{rm-noun|m}}
+
+# {{lb|rm|Sursilvan|Sutsilvan|Surmiran}} {{l|en|capital}}
+
+====Related terms====
+* {{l|rm|capitala}}, {{l|rm|tgapitala}}
+
+==Spanish==
+
+===Etymology===
+{{bor+|es|la|capitālis}}. {{doublet|es|caudal}}.
+
+===Pronunciation===
+{{es-pr|+&lt;audio:LL-Q1321 (spa)-AdrianAbdulBaha-capital.wav&lt;a:Colombia&gt;&gt;}}
+
+===Adjective===
+{{es-adj}}
+
+# {{l|en|capital}} {{gl|important}}
+#: {{ux|es|Es asunto de '''capital''' importancia.|This is a very '''important''' matter.}}
+# {{l|en|capital}} {{gl|relating to a death sentence}}
+#: {{ux|es|Lo condenaron a la {{l|es|pena}} '''capital'''.|He was sentenced to the [[death penalty|'''death''' penalty]].}}
+
+====Derived terms====
+{{col-auto|es|capitalidad|capitalmente|pecado capital}}
+
+===Noun===
+{{es-noun|m}}
+
+# {{lb|es|finance}} {{l|en|capital}}
+
+====Derived terms====
+{{col-auto|es|blanqueo de capitales|capital fijo|capital humano|capital riesgo|capital social|capitalismo|capitalista|capitalizar}}
+
+===Noun===
+{{es-noun|f}}
+
+# {{l|en|capital}} {{gl|city}}
+
+===Further reading===
+* {{R:es:DRAE}}
+
+{{cln|es|nouns that have different meanings depending on their gender}}</text>
+            <sha1>8kryypa5erqunpam11brwivmwoi3lwv</sha1>
+        </revision>
+    </page>
+    <page>
+        <title>vox barbara</title>
+        <ns>0</ns>
+        <id>5737</id>
+        <revision>
+            <id>53871031</id>
+            <parentid>53816434</parentid>
+            <timestamp>2019-08-13T19:18:35Z</timestamp>
+            <contributor>
+                <username>WingerBot</username>
+                <id>2024159</id>
+            </contributor>
+            <minor />
+            <comment>Manually fix up multiword {{la-noun}}/{{la-ndecl}} uses, removing unnecessary
+                overriding titles and such</comment>
+            <origin>53871031</origin>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text bytes="242" sha1="4ab2d00xb5atamxa435vlzyrh2jlr74" xml:space="preserve">==Latin==
+
+===Pronunciation===
+* {{la-IPA|vōx barbara}}
+
+===Noun===
+{{la-noun|[[vōx]]&lt;3.F&gt; [[barbarus|barbara]]&lt;+&gt;}}
+
+# a [[barbarous]] word; a [[word]] which is [[said]] [[incorrect]]ly
+
+====Declension====
+{{la-ndecl|vōx&lt;3.F&gt; barbara&lt;+&gt;}}</text>
+            <sha1>4ab2d00xb5atamxa435vlzyrh2jlr74</sha1>
+        </revision>
+    </page>
+    <page>
+        <title>vox et praeterea nihil</title>
+        <ns>0</ns>
+        <id>5738</id>
+        <revision>
+            <id>73434787</id>
+            <parentid>59481112</parentid>
+            <timestamp>2023-06-15T09:26:21Z</timestamp>
+            <contributor>
+                <ip>93.234.203.51</ip>
+            </contributor>
+            <origin>73434787</origin>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text bytes="270" sha1="rr2snqu4aa3thjdeeh9rw7jiq45xs8v" xml:space="preserve">==Latin==
+
+===Etymology===
+Literally &quot;a voice and nothing else&quot;
+
+===Pronunciation===
+* {{la-IPA|'vōx et praetereā nihil|vul=yes}}
+
+===Phrase===
+{{head|la|phrase|head=[[vōx]] [[et]] [[praetereā]] [[nihil]]}}
+
+# [[nonsense]], [[claptrap]]; sounds [[without]] [[sense]]</text>
+            <sha1>rr2snqu4aa3thjdeeh9rw7jiq45xs8v</sha1>
+        </revision>
+    </page>
+    <page>
+        <title>vox clamantis in deserto</title>
+        <ns>0</ns>
+        <id>5739</id>
+        <revision>
+            <id>70636760</id>
+            <parentid>70636757</parentid>
+            <timestamp>2022-12-31T22:57:02Z</timestamp>
+            <contributor>
+                <username>Al-Muqanna</username>
+                <id>3949009</id>
+            </contributor>
+            <minor />
+            <comment>/* Etymology */</comment>
+            <origin>70636760</origin>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text bytes="467" sha1="ekq73mc5ugdfiqg4s5nshwd4hm89vc8" xml:space="preserve">==Latin==
+
+===Etymology===
+From {{w|Gospel of Mark|Mark}} 1:3 and {{w|Book of Isaiah|Isaiah}} 40:3 in the {{w|Vulgate}}; literally, “the voice of one crying out in the wilderness”.
+
+===Pronunciation===
+* {{la-IPA|'vōx clāmantis in dēsertō|eccl=yes}}
+
+===Phrase===
+{{head|la|phrase|head=[[vōx]] [[clamans|clāmantis]] [[in]] [[desertus|dēsertō]]}}
+
+# [[voice in the wilderness]]; a [[prophet]] who is not listened to
+
+{{cln|la|terms derived from the Bible}}</text>
+            <sha1>ekq73mc5ugdfiqg4s5nshwd4hm89vc8</sha1>
+        </revision>
+    </page>
+    <page>
+        <title>vox audita perit, litera scripta manet</title>
+        <ns>0</ns>
+        <id>5741</id>
+        <revision>
+            <id>81881890</id>
+            <parentid>65615539</parentid>
+            <timestamp>2024-09-24T13:59:28Z</timestamp>
+            <contributor>
+                <username>WingerBot</username>
+                <id>2024159</id>
+            </contributor>
+            <minor />
+            <comment>templatize topical categories for langcode=la using {{C}}</comment>
+            <origin>81881890</origin>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text bytes="890" sha1="nzzu8qqxnjayztm0vagk48pt1fkpqqh" xml:space="preserve">==Latin==
+
+===Alternative forms===
+* [[res]] audita perit, litera scripta manet: A thing heard perishes; the written letter remains.
+* litera scripta manet, [[verbum]] [[ut]] [[inane]] perit: The written letter remains, as the empty word perishes.
+* [[littera]] scripta manet, [[volat]] [[irrevocabile]] verbum: The written letter remains, the spoken word flies away, not to be recalled.
+* vox [[emissa]] volat, litera scripta manet: While words spoken may fly away, the written letter remains.
+* [[verba]] volant, scripta manent: The words fly away, the written letter remains.
+
+===Pronunciation===
+* {{la-IPA|vōx audīta perit lītera scrīpta manet|vul=yes}}
+
+===Proverb===
+{{head|la|phrase|head=[[vōx]] [[auditus|audīta]] [[pereo|perit]], [[lītera]] [[scriptus|scrīpta]] [[maneo|manet]]}}
+
+# A heard [[voice]] [[perish]]es, but the [[written]] letter [[remain]]s.
+
+{{C|la|Writing}}</text>
+            <sha1>nzzu8qqxnjayztm0vagk48pt1fkpqqh</sha1>
+        </revision>
+    </page>
+    <page>
+        <title>vox clandestina</title>
+        <ns>0</ns>
+        <id>5742</id>
+        <revision>
+            <id>81881893</id>
+            <parentid>53816435</parentid>
+            <timestamp>2024-09-24T13:59:30Z</timestamp>
+            <contributor>
+                <username>WingerBot</username>
+                <id>2024159</id>
+            </contributor>
+            <minor />
+            <comment>templatize topical categories for langcode=la using {{C}}</comment>
+            <origin>81881893</origin>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text bytes="295" sha1="jsnmknh3pb59wapw295jw29hjba92pt" xml:space="preserve">==Latin==
+
+===Etymology===
+Literally &quot;concealed voice&quot;
+
+===Pronunciation===
+* {{la-IPA|'vōx clandēstīna}}
+
+===Noun===
+{{la-noun|[[vōx]]&lt;3.F&gt; [[clandestinus|clandēstīna]]&lt;+&gt;}}
+
+# {{lb|la|idiomatic}} a [[whisper]]
+
+====Declension====
+{{la-ndecl|vōx&lt;3.F&gt; clandēstīna&lt;+&gt;}}
+
+{{C|la|Talking}}</text>
+            <sha1>jsnmknh3pb59wapw295jw29hjba92pt</sha1>
+        </revision>
+    </page>
+    <page>
+        <title>who knows</title>
+        <ns>0</ns>
+        <id>5745</id>
+        <revision>
+            <id>82049790</id>
+            <parentid>81331859</parentid>
+            <timestamp>2024-09-28T04:26:43Z</timestamp>
+            <contributor>
+                <username>WingerBot</username>
+                <id>2024159</id>
+            </contributor>
+            <minor />
+            <comment>templatize langname categories for langcode=en using {{cln}}</comment>
+            <origin>82049790</origin>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text bytes="4054" sha1="ph5epy3lkbdnk14lwp7ccw4w460akck" xml:space="preserve">==English==
+
+===Pronunciation===
+* {{audio|en|en-us-who-knows.ogg|a=US}}
+* {{audio|en|En-au-who knows.ogg|a=AU}}
+
+===Phrase===
+{{head|en|phrase|head=[[who]] [[know]]s?}}
+
+# {{n-g|A [[rhetorical question]] asked to show that the person asking it neither knows the answer nor knows who might.}}
+#: ''It could be one or the other, or both. '''Who knows?'''''
+#: ''Do you think I'll get married before I turn 30?'' – '''''Who knows''', you might never marry.''
+# {{n-g|A rhetorical question asked to express the idea that anything is possible or that anything could happen.}}
+#: {{ux|en|'''Who knows?''' Maybe someday he'll finish writing his book and make lots of money selling it.}}
+#: {{ux|en|Since she hasn't studied at all I don't think she'll pass the test, but '''who knows'''?}}
+#: {{ux|en|Don't touch that – '''who knows''' where it's been?}}
+
+====Quotations====
+* {{seeCites|en}}
+
+====Related terms====
+{{col3|en
+|God knows
+|fuck knows
+|who knew
+|you never know
+}}
+
+====Translations====
+{{trans-top|rhetorical question: one doesn't know}}
+* Arabic: {{t|ar|مَن يَدْرِي؟}}, {{t|ar|اَللّٰهُ أَعْلَم}}, {{t|ar|إِبْصَر}}
+* Basque: {{t|eu|auskalo}}
+* Chinese:
+*: Mandarin: {{t+|cmn|誰知道|alt=誰知道？|tr=shéi zhīdào}}
+* Dutch: {{t|nl|wie weet}}, {{t|nl|wie zal het zeggen?}}
+* Finnish: {{t|fi|[[kuka]][[-pa|pa]] [[tietää]]}}, {{t+|fi|tiedä häntä}}
+* French: {{t+|fr|qui sait|alt=qui sait ?}} &lt;!-- a space before ? is required --&gt;
+* Galician: {{t|gl|quen sabe?}}
+* German: {{t|de|wer weiß?}}
+* Greek: {{t|el|ποιος ξέρει;}}
+* Hebrew: {{t|he|השד יודע}}
+* Hungarian: {{t|hu|[[ki]] [[tudja]]?}}
+* Icelandic: {{t|is|hver veit|alt=hver veit?}}
+* Italian: {{t+|it|chissà?}}
+* Japanese: {{t+|ja|さあ？|tr=sā?}}, {{t|ja|…[[かもしれない]]|tr=…ka mo shirenai}}
+* Macedonian: {{t|mk|ко́јзнае}}, {{t|mk|кој го знае}}, {{t|mk|кој ќе знае}}
+* Navajo: {{t|nv|haashį́į́ néelą́ą́ʼ?}}
+* Norwegian:
+*: Bokmål: {{t|nb|hvem vet}}?
+*: Nynorsk: {{t|nn|kven veit?}}, {{t|nn|ikkje godt å vita}}
+* Polish: {{t+|pl|kto wie?}}
+* Portuguese: {{t|pt|quem sabe?}}, {{t|pt|vai saber?}}
+* Romanian: {{t|ro|[[cine]] [[știe]]?}}
+* Russian: {{t|ru|кто зна́ет?}}, {{t|ru|кто его́ зна́ет?}}, {{t|ru|как знать?}}, {{t|ru|чёрт его́ зна́ет!}}
+* Scottish Gaelic: {{t|gd|cò aig a tha fios}}?
+* Spanish: {{t|es|quién sabe|alt=¿quién sabe?}}, {{t|es|quién sabe|alt=¡quién sabe!}}, {{t|es|vete tú a saber}}, {{t|es|vete a saber}}, {{t|es|andá a saber}}
+* Swedish: {{t|sv|vem vet?}}
+* Turkish: {{t|tr|kim bilir}}
+{{trans-bottom}}
+
+{{trans-top|rhetorical question: anything is possible}}
+* Chinese:
+*: Mandarin: {{t+|cmn|誰知道|alt=誰知道？|tr=shéi zhīdào}}
+* Dutch: {{t|nl|wie weet?}}
+* Finnish: {{t|fi|[[kuka]][[-pa|pa]] [[tietää]]}}
+* French: {{t+|fr|qui sait}}&amp;nbsp;?
+* Galician: {{t|gl|quen sabe?}}
+* Greek: {{t|el|ποιος ξέρει;}}
+* Hebrew: {{t|he|השד יודע}}
+* Hungarian: {{t|hu|[[ki]] [[tudja]]?}}
+* Italian: {{t+|it|chissà}}?, {{t|it|[[chi]] [[può]] [[dirlo]]?}}
+* Japanese: {{t+|ja|さあ？|tr=sā?}}
+* Lao: {{t|lo|ໃຜ​ຈະ​ຮູ້?}}
+* Macedonian: {{t|mk|ко́јзнае}}, {{t|mk|кој го знае}}, {{t|mk|кој ќе знае}}
+* Norwegian: {{t|no|hvem vet?}}
+* Polish: {{t+|pl|kto wie?}}
+* Portuguese: {{t|pt|quem sabe?}}, {{t|pt|vai saber?}}
+* Romanian: {{t|ro|[[cine]] [[știe]]?}}
+* Russian: {{t|ru|кто зна́ет}}?, {{t|ru|кто его́ зна́ет}}?
+* Spanish: {{t|es|quién sabe|alt=¿quién sabe?}}, {{t|es|quién sabe|alt=¡quién sabe!}}
+* Turkish: {{t|tr|kim bilir?}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* Interlingua: {{t-check|ia|Qui lo sape}}
+* Latin: {{t-check|la|qui sapit}}
+* Swedish: {{t-check|sv|vem vet}}
+* Volapük: {{t-check|vo|kin nolon}}?
+{{trans-bottom}}
+
+===See also===
+{{col4|en
+|go figure
+|who can tell
+|who cares
+|who would have thunk it
+}}
+
+===Anagrams===
+* {{anagrams|en|a=hknoosww|knowhows}}
+
+{{cln|en|rhetorical questions}}</text>
+            <sha1>ph5epy3lkbdnk14lwp7ccw4w460akck</sha1>
+        </revision>
+    </page>
+    <page>
+        <title>we</title>
+        <ns>0</ns>
+        <id>5746</id>
+        <revision>
+            <id>82401229</id>
+            <parentid>82263839</parentid>
+            <timestamp>2024-10-15T09:43:27Z</timestamp>
+            <contributor>
+                <username>WingerBot</username>
+                <id>2024159</id>
+            </contributor>
+            <minor />
+            <comment>rename Venetian -&gt; Venetan in translations per
+                [[Wiktionary:Language_treatment_requests#Glottonym_tweaks:_Franco-Provençal,_Venetian_→_Francoprovençal,_Venetan]]
+                (manually assisted)</comment>
+            <origin>82401229</origin>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text bytes="43660" sha1="nvzdfdzaif1b6romxfaiq6pb7ipw4nf" xml:space="preserve">{{also|Appendix:Variations of &quot;we&quot;}}
+{{minitoc}}
+==English==
+{{wikipedia|we (disambiguation)}}
+
+===Etymology 1===
+From {{inh|en|enm|we}}, from {{inh|en|ang|wē||we}}, from {{inh|en|gmw-pro|*wiʀ}}, from {{inh|en|gem-pro|*wīz}}, {{m|ine-pro|*wiz||we}}, from {{inh|en|ine-pro|*wéy||we (plural)}}. Cognate with {{cog|sco|wee}}, {{m|sco|we||we}}, {{cog|frr|we||we}}, {{cog|fy|wy||we}}, {{cog|nds|wi||we}}, {{cog|nl|we}}, {{m|nl|wij||we}}, {{cog|de|wir||we}}, {{cog|da|-}}, {{cog|sv|-}} and {{cog|no|vi||we}}, {{cog|is|vér}}, {{m|is|við||we}}, {{cog|ae|𐬬𐬀𐬉𐬨}}, {{cog|sa|वयम्|tr=vayám}}.
+
+====Pronunciation====
+* {{enPR|wē|a=RP}}, {{IPA|en|/wiː/}}
+* {{audio|en|En-uk-we.ogg|a=UK}}
+* {{audio|en|LL-Q1860 (eng)-Greenman-we.wav}}
+* {{IPA|en|/wi/|a=GA}}
+* {{audio|en|en-us-we.ogg|a=US}}
+* {{homophones|en|oui|wee|Wii|;|whee|aa3=wine-whine}}
+* {{rhymes|en|iː|s=1}}
+
+====Pronoun====
+{{en-pron|desc=first-person plural nominative case|objective case|us|possessive determiner|our|possessive pronoun|ours|reflexive|ourselves|reflexive singular|ourself}}
+
+# {{lb|en|personal}} The speakers/writers, or the speaker/writer and at least one other person (not the person being addressed). {{qualifier|This is the [[exclusive]] ''we''.}}
+#* {{quote-journal
+|en
+|date=February 20, 2017
+|author=Paul Mason
+|title=Climate scepticism is a far-right badge of honour – even in sweltering Australia
+|work=the Guardian
+|url=https://www.theguardian.com/commentisfree/2017/feb/20/sweltering-aussies-rightwing-climate-of-fear
+|page=
+|passage= It’s time to overcome queasiness and restraint. '''We''', the liberal and progressive people of the world, are at war with the far right to save the earth.}}
+# {{lb|en|personal}} The speaker(s)/writer(s) and the person(s) being addressed. {{qualifier|This is the [[inclusive]] ''we''.}}
+# {{lb|en|personal}} The institution which the speaker/writer is acting for. {{qualifier|This is the [[editorial we|editorial ''we'']], used by writers and others when speaking with the authority of their publication or organisation.}}
+#* {{quote-journal|1=en|year=2021|author=Constitutional and Mainland Affairs Bureau|title=Paper No. CMAB C4/9/1|journal=Documents of the Hong Kong Legislative Council|url=https://www.legco.gov.hk/yr20-21/english/bills/brief/b202102261_brf.pdf|page=1|text=In light of the promulgation of the aforementioned laws and decisions, '''we''' (the administration) propose to make the following amendments to local legislation to implement the relevant requirements on oath taking by public officers.}}
+# {{lb|en|personal|royal}} The [[sovereign]] alone in their capacity as [[monarch]]. {{qualifier|This is the [[royal we|royal ''we'']]. The reflexive case of this sense of ''we'' is ''[[ourself]]''.}}
+# {{lb|en|personal}} {{n-g|The plural form of ''[[you]]'', including everyone being addressed.}}
+#: {{ux|en|How are '''we''' all tonight?}}
+#* {{quote-journal|en|year=2013|month=July-August|author=[http://www.americanscientist.org/authors/detail/stephen-p-lownie Stephen P. Lownie]; [http://www.americanscientist.org/authors/detail/david-m-pelz David M. Pelz]
+|magazine=w:American Scientist|title=[http://www.americanscientist.org/issues/feature/2013/4/stents-to-prevent-stroke Stents to Prevent Stroke]
+|passage=As '''we''' age, the major arteries of our bodies frequently become thickened with plaque, a fatty material with an oatmeal-like consistency that builds up along the inner lining of blood vessels.}}
+# {{lb|en|personal|often considered patronising}} {{n-g|A second- or third-person pronoun for a person in the speaker's care.}}
+#: {{ux|en|How are '''we''' feeling this morning?}}
+#* {{RQ:Dickens Sketches by Boz|volume=I|title=The Boarding-House|chapter=II|page=204|passage=“Well, my dear ma’am, and how are '''we'''?” inquired Wosky in a soothing tone. / “Very ill, doctor—very ill,” said Mrs. Bloss in a whisper.}}
+#* {{quote-book|en|format=comic|author=Tom Armstrong|title=Marvin|date=May 13 2008|passage=Are '''we''' ready to go to bed, sweetie?}}
+# {{lb|en|colloquial&lt;!--as in &quot;restricted to speech&quot;--&gt;}} The speaker themselves, {{n-g|used to imply connection between the speaker's experiences and a group of listeners}}. {{qualifier|Compare the [[plural of modesty]].}}
+#: {{ux|en|Hey guys, how's it going? Today '''we''' are going to be playing a new game.}}
+#* {{quote-av|en|title=Rally on Electoral College Vote Certification|text=All Vice President [Mike] Pence has to do is send it back to the states to recertify and '''we''' become president and you are the happiest people.|date=2021-01-06|role=Donald Trump|publisher=Cable-Satellite Public Affairs Network (C-SPAN)|medium=television broadcast|time=3:38:03|url=https://www.c-span.org/video/?507744-1/rally-electoral-college-vote-certification}}
+#* {{quote-av|en|title=Alone|text=[Today is] not a day to think about fishing so '''we''' will get back to working on the shelter. [cut in video] Cool, so I guess the best analogy for this, then, is that '''we''''ve basically framed the house, and now '''we''' get to shingle.|date=2021-06-24|role=Theresa Emmerich Kamper|medium=televison production|time=3:07|network=HISTORY Channel|season=9|number=4|episode=Far from Home|url=https://play.history.com/shows/alone/season-8/episode-4}}
+#* {{quote-av|en|director=Joseph Camp|role=John Fetterman|title=PBS NewsHour|url=https://www.pbs.org/newshour/show/october-25-2022-pbs-newshour-full-episode|archiveurl=https://web.archive.org/web/20221026012200/https://www.pbs.org/newshour/show/october-25-2022-pbs-newshour-full-episode|archivedate=2022-10-25|medium=television production|network=Public Broadcasting Service (PBS)|date=2022-10-25|accessdate=2022-10-25|time=32:11|at=Vote 2022|passage=The elephant in the room, you know, '''we''' had a stroke back in May.}}
+# {{lb|en|West Country|archaic}} [[us|Us]].
+# {{lb|en|bridge}} The side which is [[keep score|keeping score]].
+#: {{ant|en|they}}
+
+=====Derived terms=====
+{{col-auto|en|are we there yet|we wuz kangz|Houston, we have a problem|as we know it|as we speak|can we say|even as we speak|here we go|here we go again|lest we forget|let's not and say we did|shall we say|the devil we know is better than the devil we don't|the devil we know is better than the devil we don't know|the poor we will always have with us|the real treasure is the friends we made along the way|there we go|this is where we came in|this is why we can't have nice things|today we are all|until we meet again|we all make mistakes|we aye|we haven't got all day|we live in a society|we-uns|where are we|where are we going|we-group|what a tangled web we weave when first we practice to deceive|here we are|imperial we|what tangled webs we weave when first we practice to deceive|we all bleed red|we come in peace}}
+
+=====Descendants=====
+* {{desc|jam|wi}}
+* {{desc|srn|wi}}
+
+=====Translations=====
+{{trans-top|generic ''we'' (the speaker and at least one other person, regardless of whether it's the person being addressed)}}
+{{multitrans|data=
+* Abinomn: {{tt|bsa|awp}}
+* Abkhaz: {{tt|ab|ҳара}}
+* Abom: {{t|aob|neː}}
+* Afar: {{tt|aa|nanu}}
+* Afrikaans: {{tt+|af|ons}}
+* Aghwan: {{tt|xag|𐔷𐔰𐕎}}
+* Akan: {{tt|ak|yɛn}}
+* Albanian: {{tt+|sq|ne}}
+* Alviri-Vidari: {{tt|avd|جیمه|tr=jime}}
+* American Sign Language: [[1^o-f@IpsiChest-FingerBack RoundHoriz 1^o-f@ContraChest-FingerBack]] (also inclusive and exclusive forms (not listed), as well as numeral incorporation)
+* Amharic: {{tt|am|እኛ}}
+* Arabic: {{tt+|ar|نَحْنُ|p}}
+*: Egyptian Arabic: {{tt|arz|احنا|tr=ʔíḥna}}
+*: North Levantine Arabic: {{tt|apc|نحنا|p|tr=niḥna}}
+*: South Levantine: {{tt|ajp|احنا|p||alt=إحنا|tr=ʔíḥna}}
+*: Tunisian Arabic: {{tt|aeb|احنا|m-p|f-p|alt=أَحْنَا|tr=ʔaḥnā}}
+* Aragonese: {{tt|an|nusatros|m-p}}, {{tt|an|nusatras|f-p}}
+* Aramaic:
+*: Hebrew: {{tt|arc|אֲנַחְנָא|tr=ʾănaḥnā}}, {{tt|arc|אֲנַן|tr=ʾănan}}
+*: Syriac: {{tt|arc|ܐ̄ܢܲܚܢܲܢ|tr=naḥnan}}, {{tt|arc|ܚ̱ܢܲܢ|tr=ḥənan}}
+* Armenian: {{tt+|hy|մենք}}
+*: Old Armenian: {{tt|xcl|մեք}}
+* Aromanian: {{tt|rup|noi}}
+* Assamese: {{tt|as|আমি}}
+* Asturian: {{tt+|ast|nosotros|m-p}}, {{tt+|ast|nosotras|f-p}}
+* Avestan: {{tt|ae|𐬬𐬁|d}}, {{tt|ae|𐬬𐬀𐬉𐬨|p}}
+* Azerbaijani: {{tt+|az|biz}}
+* Bakhtiari: {{tt|bqi|ایما|tr=imâ}}
+* Bambara: {{tt|bm|an}}
+* Bashkir: {{tt|ba|беҙ}}
+* Basque: {{tt+|eu|gu}}
+* Bavarian: {{tt|bar|mia}}
+* Beja: {{tt|bej|hinin}}
+* Belarusian: {{tt+|be|мы}}
+* Bengali: {{tt+|bn|আমরা}}
+* Breton: {{tt+|br|ni}}
+* Bulgarian: {{tt+|bg|ни́е}}
+* Burmese: {{tt|my|ကျုပ်တို့}}, {{tt+|my|တို့}}, {{tt|my|ကျွန်တော်တို့}} {{qualifier|male speaker}}, {{tt|my|ကျွန်မတို့}} {{qualifier|female speaker}}, {{tt|my|ငါတို့}} {{qualifier|informal}}
+* Burushaski: {{tt|bsk|mî}}
+* Buryat: {{tt|bua|бидэ}}
+* Carpathian Rusyn: {{tt|rue|мы}}
+* Catalan: {{tt+|ca|nosaltres}}
+* Chamicuro: {{tt|ccc|a'ti}}
+* Chichewa: {{tt|ny|ife}}
+* Chinese:
+*: Dungan: {{tt|dng|вәму}}
+*: Eastern Min: {{tt|cdo|我各儂|tr=nguāi-gáuk-nè̤ng}}
+*: Gan: {{tt|gan|我個俚|tr=ngo3 go li}}, {{tt|gan|我等|tr=ngo3 diin}}
+*: Hakka: {{tt|hak|𠊎兜|tr=ngài-têu}}, {{tt|hak|𠊎等|tr=ngài-tén, ngài-tên, ngài-nên}}, {{tt|hak|𠊎等人|tr=ngai2 dên1 ngin2 / ngai2 dên3 ngin2}} {{qualifier|Meixian}}
+*: Jin: {{tt|cjy|我們|tr=ghe2 me}}, {{tt|cjy|俺們|tr=ghan2 me / gha2 me}}
+*: Mandarin: {{tt+|cmn|我們|tr=wǒmen}} {{qualifier|generic in most dialects|but exclusive in some}}, {{tt+|cmn|俺們|tr=ǎnmen}} {{qualifier|dialectal|Northern China}}
+*: Northern Min: {{tt|mnp|我人|tr=uòi-nêng}}
+*: Wu: {{tt|wuu|阿拉}}, {{tt|wuu|伲}}
+*: Xiang: {{tt|hsn|我們|tr=ngo3 men}}
+* Chukchi: {{tt|ckt|моргынан|tr=morgynan}}
+* Chuvash: {{tt|cv|эпир}}
+* Classical Nahuatl: {{tt|nci|tehhuān}}, {{tt|nci|tehhuāntin}}
+* Czech: {{tt+|cs|my}}
+* Dalmatian: {{tt|dlm|nu}}
+* Danish: {{tt+|da|vi}}
+* Dutch: {{tt+|nl|wij}}, {{tt+|nl|we}}
+* Dyirbal: {{tt|dbl|ŋaliɖi|d}}, {{tt|dbl|ŋanaɖi|p}}
+* Edo: {{tt|bin|ima|alt=ìmà}} {{qualifier|emphatic}}, {{tt|bin|ma|alt=mà}} {{qualifier|regular}}
+* Efik: {{tt|efi|nnyin}}
+* Esperanto: {{tt+|eo|ni}}
+* Estonian: {{tt+|et|meie}}, {{tt+|et|me}}
+* Even: {{tt|eve|бу}}
+* Evenki: {{tt|evn|бу}}
+* Extremaduran: {{tt|ext|nusotrus}}
+* Finnish: {{tt+|fi|me}}, {{tt+|fi|myö}} {{q|dialectal}}
+* French: {{tt+|fr|nous}} {{qualifier|formal}}, {{tt+|fr|on}} {{qualifier|informal}}
+*: Old French: {{tt|fro|nos}}
+* Friulian: {{tt|fur|nô}}, {{tt|fur|noaltris}}
+* Galician: {{tt+|gl|nós|m-p|f-p}}
+* Georgian: {{tt|ka|ჩვენ}}
+* German: {{tt+|de|wir}}
+*: Alemannic German: {{tt|gsw|mir}}
+* Greek: {{tt+|el|εμείς}}
+*: Ancient: {{tt|grc|νώ|d}}, {{tt|grc|ἡμεῖς|p}}
+* Gurani: {{tt|hac|ئێمە}}
+* Haitian Creole: {{t|ht|nou}}
+* Hausa: {{qualifier|independent form}} {{t-check|ha|múu}}, {{qualifier|perfective 1}} {{t-check|ha|mún}}, {{qualifier|perfective 2}} {{t-check|ha|múkà}}, {{qualifier|neg. perfective}} {{t-check|ha|bàmù...bá}}, {{qualifier|future}} {{t-check|ha|záamù}}, {{qualifier|predictive}} {{t-check|ha|mâa}}, {{qualifier|habitual}} {{t-check|ha|múkàn}}, {{qualifier|subjunctive}} {{t+check|ha|mù}}, {{qualifier|continuous 1}} {{t-check|ha|múnàa}}, {{qualifier|continuous 2}} {{t-check|ha|múkè(e)}}, {{qualifier|neg. continuous}} {{t-check|ha|báamàa}}
+* Hebrew: {{tt+|he|אֲנַחְנוּ|tr=anákhnu}}, {{tt+|he|אָנוּ|tr=ánu}}
+* Hindi: {{tt+|hi|हम}}
+* Hopi: {{tt|hop|itam}}
+* Hungarian: {{tt+|hu|mi|id=personal}}, {{q|usually indicated by the suffix only}} {{tt|hu|[[-unk#Hungarian: personal|-unk]], [[-ünk#Hungarian: personal|-ünk]]}}
+* Icelandic: {{tt+|is|við}}
+* Ido: {{tt+|io|ni}}
+* Igala: {{tt|igl|àwa}} {{qualifier|emphatic}}, {{tt|igl|à}}
+* Igbo: {{tt+|ig|ànyị}}
+* Indonesian: {{t+|id|kita}} {{qualifier|informal}}
+* Ingrian: {{tt|izh|möö}}
+* Interlingua: {{tt+|ia|nos}}
+* Irish: {{tt|ga|muid}} {{qualifier|conjunctive}}, {{tt|ga|sinn}} {{qualifier|disjunctive}}, {{tt|ga|muidne}}, {{tt|ga|sinne}} {{qualifier|emphatic}}
+*: Old Irish: {{tt|sga|sní}}
+* Istriot: {{tt|ist|nu}}
+* Italian: {{tt+|it|noi}}, {{tt|it|noialtri}}
+* Izon: {{tt|ijc|wo|alt=wó}} {{qualifier|short form}}, {{tt|ijc|woni|alt=wónì}} {{qualifier|regular form}}, {{tt|ijc|womịnị|alt=wómịnị̀}} {{qualifier|emphatic form}}
+* Japanese: {{tt+|ja|私達|tr=わたしたち, watashitachi}}, {{tt|ja|我ら|tr=われら, warera}}, {{tt+|ja|我々|tr=われわれ, wareware}}, {{tt|ja|僕ら|tr=ぼくら, bokura}}, {{qualifier|mainly vulgar|informal}} {{tt|ja|俺達|tr=おれたち, oretachi}}, {{qualifier|dialect}} {{tt|ja|俺等|tr=おいら, oira}}, {{tt+|ja|うち|tr=uchi}}, {{tt|ja|僕達|tr=ぼくたち, bokutachi}}, {{tt|ja|私共|tr=わたしども, watashidomo|alt=私ども}}
+* Jeju: {{tt|jje|우리}}
+* Kabuverdianu: {{tt|kea|anos}}, {{tt|kea|nu}}
+* Kalmyk: {{tt|xal|бид}}, {{tt|xal|бидн}}
+* Kannada: {{tt+|kn|ನಾವು}}
+* Kashubian: {{tt|csb|më}}
+* Kazakh: {{tt+|kk|біз}}
+* Khmer: {{tt+|km|យើង}}
+* Kikuyu: {{tt|ki|ithuĩ}}
+* Korean: {{tt+|ko|우리}}, {{tt+|ko|저희}} {{qualifier|humble}}
+* Kumyk: {{t|kum|биз}}
+* Kurdish:
+*: Northern Kurdish: {{tt+|kmr|em}}, {{tt+|kmr|me}}
+* Kyrgyz: {{tt+|ky|биз}}
+* Ladino: {{tt|lad|mozotros}}, {{tt|lad|מוזוטרוס}}, {{tt|lad|mozós}}
+* Lao: {{tt|lo|ພວກເຮົາ}}, {{tt|lo|ເຮົາ}}, {{tt|lo|ຮາ}} {{qualifier|poetic}}, {{tt|lo|ຕູ}} {{qualifier|colloquial; I, we}}, {{tt|lo|ເຜືອ}} {{qualifier|archaic}}, {{tt|lo|ເຜືອຂ້ອຽ}} {{qualifier|archaic}}
+* Latgalian: {{tt|ltg|mes}}
+* Latin: {{tt+|la|nōs}}
+* Latvian: {{tt+|lv|mēs}}
+* Lithuanian: {{tt+|lt|mes}}
+* Livonian: {{tt|liv|mēg}}
+* Lombard: {{tt+|lmo|nun}}
+* Louisiana Creole French: {{tt|lou|nouzòt}}, {{tt|lou|nou}}, {{tt|lou|no}}
+* Low German: {{tt+|nds|wi}}
+* Lü: {{tt|khb|ᦣᧁ}} {{qualifier|inclusive}}, {{tt|khb|ᦎᦴ}} {{qualifier|exclusive}}, {{tt|khb|ᦎᦴᦃᦾᧉ}} {{qualifier|exclusive, deferential}}, {{tt|khb|ᦕᦴᧉᦃᦱᧉᦎᦴ}} {{qualifier|exclusive}}, {{tt|khb|ᦎᦴᦃᦱᧉ}} {{qualifier|exclusive, deferential}}, {{tt|khb|ᦣᦱᦎᦴ}} {{qualifier|exclusive}}
+* Macedonian: {{tt|mk|ние}}
+* Manx: {{tt|gv|mayd}}, {{tt|gv|shin}}, {{q|emphatic}} {{tt|gv|shinyn}}
+* Mauritian Creole: {{t|mfe|nou}}
+* Mazanderani: {{tt|mzn|اما|tr=amâ}}
+* Middle English: {{tt|enm|we}}
+* Middle Korean: {{tt|okm|우리}}
+* Mòcheno: {{tt|mhn|biar}}
+* Mon: {{tt+|mnw|ပိုဲ|tr=poi}}
+* Mongolian:
+*: Cyrillic: {{tt+|mn|бид}}
+* Nanai: {{tt|gld|буэ}}
+* Navajo: {{tt|nv|nihí|d}}, {{tt|nv|danihí|p}}
+* Neapolitan: {{tt|nap|nuje}}
+* Nepali: {{tt+|ne|हामी}}
+* Ngarrindjeri: {{tt|nay|ngurn}}
+* Nheengatu: {{tt|yrl|yandé}}
+* Northern Sami: {{t-check|se|moai|d}}, {{t-check|se|mii|p}}
+* Norwegian:
+*: Bokmål: {{tt+|no|vi}}
+*: Nynorsk: {{tt+|nn|me}}, {{tt|nn|vi}}
+* Occitan: {{tt+|oc|nos}}, {{tt+|oc|nosautres}}
+* Old Church Slavonic:
+*: Cyrillic: {{tt|cu|мꙑ|p}}, {{tt|cu|вѣ|d}}
+* Old East Slavic: {{tt|orv|мꙑ}}
+* Old English: {{tt+|ang|wit|d}}, {{tt+|ang|wē|p}}
+* Old Korean: {{tt|oko|吾里|tr=*WUli}}
+* Old Turkic: {{tt|otk|𐰋𐰃𐰕|ts=biz}}
+* Oromo: {{tt|om|nuyi}}
+* Ossetian: {{tt|os|мах}}
+* Papiamentu: {{t|pap|nos}}
+* Pashto: {{tt|ps|موږ|tr=muẓ̌}}, {{tt|ps|مونږ|tr=mung}}
+* Persian: {{tt+|fa|ما|tr=mâ}}
+* Piedmontese: {{t|pms|noi}}
+* Pipil: {{tt|ppl|tejemet}}, {{tt|ppl|tehemet}}
+* Polish: {{tt+|pl|my}}
+* Portuguese: {{tt+|pt|nós}}, {{tt+|pt|a gente}} {{qualifier|informal}}
+* Prakrit: {{t|pra|𑀅𑀁𑀳𑁂}}, {{t|pra|𑀯𑀬𑀁}}
+* Romanian: {{tt+|ro|noi}}
+* Romansch: {{tt|rm|nus}}, {{tt|rm|nous}}
+* Russian: {{tt+|ru|мы}}
+* Sardinian: {{tt|sc|nois}}, {{tt|sc|noso}}, {{tt|sc|nosu}}
+* Scottish Gaelic: {{tt|gd|sinn}} {{qualifier|nonemphatic}}, {{tt|gd|sinne}} {{qualifier|emphatic}}
+* Serbo-Croatian:
+*: Cyrillic: {{tt|sh|ми̑}}
+*: Latin: {{tt|sh|mȋ}}
+* Sicilian: {{tt+|scn|nuàutri}}, {{tt+|scn|nui}}
+* Sidamo: {{tt|sid|ninke}}
+* Sindhi: {{tt|sd|اسين}}
+* Sinhalese: {{tt+|si|අපි}}
+* Slovak: {{tt|sk|my}}
+* Slovene: {{tt+|sl|mí|m-p}}, {{tt+|sl|mé|f-p|n-p}}
+* Somali: {{tt|so|innaga}}
+* Sorbian:
+*: Lower Sorbian: {{tt|dsb|my}}
+* Southern Altai: {{tt|alt|бис}}
+* Southern Sami: {{tt|sma|mijjieh}}
+* Spanish: {{tt+|es|nosotros|m-p}}, {{tt+|es|nosotras|f-p}}
+* Sranan Tongo: {{tt|srn|wi}}
+* Svan: {{t-needed|sva}}
+* Swahili: {{tt|sw|sisi}}
+* Swedish: {{tt+|sv|vi}}
+* Tajik: {{tt+|tg|мо}}
+* Talysh: {{t|tly|əmə}}
+* Taos: {{tt|twf|ną}}
+* Tat: {{t|ttt|umu}}
+* Tatar: {{tt+|tt|без}}
+* Tedim Chin: {{tt|ctd|ei}}
+* Ternate: {{tt|tft|ngomi}}
+* Thai: {{tt+|th|เรา}}
+* Tibetan: {{tt|bo|ང་ཐསོ}}
+* Tigrinya: {{tt|ti|ንሕና}}
+* Tlingit: {{tt|tli|uháan}}
+* Tocharian B: {{tt|txb|wene|d}}, {{tt|txb|wes|p}}
+* Turkish: {{tt+|tr|biz}}
+* Turkmen: {{tt+|tk|biz}}
+* Tuvan: {{tt|tyv|бис}}
+* Udi: {{tt|udi|йан}}
+* Ukrainian: {{tt+|uk|ми}}
+* Urdu: {{tt+|ur|ہم|tr=ham}}
+* Uyghur: {{tt+|ug|بىز}}
+* Uzbek: {{tt+|uz|biz}}
+* Venetan: {{tt+|vec|noaltri}}, {{tt|vec|noantri}}, {{tt|vec|nualtri}}, {{tt|vec|naltri}}
+* Volapük: {{tt+|vo|obs}}
+* Walloon: {{t+|wa|nos}}, {{t+|wa|nozôtes}}
+* Welsh: {{tt|cy|ni}}, {{qualifier|emphatic}} {{tt|cy|ninnau}}
+* West Frisian: {{tt+|fy|wy}}
+* Wolof: {{tt|wo|nun}}
+* Yagnobi: {{tt|yai|мох}}
+* Yakut: {{tt|sah|биһиги}}
+* Yámana: {{tt|yag|xan}}
+* Yiddish: {{tt|yi|מיר}}
+* Yoruba: {{tt|yo|àwa}} {{qualifier|emphatic}}, {{tt|yo|a}} {{qualifier|regular}}
+* Zande: {{t|zne|ani}}
+* Zazaki: {{tt+|zza|ma}}
+* Zealandic: {{tt|zea|oôns}}, {{tt|zea|wulder}}, {{qualifier|unemphatic}} {{tt|zea|me}}
+* Zou: {{tt|zom|ei}}
+* Zulu: {{tt|zu|thina}}
+* ǃXóõ: {{tt|nmn|īh}}, {{qualifier|emphatic}} {{tt|nmn|īhʻī}}, {{tt|nmn|īsî}}, {{qualifier|emphatic}} {{tt|nmn|īsîʻī}}
+{{trans-bottom}}
+
+{{trans-top|exclusive ''we'' (the speaker and at least one other person, but excluding the person(s) being addressed)}}
+* Aklanon: {{tt|akl|kami}}
+* Avar: {{tt|av|ниж}}
+* Aymara: {{tt|ay|nanaka}}
+* Bikol Central: {{tt+|bcl|kami}}
+* Bislama: {{qualifier|dual}} {{tt|bi|mitufala|d}}, {{qualifier|trial}} {{tt|bi|mitrifala}}, {{qualifier|plural}} {{tt|bi|mifala|p}}
+* Chechen: {{tt|ce|вай}}
+* Chinese:
+*: Cantonese: {{tt+|yue|我哋|tr=ngo5 dei6}}, {{tt+|yue|我們|tr=ngo5 mun4}} {{qualifier|formal}}
+*: Hokkien: {{tt+|nan-hbl|阮|tr=góan, gún}}
+*: Mandarin: {{tt+|cmn|我們|tr=wǒmen}} {{qualifier|generic in most dialects|but exclusive in some}}
+*: Teochew: {{tt|nan-tws|阮|tr=ng2}}
+* Fijian: {{t|fj|keirau|d}}, {{t|fj|keitou}} {{qualifier|[[paucal]]}}, {{t|fj|keimami|p}}
+* Guaraní: {{tt|gn|ore}}
+* Gujarati: {{t|gu|અમે}}
+* Hadza: {{t|hts|ôbee|f}}, {{t|hts|ûbii|m}}
+* Hawaiian: {{tt|haw|māua|d}}, {{tt|haw|mākou|p}}
+* Hiligaynon: {{tt|hil|kami}}
+* Hiri Motu: {{t|ho|ai}}
+* Indonesian: {{tt+|id|kami}}
+* Ingush: {{tt|inh|вай}}
+* Laboya: {{tt|lmy|nami}}
+* Malay: {{tt+|ms|kami}}
+* Malayalam: {{tt+|ml|ഞങ്ങൾ}}
+* Manchu: {{tt|mnc|ᠪᡝ}}
+* Mansaka: {{tt|msk|kami}}
+* Maori: {{tt|mi|māua|d}}, {{tt|mi|mātou|p}}
+* Maranao: {{tt|mrw|kami}}
+* Marathi: {{tt|mr|आम्ही}}
+* Mbyá Guaraní: {{tt|gun|ore}}
+* Mori Bawah: {{t|xmz|kami}}
+* Motu: {{t|meu|ai}}
+* Niuean: {{tt|niu|maua|d}}, {{tt|niu|mautolu|p}}
+* Ojibwe: {{tt|oj|niinawind}}
+* Old Tupi: {{t|tpw|oré}}
+* Pijin: {{t|pis|mifala}}
+* Quechua: {{tt+|qu|ñuqayku}}, {{tt|qu|ñogaiku}}, {{tt|qu|nogakuna}}
+* Rapa Nui: {{tt|rap|maua|d}}, {{tt|rap|matou|p}}
+* Samoan: {{t-needed|sm}}
+* Tagalog: {{tt+|tl|kami}}
+* Tamil: {{tt+|ta|நாங்கள்}}
+* Tausug: {{tt|tsg|kami}}
+* Telugu: {{tt+|te|మేము}}
+* Tetum: {{tt|tet|ami}}
+* Tok Pisin: {{tt+|tpi|mipela}}, {{tt+|tpi|mitupela|d}}
+* Tokelauan: {{tt|tkl|māua|d}}, {{tt|tkl|mātou|p}}
+* Udihe: {{tt|ude|бу|tr=bu}}
+* Vietnamese: {{tt+|vi|chúng tôi}}
+* Zhuang: {{tt|za|dou}}
+{{trans-bottom}}
+
+{{trans-top|inclusive ''we'' (the speaker and the person(s) being addressed, and possibly others)}}
+* Aklanon: {{tt|akl|kita}}
+* Avar: {{tt|av|нилъ}}
+* Aymara: {{tt+|ay|jiwasa}}, {{tt|ay|jiwasanaka}}
+* Bikol Central: {{tt+|bcl|kita}}
+* Bislama: {{t-check|bi|yumi}}, {{qualifier|dual}} {{t-check|bi|yumitupela|d}}, {{qualifier|[[trial]]}} {{t-check|bi|yumitripela}}, {{t-check|bi|yumipela|p}}
+* Chechen: {{tt|ce|тхо}}
+* Chinese:
+*: Cantonese: {{tt|yue|你我|tr=nei5 ngo5}}
+*: Hokkien: {{tt+|nan-hbl|咱|tr=lán}}, {{tt+|nan-hbl|咱人|tr=lán-lâng}}
+*: Mandarin: {{tt+|cmn|咱們|tr=zánmen}}, {{tt+|cmn|咱|tr=zán}} {{qualifier|dialectal}}, {{tt+|cmn|你我|tr= nǐwǒ}}
+*: Teochew: {{tt|nan-tws|俺|tr=nang2}}
+* Fijian: {{t|fj|kedaru|d}}, {{t|fj|kedatou}} {{qualifier|[[paucal]]}}, {{t|fj|keda|p}}
+* Guaraní: {{tt|gn|ñande}}
+* Gujarati: {{t|gu|આપણે}}
+* Hadza: {{t|hts|onebee|f}}, {{t|hts|unibii|m}}
+* Hawaiian: {{tt|haw|kāua|d}}, {{tt|haw|kākou|p}}
+* Hiligaynon: {{tt|hil|kita}}
+* Hiri Motu: {{t|ho|ita}}
+* Indonesian: {{tt+|id|kita}}
+* Ingush: {{tt|inh|тхо}}
+* Laboya: {{tt|lmy|yitta}}
+* Malay: {{tt+|ms|kita}}
+* Malayalam: {{tt+|ml|നമ്മൾ}}
+* Manchu: {{tt|mnc|ᠮᡠᠰᡝ}}
+* Mansaka: {{tt|msk|kita}}
+* Maori: {{tt|mi|tāua|d}}, {{tt|mi|tātou|p}}
+* Maranao: {{tt|mrw|kita}}
+* Marathi: {{tt+|mr|आपण}}
+* Mbyá Guaraní: {{tt|gun|nhande}}
+* Mori Bawah: {{t|xmz|kita}}
+* Motu: {{t|meu|ita}}
+* Niuean: {{tt|niu|taua|d}}
+* Ojibwe: {{tt|oj|giinawind}}
+* Old Tupi: {{t|tpw|îandé}}
+* Pijin: {{t|pis|iumi}}
+* Quechua: {{tt+|qu|ñuqanchik}}
+* Rapa Nui: {{tt|rap|taua|d}}, {{tt|rap|tatou|p}}
+* Samoan: {{tt|sm|tā|d}}, {{tt|sm|tātou|p}}
+* Tagalog: {{tt+|tl|tayo}}
+* Tamil: {{tt+|ta|நாம்}}, {{tt+|ta|யாம்}}
+* Tausug: {{tt|tsg|kita}}
+* Telugu: {{tt+|te|మనము}}
+* Tetum: {{tt|tet|ita}}
+* Tok Pisin: {{tt|tpi|yumi}}, {{tt|tpi|yumipela}}
+* Tokelauan: {{tt|tkl|tāua|d}}, {{tt|tkl|tā|d}}, {{tt|tkl|tātou|p}}
+* Udihe: {{tt|ude|минти|tr=minti}}
+* Vietnamese: {{tt+|vi|chúng ta}}
+* Zhuang: {{tt|za|raeuz}}
+{{trans-bottom}}
+
+{{trans-top|''items to check for clusivity''}}
+* Tagalog: {{t+|tl|kita}}
+* Turkish: {{tt+|tr|ikimiz}} {{qualifier| you and I}}, {{tt|tr|üçümüz}} {{qualifier|we three etc.}} [clusivity depends on context?]
+* Venetan: {{tt|vec|noi doi}} [clusivity depends on context?]
+{{trans-bottom}}
+
+{{trans-top|the royal ''we'' (referring to the sovereign alone acting in their capacity as monarch)}}
+* Arabic: {{t+|ar|نحن}}
+* Chinese:
+*: Cantonese: {{tt|yue|朕|tr=zam6}}, {{tt|yue|寡人|tr=gwaa2 jan4}}
+*: Mandarin: {{tt+|cmn|朕|tr=zhèn}}, {{tt+|cmn|寡人|tr=guǎrén}}
+* Danish: {{t-needed|da}}
+* Dutch: {{t-needed|nl}}
+* French: {{tt+|fr|nous}}
+* German: {{t+|de|wir}}
+* Italian: {{t-needed|it}}
+* Japanese: {{tt+|ja|朕|tr=chin}}
+* Korean: {{tt+|ko|짐}}
+* Malay: {{tt+|ms|beta}}
+* Polish: {{t+|pl|my}}
+* Russian: {{t+|ru|мы}}
+* Spanish: {{t-needed|es}}
+* Swedish: {{t-needed|sv}}
+* Tangut: {{tt|txg|𗧅}}, {{tt|txg|𘓊𗸦}}
+* Thai: {{t-needed|th}}
+* Vietnamese: {{tt+|vi|trẫm}}
+}}&lt;!-- close {{multitrans}} --&gt;
+{{trans-bottom}}
+
+====Determiner====
+{{en-det}}
+
+# The speakers/writers, or the speaker/writer and at least one other person.
+#: {{ux|en|'''We''' Canadians like to think of ourselves as different.}}
+
+===Etymology 2===
+{{etymid|en|us}}{{rfe|en}}
+
+====Pronunciation====
+* {{IPA|en|/wə/}}
+* {{audio|en|LL-Q1860 (eng)-Vealhurl-we2.wav|a=Southern England}}
+
+====Pronoun====
+{{en-pron}}
+
+# {{senseid|en|us}}{{lb|en|Tyneside}} [[us|Us]].
+#: {{ux|en|He was a propa gadgie, and always bought '''we''' drinks after a long shift.|t=He was a great guy, and always bought '''us''' drinks after a long shift.}}
+#: {{ux|en|And what have you done for '''we''' since? Nowt!|t=And what have you done for '''us''' since? Nothing!}}
+
+=====Usage notes=====
+Not to be confused with Tyneside {{m|en|us||me}}.
+
+===Anagrams===
+* {{anagrams|en|a=ew|EW|e͞w|ew|E&amp;W}}
+
+{{catlangname|en|first person pronouns|personal pronouns|plural pronouns|two-letter words}}
+
+==Abinomn==
+
+===Noun===
+{{head|bsa|noun|dual|werom|plural|wekon}}
+
+# [[tree kangaroo]]
+
+===References===
+* [https://web.archive.org/web/20221221171410/https://sites.google.com/site/newguineaworld/families/abinomn Newguineaworld], citing Donohue and Musgrave, ''Abinomn nominal number'' (2007: 365)
+
+==Anguthimri==
+
+===Noun===
+{{head|awg|nouns}}
+
+# {{lb|awg|Mpakwithi}} [[owl]]
+
+===References===
+* Terry Crowley, ''The Mpakwithi dialect of Anguthimri'' (1981), page 189
+
+==Caac==
+
+===Pronunciation===
+* {{IPA|msq|/we/}}
+
+===Noun===
+{{head|msq|nouns}}
+
+# [[water]]
+#: kô-ny we
+#:: 'my (glass/drink of) water'
+
+===References===
+* ''[https://web.archive.org/web/20230117222527/https://www.escholar.manchester.ac.uk/api/datastream?publicationPid=uk-ac-man-scw:246710&amp;datastreamId=FULL-TEXT.PDF A Study of Space in Caac, an Oceanic Language]''
+
+{{c|msq|Water}}
+
+==Cameroon Pidgin==
+
+===Alternative forms===
+* {{alter|wes|wi|wu}}
+
+===Etymology===
+From {{der|wes|en|we}}.
+
+===Pronunciation===
+* {{IPA|wes|/wi/}}
+
+===Pronoun===
+{{head|wes|pronoun|cat2=personal pronouns}}
+
+# {{l|en|we}}, [[us]] {{n-g|1st person plural subject and object personal pronoun}}
+
+====See also====
+{{wes-personal pronouns}}
+
+===Determiner===
+{{head|wes|determiner|cat2=possessive determiners}}
+
+# [[our]], {{n-g|1st person plural [[possessive determiner]]}}
+
+====See also====
+{{wes-possessive determiners}}
+
+==Chuukese==
+
+===Determiner===
+{{head|chk|determiner|plural|kewe}}
+
+# {{lb|chk|possessive subject marker}} [[the]] {{gloss|singular}}
+
+==Dadibi==
+
+===Noun===
+{{head|mps|noun|head=wẹ}}
+
+# [[water]]
+
+====Synonyms====
+* {{l|mps|ai|ạị}}
+
+===References===
+* Karl J. Franklin, ''[https://web.archive.org/web/20160305070551/http://www-01.sil.org/pacific/png/pubs/10745/Comp_Wordlist_Gulfdistrict.pdf Comparative Wordlist 1 of the Gulf District and adjacent areas]'' (1975), page 67
+* Karl James Franklin, ''Pacific Linguistics'' (1973, {{ISBN|0858831007}}, page 130: Polopa ''so''/''sou'' woman, cf. DAR ''sou'' female animal but ''we'' woman. Several multiple cognate sets appeared in the data. Daribi uses both ''ạị'' and ''wẹ'' for water; some Polopa speakers gave one term, some another. Both are probably known everywhere.
+
+==Dutch==
+
+===Etymology===
+See {{m|nl|wij}}.
+
+===Pronunciation===
+* {{IPA|nl|/ʋə/}}
+* {{audio|nl|Nl-we.ogg}}
+
+===Pronoun===
+{{head|nl|pronoun|personal pronoun}}
+
+# {{l|en|we}}
+
+====Declension====
+{{nl-decl-personal pronouns}}
+
+====Synonyms====
+* {{l|nl|wij}}
+
+====Descendants====
+* {{desc|gmw-jdt|wê}}
+
+====See also====
+* {{l|nl|ons}}
+
+{{cln|nl|personal pronouns}}
+
+==Fijian==
+
+===Noun===
+{{head|fj|nouns}}
+
+# [[scar]]
+
+==Fwâi==
+[[Image:Stilles Mineralwasser.jpg|thumb|we]]
+
+===Etymology===
+From {{der|fwa|poz-oce-pro|*waiʀ}}, from {{der|fwa|pqe-pro|*waiʀ}}, from {{der|fwa|poz-cet-pro|*waiʀ}}, from {{der|fwa|poz-pro|*wahiʀ}}.
+
+===Noun===
+{{head|fwa|nouns}}
+
+# [[water]] {{gloss|clear liquid H₂O}}
+
+===References===
+* André-Georges Haudricourt, Françoise Ozanne-Rivierre, ''Dictionnaire thématique des langues de la région de Hienghène'' (1982)
+
+{{topics|fwa|Water}}
+
+==Galoli==
+
+===Etymology===
+{{inh+|gal|poz-pro|*wahiR}}.
+
+===Noun===
+{{head|gal|nouns}}
+
+# {{lb|gal|Talur}} [[water]]
+
+===References===
+* Bryan Hinton, ''The languages of Wetar'', in ''[https://web.archive.org/web/20150228131151/http://papuan.linguistics.anu.edu.au/Donohue/downloads/PL_503.pdf Spices from the east: Papers in languages of eastern Indonesia]'' (2000), page 121
+
+==Haeke==
+
+===Etymology===
+From {{inh|aek|poz-oce-pro|*waiʀ}}, from {{inh|aek|pqe-pro|*waiʀ}}, from {{inh|aek|poz-cet-pro|*waiʀ}}, from {{inh|aek|poz-pro|*wahiʀ}}.
+
+===Pronunciation===
+* {{IPA|aek|/we/}}
+
+===Noun===
+{{head|aek|nouns}}
+
+# [[water]] {{gloss|clear liquid H₂O}}
+
+===References===
+* Jean Claude Rivierre, Sabine Ehrhart, Raymond Diéla, ''Le Bwatoo: et les dialectes de la région de Koné'' (2006)
+
+{{topics|aek|Water}}
+
+==Haveke==
+
+===Etymology===
+From {{der|hvk|poz-oce-pro|*waiʀ}}, from {{der|hvk|pqe-pro|*waiʀ}}, from {{der|hvk|poz-cet-pro|*waiʀ}}, from {{der|hvk|poz-pro|*wahiʀ}}.
+
+===Pronunciation===
+* {{IPA|hvk|/we/}}
+
+===Noun===
+{{head|hvk|nouns}}
+
+# [[water]] {{gloss|clear liquid H₂O}}
+
+===References===
+* Jean Claude Rivierre, Sabine Ehrhart, Raymond Diéla, ''Le Bwatoo: et les dialectes de la région de Koné'' (2006)
+
+{{topics|hvk|Water}}
+
+==Hmwaveke==
+
+===Etymology===
+From {{der|mrk|poz-oce-pro|*waiʀ}}, from {{der|mrk|pqe-pro|*waiʀ}}, from {{der|mrk|poz-cet-pro|*waiʀ}}, from {{der|mrk|poz-pro|*wahiʀ}}.
+
+===Noun===
+{{head|mrk|nouns}}
+
+# [[water]]
+
+===References===
+* {{R:ABVD|lang=ʰMoavekɛ|id=1508|cite={{cite-book|author=Leenhardt, M.|year=1946|title=Langues et dialectes de l'Austro-Mèlanèsie}}.}}
+
+==Ido==
+
+===Etymology===
+From {{suffix|io|w|e&lt;id:consonant&gt;}}.
+
+===Pronunciation===
+* {{IPA|io|/we/|/wɛ/}}
+
+===Noun===
+{{head|io|noun|plural|we-i}}
+
+# {{n-g|The name of the [[Appendix:Latin script|Latin script]] letter '''[[W]]'''/'''[[w]]'''.}}
+
+====See also====
+* {{list:Latin script letter names/io}}
+
+==Indonesian==
+
+===Etymology===
+From {{bor|id|nl|wee}}.
+
+===Pronunciation===
+* {{id-IPA|wé}}
+
+===Noun===
+{{id-noun|head=wé|ku=-|mu=-|nya=-}}
+
+# {{Latn-def|id|name|W|w}}
+
+====Synonyms====
+* {{l|ms|dabel yu}} {{q|Standard Malay}}
+
+====See also====
+* {{list:Latin script letter names/id}}
+
+===Further reading===
+* {{R:KBBI Daring}}
+
+==Jamaican Creole==
+
+===Etymology 1===
+{{rfe|jam}}
+
+====Conjunction====
+{{head|jam|conjunction}}
+
+# [[that]]
+#* {{RQ:jam:YDYR|25|Uman '''we''' a mada an pikni disorv speshal kier an elp.|Motherhood and childhood are entitled to special care and assistance.|lit=Women '''that''' are mothers, and children, deserve special care and help.}}
+
+===Etymology 2===
+{{der+|jam|en|where}}.
+
+====Conjunction====
+{{head|jam|conjunction}}
+
+# [[where]]
+#* {{RQ:jam:DJNT|Mark|14|14|Wen im go iina wan ous, tel di uona fi di ous se, &quot;Di tiicha se fi aks yu se: '''We''' di ges ruum de '''we''' mi kyan nyam di Paasuova fuud wid mi speshal falara dem?&quot;|and when he goes into a house, ask the owner '''where''' I and my disciples can celebrate the Passover.}}
+
+===Further reading===
+* {{R:jam:majstro.com}}
+
+==Japanese==
+
+===Romanization===
+{{ja-romaji}}
+
+# {{ja-romanization of|ゑ}}
+# {{ja-romanization of|ヱ}}
+# {{ja-romanization of|うぇ}}
+# {{ja-romanization of|ウェ}}
+
+==Jawe==
+
+===Etymology===
+From {{der|jaz|poz-oce-pro|*waiʀ}}, from {{der|jaz|pqe-pro|*waiʀ}}, from {{der|jaz|poz-cet-pro|*waiʀ}}, from {{der|jaz|poz-pro|*wahiʀ}}.
+
+===Noun===
+{{head|jaz|nouns}}
+
+# [[water]] {{gloss|clear liquid H₂O}}
+
+===References===
+* André-Georges Haudricourt, Françoise Ozanne-Rivierre, ''Dictionnaire thématique des langues de la région de Hienghène'' (1982)
+
+{{topics|jaz|Water}}
+
+==Kashubian==
+
+===Pronunciation===
+{{csb-pr}}
+
+===Preposition===
+{{head|csb|preposition}}
+
+# {{alt form|csb|w}}.
+
+==Kikuyu==
+
+===Etymology 1===
+
+====Pronunciation====
+* {{IPA|ki|/wɛ(ː)/}}
+
+====Pronoun====
+{{head|ki|pronoun|cat2=personal pronouns|second person singular}}
+
+# [[you]], [[thou]]
+
+=====Related terms=====
+* {{l|ki|-aku|t=your, thy}}
+
+===Etymology 2===
+
+====Pronunciation====
+* {{IPA|ki|/wɛ/}}
+
+====Pronoun====
+{{head|ki|pronoun|cat2=personal pronouns|third person singular}}
+
+# [[s/he]]
+
+=====Related terms=====
+* {{l|ki|-ake|t=his/her}}
+
+===See also===
+{{ki-personal pronouns}}
+
+===References===
+* {{R:Benson1964|entry=we|p=561}}
+
+==Laboya==
+
+===Noun===
+{{head|lmy|nouns}}
+
+# [[water]]
+
+===References===
+* {{cite-journal|year=2008|author=Greenhill, S. J.; Blust. R; Gray, R. D.|title=The Austronesian Basic Vocabulary Database: From Bioinformatics to Lexomics|journal=Evolutionary Bioinformatics|issue=4|pages=271-283|url=http://language.psy.auckland.ac.nz/austronesian/language.php?id=323|accessdate=27 November 2019|archiveurl=https://web.archive.org/web/20170418033002/http://language.psy.auckland.ac.nz/austronesian/language.php?id=323|archivedate=18 April 2017}}
+* {{R:map:ACD|wahiR}}
+
+==Lower Sorbian==
+
+===Pronunciation===
+* {{IPA|dsb|/wɛ/}}
+
+===Preposition===
+{{dsb-prep|l}}
+
+# {{alternative form of|dsb|w}} {{q|especially before labial consonants and consonant clusters}}
+
+==Mandarin==
+
+===Romanization===
+{{cmn-pinyin}}
+
+# {{cmn-pinyin of|喂}}
+
+===Romanization===
+{{cmn-pinyin|notr=1}}
+
+# {{nonstandard spelling of|cmn|wē}}
+
+====Usage notes====
+* {{U:cmn:toneless}}
+
+==Mapudungun==
+
+===Adjective===
+{{head|arn|adjectives}} {{arn-sp|r}}
+
+# [[new]], [[recent]]
+
+===References===
+* {{R:Wixaleyiñ 2008}}
+
+==Middle English==
+
+===Etymology 1===
+from {{inh|enm|ang|wē||we}}, from {{inh|enm|gmw-pro|*wiʀ}}, from {{inh|enm|gem-pro|*wīz}}, {{m|gem-pro|*wiz||we}}, from {{inh|enm|ine-pro|*wéy||we (plural)}}. Compare {{l|enm|wit}} {{qualifier|first person dual pronoun}}.
+
+====Alternative forms====
+* {{alter|enm|whe|ve|woe|wue|weo|wæ|vue|hwe|huue}}
+
+====Pronunciation====
+* {{IPA|enm|/weː/}}
+
+====Pronoun====
+{{head|enm|pronoun|accusative|{{l|enm|us}}, we|genitive|oure|possessive determiner|oures}}
+
+# {{senseid|enm|we}} {{n-g|First-person plural pronoun:}} {{l|en|we}}
+# {{n-g|First-person plural accusative pronoun:}} {{l|en|us}}
+
+=====Descendants=====
+* {{desctree|en|we}}
+* {{desc|sco|we|alts=1}}
+* {{desc|yol|wough|alts=1}}
+
+=====See also=====
+{{enm-decl-personal pronouns}}
+
+=====References=====
+* {{R:MED Online|entry= we|pos=pron|id=MED51950 |accessdate=10 May 2018}}
+
+===Etymology 2===
+From {{inh|enm|ang|wēa}}, from {{inh|enm|gem-pro|*waiwô}}. {{doublet|enm|wowe}}.
+
+====Alternative forms====
+* {{alter|enm|wee|wea|wæ}}
+
+====Pronunciation====
+* {{IPA|enm|/wɛː/|/weː/}}
+
+====Noun====
+{{enm-noun|-}}
+
+# {{senseid|enm|woe}} [[woe]], [[grief]], [[sadness]]
+
+=====References=====
+* {{R:MED Online|entry=wẹ̄|pos=n|id=MED51949|accessdate=2018-12-30}}
+
+{{topics|enm|Emotions}}
+
+==Middle Low German==
+
+===Pronunciation===
+* Certainly: '''[[Wiktionary:About_Middle_Low_German#Stem_vowels|Stem vowel]]: ê⁴'''
+** {{IPA|gml|/weː/|a=originally}}
+
+===Etymology 1===
+From {{inh|gml|osx|hwē}}, from {{inh|gml|gmw-pro|*hwaʀ}}, from {{inh|gml|gem-pro|*hwaz}}.
+
+====Pronoun====
+{{head|gml|pronoun|head=wê|accusative|wēne|or|wen|dative|wēme|or|wem|genitive|wes}}
+
+# {{lb|gml|interrogative|masculine|feminine}} [[who]]
+
+===Etymology 2===
+From {{inh|gml|gem-pro|*wiz}}.
+
+====Pronoun====
+{{head|gml|pronoun|head=wê}}
+
+# {{lb|gml|personal|first person|in the plural|nominative}} {{alternative form of|gml|wî}}.
+
+==Nedebang==
+
+===Noun===
+{{head|nec|nouns}}
+
+# [[blood]]
+
+===References===
+* Gary Holton and Laura Robinson, ''The Internal History of the Alor-Pantar language family'', in ''The Alor-Pantar languages: History and Typology'', edited by Marian Klamer
+* [http://transnewguinea.org/language/nedebang transnewguinea.org] (wæ), [http://asjp.clld.org/languages/NEDEBANG ASJP 1] (wE i.e. wɛ), [http://asjp.clld.org/languages/NEDEBANG_2 ASJP 2] (we)
+
+==Nemi==
+
+===Etymology===
+From {{der|nem|poz-oce-pro|*waiʀ}}, from {{der|nem|pqe-pro|*waiʀ}}, from {{der|nem|poz-cet-pro|*waiʀ}}, from {{der|nem|poz-pro|*wahiʀ}}.
+
+===Noun===
+{{head|nem|nouns}}
+
+# [[water]] {{gloss|clear liquid H₂O}}
+
+===References===
+* André-Georges Haudricourt, Françoise Ozanne-Rivierre, ''Dictionnaire thématique des langues de la région de Hienghène'' (1982)
+
+{{topics|nem|Water}}
+
+==North Ambrym==
+
+===Etymology===
+From {{inh|mmg|poz-pro|*wahiʀ}}.
+
+===Noun===
+{{head|mmg|nouns}}
+
+# [[water]]
+
+===Further reading===
+* Darrell T. Tryon, ''New Hebrides languages: an internal classification'' (1976)
+* George William Grace, ''The position of the Polynesian languages within the Austronesian (Malayo-Polynesian) language family'' (1959)
+
+==North Frisian==
+
+===Etymology===
+From {{inh|frr|ofs|wī}}, from {{inh|frr|gem-pro|*wīz}}, from {{inh|frr|ine-pro|*wéy}}.
+
+===Pronoun===
+{{head|frr|pronoun}} {{lb|frr|Mooring}}
+
+# {{l|en|we}} {{gloss|first-person plural personal pronoun}}
+
+====Alternative forms====
+* {{alt|frr|wi||Föhr-Amrum}}
+* {{alt|frr|wü||Sylt}}
+
+===See also===
+{{frr-Mooring-personal-pronouns}}
+
+==Nyelâyu==
+
+===Etymology===
+From {{inh|yly|poz-oce-pro|*waiʀ}}, from {{inh|yly|pqe-pro|*waiʀ}}, from {{inh|yly|poz-cet-pro|*waiʀ}}, from {{inh|yly|poz-pro|*wahiʀ}}.
+
+===Noun===
+{{head|yly|nouns}}
+
+# [[water]] {{gloss|clear liquid H₂O}}
+
+===References===
+* Jim Hollyman, K. J. Hollyman, ''Études sur les langues du Nord de la Nouvelle-Calédonie'' (1991), [http://books.google.fr/books?id=AsxLnut90O4C&amp;pg=PA81#v=onepage&amp;q&amp;f=false page 81]
+
+{{C|yly|Water}}
+
+==Old English==
+
+===Alternative forms===
+* {{alter|ang|wœ̄||Northumbrian}}
+* {{alter|ang|wæ}}
+* {{alter|ang|ƿē}}
+
+===Etymology===
+From {{inh|ang|gem-pro|*wiz}}, {{m|gem-pro|*wīz}}, from {{inh|ang|ine-pro|*wéy}}, plural of {{m|ine-pro|*éǵh₂}}.
+
+Cognate with {{cog|ofs|wī}} ({{cog|fy|wy}}), {{cog|osx|wī}} ({{cog|nds|wi}}), {{cog|odt|wī}} ({{cog|nl|wij}}), {{cog|goh|wir}} ({{cog|de|wir}}), {{cog|non|vér}} ({{cog|da|-}} and {{cog|sv|vi}}), {{cog|got|𐍅𐌴𐌹𐍃}}.
+
+===Pronunciation===
+* {{ang-IPA|wē}}
+
+===Pronoun===
+{{head|ang|pronoun|head=wē|personal pronoun}}
+
+# {{l|en|we}} ({{inflection of|ang|ic|iċ|nom|p}})
+
+====Declension====
+{{ang-pron-pers}}
+
+====Descendants====
+* {{desctree|enm|we}}
+
+==Old Javanese==
+
+===Pronunciation===
+* {{IPA|kaw|/we/}}
+
+===Etymology 1===
+From {{inh|kaw|poz-pro|*waʀi}}, from {{inh|kaw|map-pro|*waʀi}}. {{doublet|kaw|wari}}.
+
+====Noun====
+{{head|kaw|noun}}
+
+# [[sun]]
+# [[day]]
+
+=====Usage notes=====
+Zoetmulder used {{ncog|kaw|we}} as primary entry for sun and day sense, while {{ncog|kaw|wwe}} used for water as primary entry.
+
+=====Alternative forms=====
+{{col2|kaw|
+| wai
+| way
+|}}
+{{col2|kaw|
+| wwe
+| wwai
+| wway
+|}}
+
+=====Derived terms=====
+{{der2|kaw|
+| we göṅ
+| we tis
+| tĕṅahwe
+| tĕṅahṅwe
+| tistis we
+| titis iṅ way
+}}
+
+=====Descendants=====
+* {{desc|inh=1|jv|ꦮꦺ}}
+
+===Etymology 2===
+
+====Noun====
+{{head|kaw|noun}}
+
+# {{alt sp|kaw|wwe|t=water}}
+
+===Further reading===
+* {{R:Zoetmulder 1982}}
+
+==Old Polish==
+
+===Pronunciation===
+* {{zlw-opl-IPA}}
+
+===Preposition===
+{{head|zlw-opl|preposition}}
+
+# {{alt form|zlw-opl|w}}
+
+==Pije==
+
+===Etymology===
+From {{inh|piz|poz-oce-pro|*waiʀ}}, from {{inh|piz|pqe-pro|*waiʀ}}, from {{inh|piz|poz-cet-pro|*waiʀ}}, from {{inh|piz|poz-pro|*wahiʀ}}.
+
+===Noun===
+{{head|piz|nouns}}
+
+# [[water]] {{gloss|clear liquid H₂O}}
+
+===References===
+* André-Georges Haudricourt, Françoise Ozanne-Rivierre, ''Dictionnaire thématique des langues de la région de Hienghène'' (1982)
+
+{{topics|piz|Water}}
+
+==Polish==
+
+===Pronunciation===
+{{pl-pr|a=Pl-we.ogg}}
+
+===Preposition===
+{{head|pl|preposition}}
+
+# {{alt form|pl|w}}, used mostly before words that begin with consonant clusters.
+
+==Scots==
+
+===Alternative forms===
+* {{alter|sco|oo}}
+
+===Etymology===
+{{inh+|sco|enm|we}}, from {{inh|sco|ang|wē||we}}, from {{inh|sco|gmw-pro|*wiʀ}}, from {{inh|sco|gem-pro|*wīz}}, {{m|ine-pro|*wiz||we}}, from {{inh|sco|ine-pro|*wéy||we (plural)}}. Cognate with {{cog|en|we}}.
+
+===Pronunciation===
+* {{IPA|sco|/wi/|a=stressed}}
+** {{IPA|sco|/wəi/|a=South Scots}} {{q|sometimes spelled {{m|sco|wey}}}}
+* {{IPA|sco|/wə/|a=unstressed}} {{q|sometimes spelled {{m|sco|wa}}}}
+
+===Pronoun===
+{{head|sco|pronoun|cat2=personal pronouns}}
+
+# {{l|en|we}}
+# [[us]]
+
+===See also===
+{{Scots personal pronouns}}
+
+===References===
+* {{R:Dictionary of the Scots Language|pos=pers. pron|url=https://www.dsl.ac.uk/entry/dost/we_pers_pron|accessdate=24 May 2024|source=DOST}}
+* {{R:Dictionary of the Scots Language|pos=pron|accessdate=24 May 2024|source=SND}}
+
+==Silesian==
+
+===Pronunciation===
+{{szl-pr}}
+
+===Preposition===
+{{head|szl|preposition}}
+
+# {{alt form|szl|w}}, used mostly before words that begin with consonant clusters
+
+==Slovincian==
+
+===Pronunciation===
+{{zlw-slv-pr}}
+
+===Preposition===
+{{h|zlw-slv|prep}}
+
+# {{alt form|zlw-slv|w}}.
+
+===Further reading===
+* {{R:zlw-slv:SW|we|1279}}
+
+==Spanish==
+
+===Etymology===
+Variant of {{m|es|güey}}, representing the relaxed pronunciation of the /gw/ sounds and in some cases loss of the /i/ sound.
+
+===Pronunciation===
+{{es-pr}}
+
+===Noun===
+{{es-noun|mfbysense|wees}}
+
+# {{lb|es|colloquial}} [[dude]], [[guy]], [[buddy]]
+#: {{syn|es|carnal|cuate|tonto|bato}}
+# {{lb|es|Mexico|colloquial|_|slang}} [[chump]], [[punk]], [[dumbass]], [[idiot]], [[jerk]]
+
+==Tocharian A==
+{{enum|xto|sas|tre|cardinal numbers}}
+
+===Etymology===
+From {{der|xto|ine-pro|*dwóh₁}}. Compare {{cog|txb|wi}}.
+
+===Numeral===
+{{head|xto|numeral|g=f|cat2=cardinal numbers}}
+
+# [[two]]
+
+====Related terms====
+* {{l|xto|wu}}
+
+==Tok Pisin==
+
+===Etymology===
+From {{inh|tpi|en|where}}.
+
+===Adverb===
+{{head|tpi|adverbs}}
+
+# [[where]]
+#* {{RQ:Buk Baibel|Jenesis|3|9|passage=Tasol God, Bikpela i singaut long man na i tok, “Yu stap '''we'''?”}}
+
+==Turkmen==
+
+===Etymology 1===
+Borrowed from {{bor|tk|fa|وَ|tr=va}}.
+
+====Conjunction====
+{{head|tk|conjunctions}}
+
+# [[and]]
+
+===Etymology 2===
+
+====Noun====
+{{tk-noun}}
+
+# {{Latn-def|tk|name|W|w}}
+
+==Uyghur==
+
+===Noun===
+{{ug-noun}}
+
+# {{ug-uly of|ۋە}}
+
+{{catlangname|ug|terms in Latin script}}
+
+==Vamale==
+
+===Noun===
+{{head|mkt|nouns}}
+
+# [[water]]
+
+===References===
+* Greenhill, S.J., Blust. R, &amp; Gray, R.D. (2008). [https://web.archive.org/web/20180628015506/https://abvd.shh.mpg.de/publications/index.php?pub=Greenhill_et_al2008 The Austronesian Basic Vocabulary Database: From Bioinformatics to Lexomics]. ''[http://journals.sagepub.com/doi/abs/10.4137/EBO.S893 Evolutionary Bioinformatics]'', 4:271-283.
+
+==Welsh==
+
+===Pronunciation===
+* {{IPA|cy|/weː/}}
+
+===Noun===
+{{head|cy|mutated noun}}
+
+# {{soft mutation of|cy|gwe}}
+
+===Mutation===
+{{cy-mut|gwe}}
+
+==West Makian==
+
+===Pronunciation===
+* {{IPA|mqs|/we/}}
+
+===Noun===
+{{head|mqs|nouns}}
+
+# [[leaf]]
+
+===References===
+* {{R:mqs:Voorhoeve:1982}}
+
+==Yola==
+
+===Pronoun===
+{{head|yol|pronouns}}
+
+# {{alt form|yol|wough}}
+#* {{quote-book|yol|year=1867|line=7-9|page=114|title=CONGRATULATORY ADDRESS IN THE DIALECT OF FORTH AND BARGY|passage=and whilke '''we''' canna zei, albeit o' 'Governere,' 'Statesman,' an alike.|translation=and for which '''we''' have no words but of 'Governor,' 'Statesman,' &amp;c.}}
+#* {{quote-book|yol|year=1867|line=21-23|page=114|title=CONGRATULATORY ADDRESS IN THE DIALECT OF FORTH AND BARGY|passage=Ye pace——yea, '''we''' mai zei, ye vaste pace whilke bee ee-stent owr ye londe zince th'ast ee-cam,|translation=The peace——yes, '''we''' may say the profound peace—which overspreads the land since your arrival,}}
+#* {{quote-book|yol|year=1867|line=6-8|page=116|title=CONGRATULATORY ADDRESS IN THE DIALECT OF FORTH AND BARGY|passage=Na oure gladès ana whilke '''we''' dellt wi' mattoke, an zing t'oure caulès wi plou,|translation=In our valleys where '''we''' were digging with the spade, or as we whistled to our horses in the plough,}}
+
+===References===
+* {{R:Poole 1867|page=114}}
+
+==Yuanga==
+
+===Etymology===
+From {{der|nua|poz-oce-pro|*waiʀ}}, from {{der|nua|pqe-pro|*waiʀ}}, from {{der|nua|poz-cet-pro|*waiʀ}}, from {{der|nua|poz-pro|*wahiʀ}}.
+
+===Noun===
+{{head|nua|nouns}}
+
+# [[water]] {{gloss|clear liquid H₂O}}
+
+===References===
+* Jim Hollyman, K. J. Hollyman, ''Études sur les langues du Nord de la Nouvelle-Calédonie'' (1999), [http://books.google.fr/books?id=AsxLnut90O4C&amp;pg=PA81#v=onepage&amp;q&amp;f=false page 81]
+
+{{topics|nua|Water}}
+
+==Zaghawa==
+
+===Pronunciation===
+* {{IPA|zag|/we/}}
+
+===Noun===
+{{head|zag|nouns}}
+
+# [[head lice]]
+
+===Numeral===
+{{head|zag|numerals}}
+
+# [[three]]
+
+===References===
+* ''[http://www.tchad.org/zaghawa/Beria-Eng-BDict.pdf Beria-English English-Beria Dictionary] [provisional] ADESK, Iriba, Kobe Department, Chad''
+
+==Zulu==
+
+===Pronoun===
+{{zu-pron|stem=1}}
+
+# {{zu-combining stem of|wena}}</text>
+            <sha1>nvzdfdzaif1b6romxfaiq6pb7ipw4nf</sha1>
+        </revision>
+    </page>
+    <page>
+        <title>he</title>
+        <ns>0</ns>
+        <id>5747</id>
+        <revision>
+            <id>82435280</id>
+            <parentid>82434975</parentid>
+            <timestamp>2024-10-19T14:02:15Z</timestamp>
+            <contributor>
+                <username>Surjection</username>
+                <id>3370302</id>
+            </contributor>
+            <comment>/* Finnish */</comment>
+            <origin>82435280</origin>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text bytes="29752" sha1="ao212xr349gfes0wimtlgnj0wg7roqh" xml:space="preserve">{{also|Appendix:Variations of &quot;he&quot;}}
+{{minitoc}}
+==Translingual==
+
+===Symbol===
+{{mul-symbol}}
+
+# {{ISO 639|1}}
+
+==English==
+
+===Alternative forms===
+* {{alter|en|hee|hée||obsolete}}
+
+===Etymology 1===
+{{dercat|en|gmw-pro|inh=1}}
+From {{inh|en|enm|he}}, from {{inh|en|ang|hē}}, from {{inh|en|gmw-pro|*hiʀ}}, from {{inh|en|gem-pro|*hiz|t=this, this one}}, from {{inh|en|ine-pro|*ḱís|t=this}}.
+
+Cognate with {{cog|sco|he|t=he}}, {{cog|frr|he}}, {{m|frr|hi|t=he}}, {{cog|stq|hie|t=he}}, {{cog|fy|hy|t=he}}, {{cog|nl|hij}}, {{m|nl|ie|t=he}}, {{cog|nds-de|he|t=he}}, {{cog|gmh|her|t=he}} {{cog|gmw-cfr|hä|t=he}}, {{cog|got|*𐌷𐌹𐍃|t=this}}.
+
+====Pronunciation====
+* {{enPR|hē|a=UK}}, {{IPA|en|/ˈhiː/}}, {{IPA|en|/hi/|/i/|a=unstressed}}
+* {{audio|en|En-uk-he.ogg|a=UK}}
+* {{enPR|hē|a=US}}, {{IPA|en|/hi/|[hi]|[çi]}}, {{IPA|en|/i/|a=unstressed}}
+* {{audio|en|en-us-he.ogg|a=US}}
+* {{rhymes|en|iː|s=1}}
+
+====Pronoun====
+{{en-pron|desc=third-person singular, masculine, nominative case|oblique|him|reflexive|himself|possessive|his}}
+
+# {{lb|en|personal}} A [[male]] person or animal already known or implied.
+#* {{quote-book|en|year=1620|section=Nouell 8, The Eighth Day|title= {{w|The Decameron|The Decameron, Containing an Hundred Pleaſant Nouels: Wittily Diſcourſed, Betweene Seuen Honourable Ladies, and Three Noble Gentlemen}} |author= w:Giovanni Bocaccio|tlr= w:John Florio |publisher=Isaac Iaggard|url= https://books.google.co.nz/books?id=FEz6_FECCI0C |isbn= 9780897338677 |passage={{...}}purſued his vnneighbourly purpoſe in ſuch ſort: that '''hee''' being the ſtronger perſwader, and ſhe (belike) too credulous in beleeuing or elſe ouer-feeble in reſiſting, from priuate imparlance, they fell to action; and continued their cloſe fight a long while together, vnſeene and vvithout ſuſpition, no doubt to their equall ioy and contentment.}}
+#* {{quote-book|1=en|year=1886|translator=H.L. Br&amp;aelig;kstad|author=w:Peter Christen Asbj&amp;oslash;rnsen|title=Folk and Fairy Tales|page=77|passage=&quot;It was '''he''' we saw the tracks of down by Rausand hill.&quot;}}
+#* '''July 18 2012''', Scott Tobias, AV Club ''The Dark Knight Rises''[http://www.avclub.com/articles/the-dark-knight-rises-review-batman,82624/]
+#*: Though Bane’s sing-song voice gives his pronouncements a funny lilt, '''he''' doesn’t have any of the Joker’s deranged wit, and Nolan isn’t interested in undercutting his seriousness for the sake of a breezier entertainment.
+#* {{seemoreCites|en}}
+# {{lb|en|personal|sometimes|_|proscribed|see usage notes}} [[they|They]]; [[he or she]] {{gl|a person whose gender is unknown or irrelevant}}.
+#: {{ux|en|The rulebook clearly states that &quot;if any student is caught cheating, '''he''' will be expelled&quot;, and you were caught cheating, were you not, Anna?}}
+# {{lb|en|personal|sometimes|proscribed}} [[it|It]]; an animal whose gender is unknown.
+# A genderless object regarded as masculine, such as certain stars or planets (e.g. Sun, Mercury, Mars, Jupiter) or certain ships.
+#: {{antonyms|en|she|it}}
+#* {{quote-text|en|year=1770|title=A Mathematical Miscellany in Four Parts|edition=3rd|page=125
+|passage=JUPITER is the largest of all the Planets, '''his''' Orbit lies between the Orbits of the ''Earth'' and ''Mars'', and at the cast Distance of 426 Millions of Miles from the Sun, '''he''' goes round '''him''' in 11 Years, 314 Days and 12 Hours; {{...}}}}
+#* {{quote-book|en|year=2019|author=Sabaton|title=Bismarck|passage=He [= the ship Bismarck] was made to rule the waves across the seven seas {{...}} }}
+
+=====Usage notes=====
+* ''He'' was traditionally used as both a [[masculine]] and a [[gender-neutral]] pronoun, but since the mid-20th century [[generic]] usage has sometimes been considered [[sexist]] and limiting.&lt;ref&gt;{{R:Dictionary.com}}&lt;/ref&gt;&lt;ref&gt;''When Words Collide: A Media Writer's Guide to Grammar and Style'' (2007, {{ISBN|0495050253}}&lt;/ref&gt; It is deprecated by some style guides, such as ''Wadsworth''.&lt;ref&gt;''The Pocket Wadsworth Handbook, 2009 MLA Update Edition'' {{ISBN|1439081816}}, page 81: [A]void using the generic ''he'' or ''him'' when your subject could be either male or female. [...] '''Sexist:''' Before boarding, each passenger should make certain that he has his ticket. / '''Revised:''' Before boarding, passengers should make certain that they have their tickets.&lt;/ref&gt; In place of generic ''he'', writers and speakers may use {{m|en|he or she}}, alternate ''he'' and {{m|en|she}} as the indefinite person, use the singular {{m|en|they}}, or rephrase sentences to use plural {{m|en|they}}.
+
+=====Synonyms=====
+* {{sense|person whose gender is unknown}} {{l|en|one}}, {{l|en|you}} {{q|indefinite, colloquial}}; {{l|en|he or she}}, {{l|en|he/she}}, {{l|en|they}}, {{l|en|s/he}}, ''or [[Appendix:English third-person singular pronouns|these other third-person pronouns (see &quot;Combined forms&quot;, &quot;Invented pronouns&quot;)]]''
+* {{sense|animal whose gender is unknown}} {{l|en|it}}
+
+=====Derived terms=====
+{{col-auto|en|a man is known by the company he keeps|he said, she said|he shoots, he scores|{{l|en|he who laughs last laughs hardest}}, {{l|en|he who laughs last laughs best}}|he'd|{{l|en|he-}}: [[he-ass]], [[he-bitch]], [[he-cat]], [[he-goat]], [[he-man]], [[he-whore]], [[he-wolf]]|{{l|en|s/he}}, {{l|en|he/she}}, {{l|en|he or she}}|he laughs best that laughs last|he who hesitates is lost|he-elephant|te-he|that's what he said|speak of the devil and he will appear|he-huckleberry}}
+
+=====Translations=====
+{{see translation subpage|Pronoun}}
+
+=====See also=====
+{{English personal pronouns}}
+
+=====References=====
+&lt;references/&gt;
+
+====Determiner====
+{{head|en|determiner}}
+
+# {{lb|en|AAVE}} {{synonym of|en|his}}
+
+====Noun====
+{{en-noun|~}}
+
+# {{lb|en|uncountable}} The game of [[tag]], or [[it]], in which the player attempting to catch the others is called &quot;he&quot;.
+# The player who chases and attempts to catch the others in this game.
+# {{lb|en|informal}} A [[male]].
+#: {{ux|en|Is your cat a '''he''' or a she?}}
+
+===Etymology 2===
+Transliteration of various Semitic letters, such as {{translit|en|phn|sc=Phnx|𐤄|tr=h|notext=1}}, {{translit|en|he|sc=Hebr|ה|tr=h|notext=1}}, {{translit|en|syc|sc=Syrc|ܗ|tr=h||hē|notext=1}}, and {{translit|en|sem-srb|sc=Sarb|𐩠|tr=h|notext=1}}.
+
+====Alternative forms====
+* {{l|en|hay}}
+* {{l|en|hei}}
+* {{l|en|hey}}
+
+====Pronunciation====
+* {{IPA|en|/heɪ/}}
+
+====Noun====
+{{en-noun|?}}
+
+# The name of the fifth letter of many [[Semitic]] alphabets ([[Phoenician]], [[Aramaic]], [[Hebrew]], [[Syriac]], [[Arabic]] and others).
+#* {{quote-text|en|year=1658|author=w:Thomas Browne|title=The Garden of Cyrus|page=210|publisher=Folio Society|year_published=2007
+|passage=The same number in the Hebrew mysteries and Cabalistical accounts was the character of Generation; declared by the Letter '''''He''''', the fifth in their Alphabet.}}
+#* {{quote-text|en|year=1988|author=w:Milorad Pavić|translator=Christina Pribićević-Zorić|title=Dictionary of the Khazars|page=7|publisher=Vintage|year_published=1989
+|passage=This Nehama claimed that in his own hand he recognized the consonant “'''he'''” of his Hebrew language, and in the letter “vav” his own male soul.}}
+# The name of the first letter of the [[Old South Arabian]] abjad.
+
+=====Translations=====
+{{trans-top|fifth letter of the various Semitic alphabets}}
+* Catalan: {{t+|ca|he|f}}
+* Finnish: {{t+|fi|he}}
+* French: {{t+|fr|hè|m}}, {{t+|fr|hê|m}}, {{t+|fr|he|m}}
+* Hebrew: {{t+|he|הֵא|f|tr=hé|sc=Hebr}}, {{t+|he|ה}} {{qualifier|symbol}}
+* Malay: {{t+|ms|ha}}
+* Yiddish: {{t|yi|הא|tr=hey|sc=Hebr}}
+{{trans-bottom}}
+
+====See also====
+* [[Appendix:Hebrew alphabet]]
+
+====Further reading====
+* {{pedia|He (letter)}}
+
+===Etymology 3===
+
+====Interjection====
+{{head|en|interjection}}
+
+# {{lb|en|uncommon|usually|reduplicated}} {{n-g|An expression of laughter.}}
+#: {{syn|en|ha|hehe}} {{q|more common}}
+#* {{quote-text|en|year=1897|author=Charles Dudley Warner; Hamilton Wright Mabie; Charles Henry Warner; Lucia Isabella Gilbert Runkle|title=Library of the World's Best Literature: A-Z|page=1791
+|passage=If e'er he went into excess, / 'Twas from a somewhat lively thirst; / But he who would his subjects bless, / Odd's fish!—must wet his whistle first; / And so from every cask they got, / Our king did to himself allot / At least a pot. / Sing ho, ho, ho! and '''he, he, he'''! / That's the kind of king for me.}}
+#* {{quote-text|en|year=1921|author=Norman Davey|title=The Pilgrim of a Smile|page=247
+|passage=&quot;Well, what is your next tale?&quot; said Sumner, a little brusquely. &quot;'''He, he! he, he! . . . he, he!'''&quot; chuckled the bottle, &quot;the text tale I'm going to tell you in a very funny one. It will make you laugh. There's a lady in it—'''he, he!'''—a very comic affair.&quot;}}
+
+===Anagrams===
+* {{anagrams|en|a=eh|-eh|E.H.|EH|eH|eh}}
+
+{{cln|en|heteronyms|personal pronouns|third person pronouns|two-letter words}}
+{{C|en|Hebrew letter names}}
+
+==Aukan==
+[[File:Cuniculus paca - Museo Civico di Storia Naturale Giacomo Doria - Genoa, Italy - DSC02862 (flipped, removed bg).png|thumb|Cuniculus paca]]
+
+===Noun===
+{{head|djk|noun}}
+
+# [[paca]] {{gloss|large South and Central American rodent}}
+
+===References===
+* [//www-01.sil.org/americas/suriname/Aukan/English/AukanEngDictIndex.html Aukan-English Dictionary] (SIL), citing Vernon (1985)
+
+==Breton==
+
+===Etymology===
+Compare {{cog|cy|ei}}.
+
+===Determiner===
+{{head|br|determiner|cat2=possessive determiners|requires spirant mutation}}
+
+# [[her]]
+#: {{uxi|br|'''he''' [[zad]]|[[her]] father}}
+
+==Catalan==
+
+===Pronunciation===
+* {{ca-IPA|é}}&lt;!-- both meanings --&gt;
+* {{rhymes|ca|e|s=1}}
+
+===Etymology 1===
+
+====Noun====
+{{ca-noun|f}}
+
+# [[he]] {{gl|fifth letter of various Semitic alphabets}}
+
+===Etymology 2===
+
+====Alternative forms====
+* {{alter|ca|haig}}
+
+====Verb====
+{{head|ca|verb form}}
+
+# {{ca-verb form of|haver&lt;var:aux&gt;}}
+
+==Classical Nahuatl==
+
+===Etymology===
+A natural expression.
+
+===Pronunciation===
+* {{IPA|nci|[é]}}
+
+===Interjection===
+{{head|nci|interjection}}
+
+# an expression of physical pain; [[ouch]].
+#* {{quote-text|nci|year=1571|author=w:Alonso de Molina|title=w:Vocabulario en lengua castellana y mexicana y mexicana y castellana|section=f. 22r. col. 1
+|passage='''He'''. o. interjection del / que ſequexa con do / lor.
+|translation='''He'''. ouch, and interjection used by one complaining in pain.}}
+
+===References===
+* {{cite-book|author=[[w:Alonso de Molina|Alonso de Molina]]|year=1571|title=Vocabulario en lengua castellana y mexicana y mexicana y castellana|publisher=Editorial Porrúa|page=22r}}
+
+==Danish==
+
+===Interjection===
+{{head|da|intj}}
+
+# {{lb|da|onomatopoeia}} {{non-gloss|Signifies a laugh, especially one that is slightly mischievous.}}
+
+===See also===
+* {{l|da|ha}}
+
+==Dutch==
+
+===Interjection===
+{{head|nl|interjection}}
+
+# {{misspelling of|nl|hè}}
+# {{misspelling of|nl|hé}}
+
+==Esperanto==
+
+===Pronunciation===
+{{eo-IPA|a=LL-Q143 (epo)-Lepticed7-he.wav}}
+
+===Interjection===
+{{eo-intj}}
+
+# interjection used to attract someone's attention, [[hey]]
+# interjection expressing irony
+
+====Derived terms====
+* {{l|eo|he ho}}
+
+===See also===
+* {{l|eo|hej}}
+
+{{eo BRO|8}}
+
+==Fasu==
+
+===Noun===
+{{head|faa|noun|head=hẹ}} ''or'' '''hȩ́''' {{term-label|faa|Fasu}}
+
+# [[water]]
+# [[river]]
+#: {{uxi|faa|'''he''' Aiyo|the '''River''' Aiyo}}
+# [[lake]]
+#: {{uxi|faa|'''he''' Kutupu|'''Lake''' Kutubu}}
+# [[liquid]]
+
+====Synonyms====
+* {{l|faa|hi}} {{qualifier|Namumi}}
+
+===References===
+* Karl J. Franklin, ''[https://web.archive.org/web/20160305070551/http://www-01.sil.org/pacific/png/pubs/10745/Comp_Wordlist_Gulfdistrict.pdf Comparative Wordlist 1 of the Gulf District and adjacent areas]'' (1975), page 67
+* Eunice Loeweke, Jean May, ''General grammar of Fasu (Namo Me)'' (1980)
+* Eunice Loeweke, Jean May, ''Fasu Namo Me dictionary'' (1981, digitized 2006)
+
+==Finnish==
+
+===Etymology 1===
+{{etymid|fi|pronoun}}
+From {{inh|fi|urj-fin-pro|*hek}}, from {{inh|fi|urj-fpr-pro|*sej}}. Cognates include {{cog|se|sii}}, {{cog|myv|сынь}}. The word is inflected as plural, but there is no plural marker in the nominative, except in dialects ({{m|fi|het|id=they}}). See {{m|fi|hän}} for more details on history of usage.
+
+====Pronunciation====
+{{fi-pronunciation|a=fi-he.ogg}}
+
+====Pronoun====
+{{fi-pron}}
+
+# {{lb|fi|personal}} [[they]] {{gloss|plural, only of people}}
+# {{lb|fi|respectful}} [[#English|he]], [[she]], [[one]], (singular) [[they]] {{gloss|of a single [[human being]], like {{m|fi|hän}}}}
+# [[they]] {{gloss|in indirect speech: referring to the subjects of the main clause, regardless of whether they are human beings or not, i.e. [[logophoric]] pronoun}}
+
+=====Usage notes=====
+* In standard Finnish, {{m-lite|fi||he}} is practically never omitted, despite the verb showing both the person and the number (compare the usage of {{m-lite|fi|hän}}).
+
+=====Declension=====
+* Irregular (inflectional stem {{m-lite|fi||hei-}}, as if in the plural). The [[comitative]] and [[instructive]] forms don't exist; the [[abessive]] is hardly used.
+* In addition to the standard set of cases, {{m-lite|fi||he}} and other personal pronouns have a specific [[accusative]] form, {{m-lite|fi|heidät}}.
+
+{{fi-decl-pron|1s=[[hän]]|2s=[[hänen]]|3s=[[häntä]]|4s=[[hänet]]|5s=[[hänessä]]|6s=[[hänestä]]|7s=[[häneen]]|8s=[[hänellä]]|9s=[[häneltä]]|10s=[[hänelle]]|11s=[[hänenä]]|12s=[[häneksi]]|13s=[[hänettä]]|1p='''he'''|2p=[[heidän]]|3p=[[heitä]]|4p=[[heidät]]|5p=[[heissä]]|6p=[[heistä]]|7p=[[heihin]]|8p=[[heillä]]|9p=[[heiltä]]|10p=[[heille]]|11p=[[heinä]]|12p=[[heiksi]]|13p=[[heittä]]|adv=no}}
+
+=====Synonyms=====
+* {{sense|dialectal}} {{l|fi|het}}
+* {{sense|dialectal}} {{l|fi|hyö}}
+* {{sense|colloquial}} {{l|fi|ne}}
+
+=====Derived terms=====
+{{col-auto|fi
+|heidänlainen
+|heidänlaisensa
+|heikäläinen
+}}
+
+=====Descendants=====
+* {{desc|fkv|het}}
+
+====See also====
+{{fi-personal pronouns}}
+
+====Further reading====
+* {{R:fi:KTSK|num=1|accessdate=2024-10-09}}
+
+===Etymology 2===
+From {{der|fi|phn|𐤄}} and/or {{der|fi|hbo|ה}}.
+
+====Pronunciation====
+{{fi-p|he(:)}}
+
+====Noun====
+{{fi-noun}}
+
+# [[#English|he]] {{gloss|fifth letter of the Hebrew and Phoenician scripts and the Northwest Semitic abjad}}
+
+=====Declension=====
+{{fi-decl-rosé|he|ä|ill_sg_vowel=e}}
+
+{{cln|fi|personal pronouns|two-letter words}}
+{{C|fi|Hebrew letter names|Phoenician letter names}}
+
+==German Low German==
+
+===Alternative forms===
+* {{l|nds-de|hee}}
+* {{q|in other dialects, including [[Mecklenburgisch]], [[West Pomeranian]] and [[Low Prussian]]}} {{l|nds-de|hei}}
+* {{q|in other dialects, including [[Sauerländisch]]}} {{l|nds-de|hai}}
+* {{q|in other dialects, including regional [[Westphalian]] and [[East Frisian]] as rare alternative form}} {{l|nds-de|hä}}
+
+===Etymology===
+From {{inh|nds-de|gml|hê}}, from {{inh|nds-de|osx|hē}}, from {{inh|nds-de|gmw-pro|*hiʀ}}, from {{inh|nds-de|gem-pro|*hiz|t=this, this one}}.
+
+===Pronunciation===
+* {{IPA|nds-de|/hɛɪ̯/}}
+
+===Pronoun===
+{{head|nds-de|pronoun|g=m|genitive|sin|dative 1|em|dative 2|en|dative 3|jüm|accusative 1|em|accusative 2|en}}
+
+# {{lb|nds-de|in some dialects, including|Münsterländisch|Mecklenburgisch|Western Pomeranian|and|Low Prussian|personal}} {{l|en|he}} {{non-gloss|(third-person singular masculine pronoun)}}
+#: {{ux|nds-de|q=Low Prussian|'''He''' ös to lat.|'''He''' is too late.}}
+
+====Usage notes====
+* Which dative is employed depends on dialect, not on function.
+* Some dialects might consider any of the inflected forms obsolete.
+
+===Further reading===
+* G. Ungt, ''Twee Geschichten in Mönstersk Platt. Ollmanns Jans in de Friümde un Ollmanns Jans up de Reise'', 1861. The text has dative ''em'' and accusative ''em'' and ''en'', and on page 22 the author notes: &quot;Hier und in vielen Fällen steht der Dativ ''em'' statt des Accusativ ''en'' (ihm statt ihn) nach der Bequemlichkeit, die sich diese Mundart erlaubt.&quot; ''(Here and in many other places stands the dative ''em'' instead of the accusative ''en''&lt;!-- (''him [dat.]'' instead of ''him [acc.]'') --&gt; ...)''
+
+==Hadza==
+
+===Pronunciation===
+* {{IPA|hts|/ɦe/}}
+
+===Verb===
+{{head|hts|verb}}
+
+# to [[say]], to [[tell]]
+#: {{syn|hts|î|hiyagga}}
+
+{{C|hts|Language}}
+
+==Hawaiian==
+
+===Etymology===
+{{rfe|haw}}
+
+===Article===
+{{head|haw|article|indefinite}}
+
+# [[a#Article|a]], [[an#Article|an]]
+#: {{ux|haw|'''he''' wahine au|I am '''a''' woman}}
+#: {{ux|haw|'''he''' wahine kāna|s/he has '''a''' wife}}
+
+==Ido==
+
+===Etymology===
+From {{suffix|io|h|e&lt;id:consonant&gt;}}.
+
+===Pronunciation===
+* {{IPA|io|/he/|/hɛ/}}
+
+===Noun===
+{{head|io|noun|plural|be-i}}
+
+# {{non-gloss|The name of the [[Appendix:Latin script|Latin script]] letter '''[[H]]'''/'''[[h]]'''.}}
+
+===See also===
+* {{list:Latin script letter names/io}}
+
+==Japanese==
+
+===Romanization===
+{{ja-romaji}}
+
+# {{Latn-def|ja|syllable|へ|ヘ|he}}
+
+==Kholosi==
+
+===Etymology===
+Cognate with {{cog|sd|ھِي|tr=hī||this}}.
+
+===Pronoun===
+{{head|inc-kho|pronoun}}
+
+# [[it]] {{q|proximal}}
+
+===References===
+* {{R:inc-kho:Anonby}}
+
+==Kikuyu==
+
+===Etymology===
+Hinde (1904) records ''kuha'' as an equivalent of English {{m|en|give}} in “Jogowini dialect” of Kikuyu, listing also {{cog|sw|pa|kupa}}, etc. as its equivalents.&lt;ref name=&quot;hh1904&quot;&gt;Hinde, Hildegarde (1904). [https://archive.org/details/vocabulariesofka00hindiala ''Vocabularies of the Kamba and Kikuyu languages of East Africa''], pp. 26&amp;ndash;27. Cambridge: Cambridge University Press.&lt;/ref&gt;
+
+===Pronunciation===
+* {{IPA|ki|/hɛ/}}
+
+===Verb===
+{{head|ki|verb|infinitive|kũhe}}
+
+# to [[give]]
+
+====Derived terms====
+{{qualifier|Proverbs}}
+* {{l|ki|mwana ndaheanagwo}}
+
+====Related terms====
+{{qualifier|Nouns}}
+* {{l|ki|kĩheeo|kĩhe(e)o|g=c7}}
+* {{l|ki|maheeo|g=c6}}
+
+===References===
+&lt;references /&gt;
+* {{R:ki:Armstrong|p=361}}
+
+==Lakota==
+
+===Particle===
+{{head|lkt|particle}}
+
+# ''[[question]]-marking particle used by females in formal speech''
+#: {{ux|lkt|Mázaškaŋškaŋ tóna he?|[[what time is it]]?|inline=y}}
+
+====Usage notes====
+Informally, both men and women use this question-marking particle. When speaking formally, however, only women use it. In a formal setting, men use {{l|lkt|huwó}}, {{l|lkt|hwo}}, or {{l|lkt|huŋwó}}.
+
+====Synonyms====
+* {{l|lkt|huwó}} (used by men)
+
+{{cln|lkt|interrogative particles}}
+
+==Mandarin==
+
+===Romanization===
+{{cmn-pinyin}}
+
+# {{cmn-pinyin of|荷}}
+
+{{cmn-pinyin|notr=1}}
+
+# {{nonstandard spelling of|cmn|sc=Latn|hē}}
+# {{nonstandard spelling of|cmn|sc=Latn|hé}}
+# {{nonstandard spelling of|cmn|sc=Latn|hě}}
+# {{nonstandard spelling of|cmn|sc=Latn|hè}}
+
+====Usage notes====
+* {{cmn-toneless-note}}
+
+==Maori==
+
+===Etymology===
+Cognate with {{cog|haw|he}}
+
+===Article===
+{{mi-art}}
+
+# [[a]], [[an]], [[some]]: indefinite article
+
+===See also===
+* {{l|mi|te}} (for &quot;the&quot; in singular)
+* {{l|mi|ngā}} (for &quot;the&quot; in plural)
+
+==Middle English==
+
+===Etymology 1===
+From {{inh|enm|ang|hē}}, from {{inh|enm|gmw-pro|*hiʀ}}, from {{inh|enm|gem-pro|*hiz||this, this one}}.
+
+====Pronunciation====
+* {{IPA|enm|/heː/}}
+
+====Pronoun====
+{{head|enm|pronoun|accusative|him|or|hine|genitive|his|or|hisen|possessive determiner|his}}
+
+# {{senseid|enm|he}} {{n-g|Third-person singular masculine pronoun:}} {{l|en|he}}
+#* '''14th century''', [[w:Geoffrey Chaucer|Chaucer]], ''[[s:The Canterbury Tales/General Prologue|General Prologue]]'':
+#*: {{quote|enm|Benynge '''he''' was, and wonder diligent|Kind '''he''' was, and very diligent}}
+# {{l|en|it}}; used also of inanimate objects
+# {{lb|enm|impersonal}} {{n-g|Third-person singular impersonal pronoun:}} [[one]]; [[you]]
+
+=====Usage notes=====
+In addition to referring to male humans and animals, this pronoun was used for inanimate objects belonging to the masculine grammatical gender early in Middle English.  As grammatical gender obsolesced, this pronoun continued to refer to inanimate objects.
+
+=====Alternative forms=====
+* {{alter|enm|hee|ȝe|e|hey|hi|hie|hye|heo|ho|hæ|ha|a}}
+
+=====Descendants=====
+* {{desc|en|he}}
+* {{desc|sco|he}}
+* {{desc|yol|hea|alts=1}}
+
+=====See also=====
+{{enm-decl-personal pronouns}}
+
+====References====
+* {{R:MED Online|he|pron|MED20189}}
+
+===Etymology 2===
+From {{inh|enm|ang|hīe}}, {{m|ang|hī}}. Compare {{m|enm|þei}}.
+
+====Pronoun====
+{{head|enm|pronoun|accusative|hem|or|he|genitive|heres|or|heren|possessive determiner|here}}
+
+# {{senseid|enm|they}} {{n-g|Third-person plural nominative pronoun:}} {{l|en|they}}
+#* {{RQ:Peterborough Chronicle|c|1137|89|verso=yes|Mani þusen '''hi''' drapen mid hungær.|Many thousands '''they''' overcame with hunger.}}
+# {{n-g|Third-person plural accusative pronoun:}} {{l|en|them}}
+
+=====Alternative forms=====
+* {{senseid|enm|they}}{{alter|enm|heo|heȝ|hey|hei|ha|hay|hy|hi|hye|hie|hig|hiȝ|hij|hio|ho|hoe|hue|huy|hui|e|i|a}}
+
+=====Descendants=====
+* {{desc|yol|hi|alts=1}}
+
+=====See also=====
+{{enm-decl-personal pronouns}}
+
+=====References=====
+* {{R:MED Online|he|pron.(3)|MED20191}}
+
+===Etymology 3===
+
+====Pronoun====
+{{head|enm|pronoun}}
+
+# {{alt form|enm|heo|t=she|id=she}}
+
+===Etymology 4===
+
+====Interjection====
+{{head|enm|interjection}}
+
+# {{alt form|enm|hey||hey}}
+
+===Etymology 5===
+
+====Noun====
+{{head|enm|noun}}
+
+# {{alt form|enm|heye||hedge}}
+
+===Etymology 6===
+
+====Adjective====
+{{enm-adj||her|hest}}
+
+# {{alt form|enm|heigh||high}}
+
+===Etymology 7===
+
+====Verb====
+{{enm-verb|heth|hende|hed}}
+
+# {{alt form|enm|hyen||to go quickly}}
+
+==Middle Low German==
+
+===Etymology===
+{{dercat|gml|gmw-pro|gem-pro|inh=2}}
+From {{inh|gml|osx|hē}}.
+
+===Pronunciation===
+* '''[[Wiktionary:About_Middle_Low_German#Stem_vowels|Stem vowel]]: ê⁴'''
+** {{IPA|gml|/heː/|a=originally}}
+
+===Pronoun===
+{{head|gml|pronoun|head=hê}}
+
+# {{lb|gml|third person singular masculine nominative}} [[he]]
+
+====Declension====
+{{gml-perpron}}
+
+==North Frisian==
+
+===Pronoun===
+{{head|frr|pronoun}}
+
+# {{alternative form of|frr|hi}}
+
+==Norwegian Nynorsk==
+
+===Verb===
+{{head|nn|verb form}}
+
+# {{lb|nn|dialectal|Trøndelag}} {{alt form|nn|nocap=1|hev||have, has}}
+#: E '''he''' ei bok om føgla. '''He''' hann løst å kjøp ho?
+#:: I '''have''' a book about birds. Does he want to buy it? (''literally &quot;does he '''have''' desire to by her?&quot;'')
+
+==Old English==
+
+===Etymology===
+{{dercat|ang|gmw-pro|inh=1}}
+From {{inh|ang|gmw-pro|*hiʀ}}, from {{inh|ang|gem-pro|*hiz||this, this one}}.
+
+===Pronunciation===
+* {{ang-IPA|hē}}
+
+===Pronoun===
+{{head|ang|pronoun|head=hē|g=m|accusative|hine|genitive|his|dative|him}}
+
+# {{l|en|he}}
+#* {{quote-book|ang|text=''Oft him ānhaga · āre gebīdeð, &lt;br/&gt;Metudes miltse, · þēah þe '''hē''' mōdċeariġ''|t=A loner oft waits a grace for himself, &lt;br/&gt;Creator's mercy, even if '''he''' is sorrowful|title=The Wanderer|year=10th century|url=https://www.helsinkicorpus.arts.gla.ac.uk/browse.py?fs=100&amp;format=html&amp;toc=author&amp;highlight=&amp;pln=true&amp;params=false&amp;pb=true&amp;text=wand}}
+# [[it]] (when the thing being referred to is masculine)
+# [[they]] (singular) ''(denotes someone of unknown gender)''
+
+====Declension====
+{{ang-pron-pers}}
+
+====Descendants====
+* {{desctree|enm|he|id=he}}
+
+===References===
+* {{R:ang:BT|hē|ref=18236}}
+
+==Old Saxon==
+
+===Alternative forms===
+* {{l|osx|hie}}
+
+===Etymology===
+From {{inh|osx|gmw-pro|*hiʀ}}, from {{inh|osx|gem-pro|*hiz}}.
+
+===Pronoun===
+{{head|osx|pronoun|g=m|head=hē}}
+
+# {{l|en|he}}
+
+====Declension====
+{{osx-decl-ppron}}
+
+====Descendants====
+* {{desc|nds-de|he}}
+
+==Polish==
+
+===Etymology===
+{{onom|pl}}.
+
+===Pronunciation===
+{{pl-pr|-|MB=#}}
+
+===Interjection===
+{{h|pl|interjection}}
+
+# {{lb|pl|Near Masovian|often repeated}} {{ng|used to direct [[ox]]en to [[move forward]]}}
+#: {{cot|pl|byś|eć|kse}}
+
+===Further reading===
+* {{R:pl:Matlakowski:1891||372}}
+
+{{cln|pl|animal commands}}
+
+==Portuguese==
+
+===Verb===
+{{head|pt|verb form}}
+
+# {{obsolete spelling of|pt|é}}
+
+==Romanian==
+
+===Interjection===
+{{head|ro|interjection}}
+
+# {{alternative form of|ro|hei}}
+
+==Scots==
+
+===Etymology===
+{{dercat|sco|gmw-pro|gem-pro|inh=2}}
+From {{inh|sco|enm|he}}, from {{inh|sco|ang|hē}}.
+
+===Pronunciation===
+* {{IPA|sco|/hi/|/hɪ/}}
+* {{rhymes|sco|iː}}
+
+===Pronoun===
+{{head|sco|pronoun|third-person singular, masculine, nominative case; accusative|him|reflexive|himsel|possessive|his}}
+
+# [[he]]
+
+==Spanish==
+
+===Pronunciation===
+{{es-pr|+&lt;hmp:hé,e&gt;}}
+
+===Etymology 1===
+{{bor+|es|ar|هَا||behold!, lo!, look!}}.&lt;ref&gt;{{R:es:DCECH}}&lt;/ref&gt; Cognate to {{cog|gl|eis}} and {{cog|pt|eis}}.
+
+====Adverb====
+{{es-adv}}
+
+# {{lb|es|literary}} [[here]] [[is]]
+# {{lb|es|literary}} [[behold]] {{q|+ {{m|es|aquí}}}}
+
+=====Usage notes=====
+* Takes pronoun suffixes, e.g. {{m|es|heme||here I am}}, and is mostly used together with {{l|es|aquí}}, {{l|es|ahí}}, {{l|es|allí}}.
+
+=====Derived terms=====
+{{col-auto|es
+|he aquí
+|he ahí
+|he allí
+}}
+
+===Etymology 2===
+
+====Noun====
+{{es-noun|f}}
+
+# {{l|en|he}}; the Hebrew letter [[ה]]
+
+===Etymology 3===
+{{nonlemma}}
+
+====Verb====
+{{head|es|verb form}}
+
+# {{es-verb form of|haber}}
+
+====References====
+&lt;references/&gt;
+
+===Further reading===
+* {{R:es:DRAE}}
+
+{{C|es|Hebrew letter names}}
+
+==Swedish==
+
+===Alternative forms===
+* {{alt|sv|hä}}
+
+===Pronunciation===
+{{IPA|sv|/heː/}} 
+
+===Etymology 1===
+Related to {{m|sv|häva}}.
+
+====Verb====
+{{sv-verb-reg|he|r|dde}}
+
+# {{lb|sv|regional|colloquial|northern}} to [[put]]
+#: {{syn|sv|häva|q=Hälsingland region}}
+#: {{ux|sv|'''He''' den på bordet|'''Put''' it on the table}}
+#: {{ux|sv|'''Häv/He på''' stereon|'''Put on''' the stereo ''(Hälsingland/further north)''}}
+
+=====Usage notes=====
+Not widely known to native Swedish speakers. Primarily used in certain regions of [[Norrland]] in Sweden.
+
+=====Conjugation=====
+{{sv-conj-wk|end=vw}}
+
+===Etymology 2===
+
+====Pronoun====
+{{head|sv|pronoun|g=n}}
+
+# {{lb|sv|regional|Northern Sweden|Ostrobothnia}} it
+
+=====Usage notes=====
+In Sweden, primarily used in the northern parts of norrland. In Finland, used in the northern part of Swedish-speaking Ostrobothnia.
+
+===See also===
+* {{l|sv|det}}
+
+==Tagalog==
+
+===Pronunciation===
+{{tl-pr}}
+
+===Etymology 1===
+
+====Interjection====
+{{tl-head|interjection|he!|b=+}}
+
+# {{alt form|tl|tse}}
+
+===Etymology 2===
+
+====Noun====
+{{tl-noun|b=+}} {{tlb|tl|historical}}
+
+# {{alt sp|tl|ge}}
+
+===Anagrams===
+* {{anagrams|tl|a=eh|eh}}
+
+{{C|tl|Latin letter names}}
+
+==Tokelauan==
+
+===Etymology===
+From {{inh|tkl|poz-pnp-pro|*se}}. Cognates include {{cog|haw|he}} and {{cog|mi|he}}.
+
+===Pronunciation===
+* {{tkl-IPA|he}}
+* {{hyph|tkl|he}}
+
+===Article===
+{{head|tkl|article}}
+
+# {{n-g|Singular indefinite article}}; [[any]], [[an]]
+
+====Derived terms====
+{{col4|tkl
+|hetahi|hō he}}
+
+====See also====
+{{tkl-articles}}
+
+===References===
+* {{R:tkl:TD|page=304}}
+
+==Turkish==
+
+===Etymology 1===
+
+====Noun====
+{{tr-noun|yi|ler}}
+
+# {{Latn-def|tr|name|H|h}}
+
+====See also====
+* {{list:Latin script letter names/tr}}
+
+===Etymology 2===
+
+====Noun====
+{{head|tr|noun}}
+
+# Letter of the Arabic alphabet: {{lang|mul|sc=Arab|ه}}
+
+===Etymology 3===
+
+====Particle====
+{{head|tr|particle}}
+
+# {{alternative form of|tr|ha}}
+
+====Interjection====
+{{head|tr|interjection}}
+
+# {{alternative form of|tr|ha}}
+
+{{C|tr|Arabic letter names}}
+
+==Yanomamö==
+
+===Alternative forms===
+* {{alt|guu|fe}}
+
+===Noun===
+{{head|guu|noun}}
+
+# [[head]]
+
+===References===
+* {{R:guu:DELY}}
+
+{{c|guu|Anatomy}}
+
+==Yola==
+
+===Pronoun===
+{{head|yol|pronoun}}
+
+# {{alt form|yol|hea}}
+#* {{quote-book|yol|year=1867|title=GLOSSARY OF THE DIALECT OF FORTH AND BARGY|passage=Co thou; Co '''he'''.|translation=Quoth thou; Says '''he'''.}}
+#* {{quote-book|yol|year=1867|chapter=A YOLA ZONG|number=11|page=88|title=SONGS, ETC. IN THE DIALECT OF FORTH AND BARGY|passage=W' vengem too hard, '''he''' zunk ee commane,|translation=With venom too hard, '''he''' sunk his bat-club,}}
+#* {{quote-book|yol|year=1867|chapter=A YOLA ZONG|number=12|page=88|title=SONGS, ETC. IN THE DIALECT OF FORTH AND BARGY|passage=Licke a mope an a mile, '''he''' gazt ing a mize;|translation=Like a fool in a mill, '''he''' looked in amazement;}}
+#* {{quote-book|yol|year=1867|chapter=A YOLA ZONG|number=13|page=90|title=SONGS, ETC. IN THE DIALECT OF FORTH AND BARGY|passage='''He''' at nouth fade t'zey, llean vetch ee man,|translation='''He''' that knows what to say, mischief fetch the man,}}
+#* {{quote-book|yol|year=1867|chapter=CASTEALE CUDDE'S LAMENTATION|number=6|page=104|title=SONGS, ETC. IN THE DIALECT OF FORTH AND BARGY|passage='''He''' zide hea'de help mee udh o' hoan|translation='''He''' said he'd help me out of hand}}
+
+===References===
+* {{R:Poole 1867|page=31}}
+
+==Yoruba==
+
+===Etymology 1===
+
+====Pronunciation====
+* {{yo-IPA|he}}
+
+====Verb====
+{{yo-verb|he}}
+
+# to [[come across]], to [[come by]]
+#: {{uxi|yo|Mo rí ẹ̀bùn '''he''', mo sì bẹ̀rẹ̀ sí í ṣí i.|I '''came across''' a gift and started to open it.}}
+#* {{quote-web|yo|year=1995?|title=‘Níwọ̀n Bí A Ti Ní Iṣẹ́-òjíṣẹ́ Yìí, Àwa Kò Juwọ́sílẹ̀’|site=ÀKÁ ÌWÉ ORÍ ÍŃTÁNẸ́Ẹ̀TÌ ti Watchtower|url=https://wol.jw.org/yo/wol/d/r36/lp-yr/1995085#h=18|text=Ìṣòro mìíràn tí mo dojúkọ, yàtọ̀ sí ti èdè, ni àníyàn léraléra pé kí àwọn ọlọ́pàá má '''he''' mí.|t=Another problem I faced, apart from the language, was the constant concern over being '''picked up''' by the police.}}
+
+=====Usage notes=====
+* often used in a serial verb construction with {{l|yo|rí}}.
+
+===Etymology 2===
+
+====Pronunciation====
+* {{yo-IPA|hè}}
+
+====Verb====
+{{yo-verb|hè}}
+
+# {{lb|yo|Ìkálẹ̀}} {{lb|yo|transitive}} {{alt form|yo|sè|from=Ìkálẹ̀|t=to [[cook]]}}
+
+=====Usage notes=====
+* '''he''' when followed by a direct object.
+
+=====Derived terms=====
+{{der2|yo
+|àhè &lt;t:banquet&gt;
+|àìhè &lt;t:uncooked&gt;
+|híhè &lt;t:cooked, cooking&gt;
+|ùhè &lt;t:manner of cooking&gt;
+|èhè &lt;t:cooked&gt;
+}}</text>
+            <sha1>ao212xr349gfes0wimtlgnj0wg7roqh</sha1>
+        </revision>
+    </page>
+    <page>
+        <title>she</title>
+        <ns>0</ns>
+        <id>5748</id>
+        <revision>
+            <id>82401231</id>
+            <parentid>82329809</parentid>
+            <timestamp>2024-10-15T09:43:33Z</timestamp>
+            <contributor>
+                <username>WingerBot</username>
+                <id>2024159</id>
+            </contributor>
+            <minor />
+            <comment>rename Venetian -&gt; Venetan in translations per
+                [[Wiktionary:Language_treatment_requests#Glottonym_tweaks:_Franco-Provençal,_Venetian_→_Francoprovençal,_Venetan]]
+                (manually assisted)</comment>
+            <origin>82401231</origin>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text bytes="27438" sha1="1ebs5tanquk6jrpukkvlk2n18qkurri" xml:space="preserve">{{also|Appendix:Variations of &quot;she&quot;}}
+==English==
+{{wikipedia|She (disambiguation)}}
+
+===Etymology===
+From {{inh|en|enm|sche}}, {{m|enm|scho}}, {{m|enm|hyo}}, {{m|enm|ȝho|t=she}}, whence also Yorkshire dialectal {{m|en|shoo|t=she}}, {{cog|sco|she}}, {{m|sco|sho|t=she}}.
+
+Probably from {{inh|en|ang|hēo}}&lt;ref name=&quot;CHEL&quot;&gt;{{cite-book|en|year=1992|title=Cambridge History of the English Language|chapter=Phonology and Morphology|volume=II|editor=Norman Blake|author=Roger Lass|pages=118-119}}&lt;/ref&gt;&lt;ref name=&quot;OED&quot;&gt;{{R:OED Online|she|pos=''pron.¹, n., and adj.''|id=177685|noformat=1|date=September 2013}}&lt;/ref&gt; (whence dialectal {{cog|en|hoo}}), with an irregular change in stress from ''hēo'' to ''heō'' {{IPAchar|/hjoː/}}, then a development from {{IPAchar|/hj-/}} to {{IPAchar|/ç/}} to {{IPAchar|/ʃ-/}},&lt;ref name=&quot;Fulk&quot;/&gt;&lt;ref name=&quot;Clark&quot;/&gt; similar to the derivation of ''Shetland'' from {{m+|non|Hjaltland}}. In this case, ''she'' is from {{inh|en|gmw-pro|*hiju}}, from {{inh|en|gem-pro|*hijō||this, this one|g=f}}, from {{der|en|ine-pro|*ḱe-}}, {{m|ine-pro|*ḱey-||this, here}}, and is cognate with {{cog|stq|jo}}, {{m|stq|ju}}, {{cog|fy|hja}}, {{cog|frr|jü}}, {{cog|da|hun}}, {{cog|sv|hon}}; more at {{m|en|he}}.
+
+A derivation from {{cog|ang|sēo|t=the or that&quot;, occasionally &quot;she}} is also possible, though less likely.&lt;ref name=&quot;OED&quot;/&gt;&lt;ref name=&quot;Fulk&quot;&gt;{{cite-book|author=R. D. Fulk|title=An Introduction to Middle English: Grammar and Texts|year=2012|pages=64-65}}&lt;/ref&gt;&lt;ref name=&quot;Clark&quot;&gt;Cecily Clark, ''The Peterborough Chronicle, 1070-1154'' (1970), page lxvi-lxvii: &quot;Most favoured recently has been derivation from ''heo''/''hie'', though a chain of development [hi] &gt; [hj] &gt; [ç] &gt; [ʃ]. The decisive change [ç] &gt; [ʃ] has been various explained, either as an example of a Norse sound-change found elsewhere only in a few place-names (the so-called &quot;Shetland theory&quot;) or as substitution of a common initial phoneme for a rare one, linked with the need to maintain the distinction both from masculine ''he'' and from second-person plural ''ȝe''. Geographical distribution of''h-'' and ''sch-'' forms during the Middle English period is said to support derivation from stress-shifted [hjè]. [... There] still seems, however, something to be said for the older theory put forward in ''NED'': that ''scæ'' developed from ''sie'', through [sjè]. Certainly the demonstrative ''seo'' was used as an emphatic pronoun, as, for instance, in ''Sermo in Festis S. Marie''; and, although the variant nom. sing. ''sie'' is regularly used only in the ''Vespasian Psalter Gloss'' (once in ''Rushworth St. Matthew''), such forms as ''sy ea'' in the E Preface (beside DF ''seo'') and ''si [...]'' in the ''Northhamptonshire Geld-Roll'' suggest that it may have been current in Peterborough usage as well. This theory explains better than that of derivation from stress-shifted ''heo''/''hie'' the coexistence of ''sch-'' and ''h-''forms in the same text, as in ''Sir Gawain'' (''scho'' and ''ho'') and ''William of Palerne'' (''sche'' and ''he''). Its weakness lies in failing to explain why the [ʃ], regular in the pronoun, never occurs in the demonstrative [...]&quot;&lt;/ref&gt; In that case, {{m|ang|sēo}} would have undergone a change in stress from ''sēo'' to ''seō'' {{IPAchar|/sjoː/}}, then a change from {{IPAchar|/sj-/}} to {{IPAchar|/ʃ-/}}, similar to the derivation of ''sure'' from {{m+|fro||seur}}.&lt;ref name=&quot;Clark&quot;/&gt;&lt;ref name=&quot;Wardale&quot;&gt;E. E. Wardale, ''An Introduction to Middle English'' (1937 [2016]), chapter VI (pp. 91-92 and notes), covers other proposed explanations, including that it is from a mixture of both {{m|ang|hēo}} and {{m|ang|sēo}}&lt;/ref&gt; It would then be cognate to {{cog|nl|zij}} and {{cog|de|sie}}.
+
+Neither etymology would be expected to yield the modern [[vocalism]] in {{IPAchar|/iː/}} (the expected form would be {{m|en|shoo|id=she}}, which is in fact found dialectally). It may be due to influence from {{m|en|he}},&lt;ref name=&quot;CHEL&quot;/&gt; but both {{m|ang|hēo}} and {{m|ang|sēo}} also have rare variants ({{m|ang|hīe}} and {{m|ang|sīe}}) that may give modern English {{IPAchar|/iː/}}.&lt;ref name=&quot;Clark&quot;/&gt;&lt;ref&gt;{{R:ang:Dictionary of Old English|hē, hēo, hit|E17157}}&lt;/ref&gt;
+
+===Pronunciation===
+* {{IPA|en|/ʃiː/|a=UK}}
+* {{IPA|en|/ʃi/|a=US}}
+* {{audio|en|en-us-she.ogg|a=US}}
+* {{audio|en|En-uk-she.ogg|a=UK}}
+* {{rhymes|en|iː|s=1}}
+* {{homophone|en|sidhe|Xi|shee}}
+
+===Pronoun===
+{{wikipedia|She (pronoun)}}
+{{en-pron|desc=third-person singular, feminine, nominative case|oblique and possessive|her|possessive|hers|reflexive|herself}}
+
+# {{lb|en|personal}} The [[female]] (typically) person or animal previously mentioned or implied.
+#: {{ux|en|I asked Mary, but '''she''' said that '''she''' didn't know.}}
+#: {{ux|en|After the cat killed a mouse, '''she''' left it on our doorstep.}}
+#* {{RQ:Spenser Faerie Queene|book=II|canto=IX|passage=Goodly '''she''' entertaind those noble knights, / And brought them vp into her castle hall {{...}}}}
+#* {{quote-book|en|year=1917| year_published= 9 September 2004 |page=71|title= The Darling and Other Stories|author= Anton Chekhov|tlr=Constance Garnett|publisher= w:Project Gutenberg|url= https://archive.org/stream/thedarlingandoth13416gut/13416.txt |isbn= 3734019680 |passage= The mother, Ekaterina Pavlovna, who at one time had been handsome, but now, asthmatic, depressed, vague, and over-feeble for her years, tried to entertain me with conversation about painting. Having heard from her daughter that I might come to Shelkovka, '''she''' had hurriedly recalled two or three of my landscapes which she had seen in exhibitions in Moscow, and now asked what I meant to express by them.}}
+# {{lb|en|personal|sometimes|_|affectionate}} A ship or boat.
+#: {{ux|en|'''She''' could do forty knots in good weather.}}
+#: {{ux|en|'''She''' is a beautiful boat, isn’t '''she'''?}}
+# {{lb|en|personal|dated|sometimes|_|affectionate}} A country, or sometimes a city, province, planet, etc.
+#: {{ux|en|'''She''' is a poor place, but has beautiful scenery and friendly people.}}
+# {{lb|en|personal|affectionate|or|poetic|chiefly|dated}} A thing, especially a machine or other object, such as a [[car]], a [[computer]], or (poetically) a [[season]].
+#: {{ux|en|'''She''' only gets thirty miles to the gallon on the highway, but '''she'''’s durable.}}
+#* {{quote-journal|en|year=1928|work=The Journal of the American Dental Association|page=765|passage=Prodigal in everything, summer spreads her blessings with lavish unconcern, and waving her magic wand across the landscape of the world, '''she''' bids the sons of men to enter in and possess. Summer is the great consummation.}}
+#* {{quote-song|en|year=1977|artist=The Leopards|album=Kansas City Slickers|title=57 Chevy|passage='''She''' is my 57 Chevy / My 57 Chevy runs so fine / No one can beat my 57 Chevy}}
+#*{{RQ:Walliams Bad Dad|text=The car’s engine revved up, and the back wheels screeched. Then '''she''' lurched forward at terrific speed.}}
+# {{lb|en|personal|nonstandard}} A person whose gender is unknown or irrelevant {{qualifier|used in a work, along with or in place of ''[[he]]'', as an indefinite pronoun}}.
+#* {{quote-text|en|year=1990|author=w:Mihaly Csikszentmihalyi|title=Flow
+|passage=Optimal experience is thus something that we ''make'' happen. For a child, it could be placing with trembling fingers the last block on a tower '''she''' has built, higher than any '''she''' has built so far; for a swimmer, it could be trying to beat his own record; for a violinist, mastering an intricate musical passage.}}
+
+====Usage notes====
+* Since at least the 1920s and 30s, some [[gay]] or [[queer]] men refer to other gay or queer men and/or themselves with ''she''/''her'' pronouns, as well as with other feminine terms such as ''[[Miss]]'' and ''[[girl]]'', to signal their sexuality rather than their&lt;!-- sex or--&gt; gender identity;&lt;ref&gt;Greville G. Corbett, ''The Expression of Gender'' (2013), page 26: &quot;There are uses of she to refer to people who are attributed and claim male sex. Rudes and Healy 1979 give many examples collected in their ethnolinguistic investigation among gay males in Buffalo, NY.&quot;&lt;/ref&gt; this has sometimes been termed &quot;the [[gay she]]&quot;:&lt;ref&gt;Kirby Conrod, &quot;Pronouns in motion&quot;, in ''Lavender Linguistics'' (2018), page 11&lt;/ref&gt;&lt;ref&gt;Anna T., ''[http://cup.columbia.edu/book/opacity-minority-improvisation/9783837651331 Opacity - Minority - Improvisation]: An Exploration of the Closet Through Queer Slangs and Postcolonial Theory'' ({{ISBN|9783837651331}}, 2020), pages 84-85&lt;/ref&gt;
+{{rel-top|examples, details, and additional references}}
+* {{quote-text|en|year=1997|author=Anna Livia; Kira Hall|title=Queerly Phrased: Language, Gender, and Sexuality|page=359
+|passage=In English, gay men often use the female pronoun ''she'' to refer to other gay men:&lt;br&gt;SPEAKER A: Speaking of fags, where is Miss Thing?&lt;br&gt;SPEAKER B: You mean Ron?&lt;br&gt;SPEAKER A: Yeah.&lt;br&gt;SPEAKER B: I don't know where she is.&lt;br&gt;(Rudes and Healy ['Is She For Real'] 1979: 61)&lt;br&gt;{{...|In this example, Ron is first introduced as Miss Thing, a feminine designator that is then anaphorized as ''she'' from grammatical necessity There are also cases where no antecedent feminine is introduced to justify the use of feminine pronouns, [...] In this case, ''she'' is deictic rather than anaphoric and therefore stands out as more marked. [...] This use of female pronouns to refer to gay men is limited to specifically gay contexts; it can have dire social consequences if the device misfires. It is important to note that}} this linguistic strategy is not intended to reflect a feminine persona so much as to dissociate the speaker from heterosexual alliance. As such, it is a statement of sexual orientation rather than of sexual [/gender] identity. The men who use these feminine forms to refer to themselves or to other gay men are designating themselves, as well as the referents, as traitors to heterosexual masculinity.}}
+* '''1994'''&lt;!-- (also reprinted in 2008)--&gt;, George Chauncey, ''Gay New York: Gender, Urban Culture, and the Making of the Gay Male World, 1890-1940'', pages 56-57:
+*: One indication of the extent to which men became accustomed to thinking of fairies as pseudo-women was provided in 1939 by a State Liquor Authority investigator who casually referred to a fairy (who went by a woman's name but dressed in conventional male attire) as &quot;she,&quot; even though he was testifying at a formal hearing of the Authority. &quot;We did get in a conversation with Beverly,&quot; he testified, &quot;and she stated she liked us very much.&quot; When asked by an attorney whether he meant &quot;she&quot; or &quot;he,&quot; he explained that the fairies &quot;address themselves by these effeminate names and refer to one another in the effeminate terms,&quot; and promptly continued: &quot;She [the fairy] made a date with Mr. Van Wagner and myself for Saturday night.&quot;
+{{rel-bottom}}
+
+====Alternative forms====
+* {{alt|en|shoo|hoo}} {{q|Northern England dialect}}
+* {{alt|en|shee}} {{q|obsolete}}
+
+====Derived terms====
+{{col-auto|en|M-She-U|he or she|he-said-she-said|he-she|she bitch|she-ape|shebeast|shemale|she or he|she shed|she-E-O|steady as she goes|steady-as-she-goes|thar she blows|that's all she wrote|that's what she said|there she blows|sheanderthal|as she is spoke|go tell your mother she wants you}}
+
+====Related terms====
+* {{l|en|she-}}
+
+====Translations====
+{{trans-top|person}}
+* Abkhaz: {{t|ab|лара}}
+* Afar: {{t|aa|is}}
+* Afrikaans: {{t+|af|sy}}
+* Akan: {{t|ak|ɔno}}
+* Albanian: {{t+|sq|ajo}}
+* Amharic: {{t|am|እሷ}}
+* Arabic: {{t+|ar|هِيَ}}
+*: Chadian Arabic: {{t|shu|هي|tr=hī}}
+*: Egyptian: {{t|arz|هي|tr=heyya}}
+*: Hijazi: {{t|acw|هي|tr=hiyya}}
+*: Levantine Arabic: {{t|ajp|هي|f|tr=hiyye}}
+* Aragonese: {{t|an|ella}}
+* Aramaic:
+*: Hebrew: {{t|arc|הי|tr=hī|sc=Hebr}}
+*: Syriac: {{t|arc|ܗܝ|tr=hī|sc=Syrc}}
+*: Western Neo-Aramaic: {{t|arc|ܗܝܗ|tr=hīh|sc=Syrc}}
+* Armenian: {{t+|hy|նա}} {{qualifier|both male and female}}
+* Aromanian: {{t|rup|ea}}, {{t|rup|ia}}, {{t|rup|nãsã}}, {{t|rup|nãsa}}
+* Assamese: {{t|as|তাই}} {{qualifier|distal, familiar}}, {{t|as|এই}} {{qualifier|proximal, familiar}}, {{t|as|তেওঁ}} {{qualifier|distal, honorific}}, {{t|as|এওঁ}} {{qualifier|proximal, honorific}}
+* Asturian: {{t+|ast|ella}}
+* Aymara: {{t|ay|jupa}} {{qualifier|both male and female}}
+* Azerbaijani: {{t+|az|o}} {{qualifier|both male and female}}
+* Bambara: {{t|bm|a}} {{qualifier|both male and female}}
+* Bashkir: {{qualifier|both male and female}} {{t|ba|ул}}
+* Basque: {{qualifier|both male and female}} {{t|eu|bera}}, {{t+|eu|hura}}
+* Belarusian: {{t|be|яна́}}
+* Bengali: {{qualifier|familiar, both male and female}} {{t+|bn|সে|sc=Beng}}, {{qualifier|formal, you, he, she}} {{t+|bn|আপনি|sc=Beng}}
+* Bikol Central: {{t+|bcl|siya}} {{qualifier|both male and female}}
+* Bouyei: {{t|pcc|deel}} {{qualifier|both male and female}}
+* Breton: {{t+|br|hi|f}}
+* Bulgarian: {{t+|bg|тя}}
+* Burmese: {{t+|my|သူမ|sc=Mymr}} {{qualifier|formal}}, {{t+|my|သူ|sc=Mymr}} {{qualifier|colloquial}}
+* Carpathian Rusyn: {{t|rue|она́}}
+* Catalan: {{t+|ca|ella}}
+* Central Sierra Miwok: {{t|csm|hís·ak}}
+* Chichewa: {{t|ny|iye}}
+* Chinese:
+*: Cantonese: {{t+|yue|佢|tr=keoi5}} {{qualifier|both male and female}}, {{t|yue|她|tr=ta1}} (formal, from Mandarin), {{t|yue|姖|tr=keoi5}} {{qualifier|rare}}
+*: Dungan: {{t|dng|та}} {{qualifier|both male and female}}
+*: Eastern Min: {{t|cdo|伊|tr=ĭ}} {{qualifier|both male and female}}
+*: Hakka: {{t|hak|佢|tr=kì, yì}} {{qualifier|both male and female}}
+*: Hokkien: {{t+|nan-hbl|伊|tr=i}} {{qualifier|both male and female}}
+*: Jin: {{t|cjy|她|tr=ta1}}
+*: Mandarin: {{t+|cmn|她|tr=tā}}, {{t+|cmn|他|tr=tā}} {{qualifier|also used for females, normally &quot;he&quot;}}, {{t+|cmn|伊|tr=yī}}  {{qualifier|literary, both male and female}}
+*: Teochew: {{t|nan-tws|伊||tr=i1}} {{qualifier|vernacular, both male and female}}
+*: Wu: {{t|wuu|伊}}
+* Chuvash: {{qualifier|both male and female}} {{t|cv|вӑл|sc=Cyrl}}
+* Corsican: {{t+|co|ella}}, {{t+|co|edda}}
+* Czech: {{t+|cs|ona}}
+* Dalmatian: {{t|dlm|jala}}
+* Danish: {{t+|da|hun}}
+* Dutch: {{t+|nl|zij}}
+* Dyirbal: {{not used|dbl}} {{qualifier|Dyirbal has no third-person pronoun}}
+* Egyptian: {{t-egy|.s|h=s}} {{q|suffix pronoun}}, {{t-egy|sj|h=s-y}} {{q|enclitic pronoun|proclitic pronoun}}, {{t-egy|stt|h=s-t:t}}, {{t-egy|nts|h=n:t-s}} {{q|independent pronoun}}, {{t-egy|.tj|h=ti-i}} {{q|stative ending}}
+* Erzya: {{t|myv|сон}} {{qualifier|both male and female}}
+* Esperanto: {{t+|eo|ŝi}}
+* Estonian: {{t+|et|tema}} {{qualifier|both male and female}}
+* Ewe: {{qualifier|both male and female}} {{t|ee|eya}}
+* Fala: {{t|fax|ela}}
+* Faroese: {{t+|fo|hon}}
+* Fijian: {{qualifier|both male and female}} {{t|fj|koya}}
+* Finnish: {{t+|fi|hän}} {{qualifier|both male and female}}, {{t+|fi|se}} {{qualifier|colloquial, both male and female}}
+* French: {{t+|fr|elle}}
+*: Old French: {{t|fro|ele}}
+* Friulian: {{t|fur|jê}}
+* Galician: {{t+|gl|ela|f}}
+* Georgian: {{t+|ka|ის|sc=Geor}} {{qualifier|both male and female}}
+* German: {{t+|de|sie}}, {{t+|de|es}} {{q|in reference to some neuter common nouns like {{m|de|Mädchen}}}}
+* Greek: {{t+|el|αυτή}}
+*: Ancient: {{qual|subject pronouns usually omitted, or a demonstrative is used: medial, proximal, and distal:}} {{t|grc|αὕτη|f}}, {{t|grc|ἥδε|f}}, {{t|grc|ἐκείνη|f}}; {{qualifier|Epic}} {{t|grc|ἡ|f}}, {{t|grc|ἥ|f}}
+* Greenlandic: {{t|kl|una}}
+* Guaraní: {{qualifier|both male and female}} {{t|gn|ha'e}}
+* Hausa: {{qualifier|independent form}} {{t|ha|’ítá}}
+* Havasupai-Walapai-Yavapai: {{t|yuf|nyihá}} {{qualifier|both male and female}}
+* Hawaiian: {{qualifier|both male and female}} {{t|haw|ia}}
+* Hebrew: {{t+|he|הִיא|tr=hi}}
+* Hindi: {{qualifier|he, she and it}} {{t+|hi|वह}} (''read:'' ve), {{t+|hi|यह}} (''read:'' ye)
+* Hopi: {{t|hop|pam}}
+* Hungarian: {{t+|hu|ő}} {{qualifier|both male and female}}, {{q|usually indicated by the zero suffix only}} {{t|hu|-∅}}
+* Icelandic: {{t+|is|hún}}
+* Ido: {{t+|io|el}}, {{t+|io|elu}}
+* Indonesian: {{t+|id|dia}}, {{t+|id|ia}} {{qualifier|both male and female}}
+* Ingrian: {{t|izh|hää}}
+* Interlingua: {{t+|ia|illa}}
+* Irish: {{t|ga|sí}} {{qualifier|conjunctive}}, {{t|ga|í}} {{qualifier|disjunctive}}
+* Istriot: {{t|ist|gila}}
+* Italian: {{t+|it|lei}}, {{t+|it|ella}}
+* Japanese: {{t+|ja|彼女|tr=かのじょ, kánojo}}, {{qualifier|both male and female}} {{t|ja|あの人|tr=あのひと, ano hito}}, {{qualifier|あのかた, polite}} {{t|ja|あの方|tr=ano kata}}, {{qualifier|impolite, person, animal or thing}} {{t+|ja|奴|tr=やつ, yatsu}}
+* Judeo-Italian: {{t|itk|אֵיסַה|tr=ʾesah|ts=essa}}
+* Kabuverdianu: {{t|kea|el}}
+* Kannada: {{qualifier|this person}} {{t+|kn|ಇವಳು|sc=Knda}}, {{qualifier|that person}} {{t+|kn|ಅವಳು|sc=Knda}}
+* Karakhanid: {{t|xqa|اُلْ|c|n|tr=ol}}
+* Karelian: {{t|krl|häi}} {{qualifier|both male and female}}
+* Kashubian: {{t+|csb|òna}}
+* Kazakh: {{t+|kk|ол}} {{qualifier|both male and female}}
+* Khakas: {{t|kjh|ол}} {{qualifier|both male and female}}
+* Khmer: {{t+|km|គាត់|tr=koat|sc=Khmr}}, {{t+|km|នាង|tr=nieng|sc=Khmr}}, {{t|km|អ្នកស្រី|tr=neak srǝy|sc=Khmr}}, {{t|km|លោកស្រី}}, {{t|km|ព្រះនាង}}, {{t+|km|ទ្រង់}}
+* Korean: {{t+|ko|그녀}}, {{t+|ko|그}} {{qualifier|both male and female}}, {{t+|ko|이분}} {{qualifier|he or she, polite}}
+* Kyrgyz: {{t+|ky|ал}} {{qualifier|both male and female}}
+* Ladin: {{t|lld|ëila}}
+* Lao: {{t+|lo|ເຂົາ}} {{qualifier|both male and female}}
+* Latgalian: {{t|ltg|jei}}, {{t|ltg|šei}}
+* Latin: {{t+|la|ea}}, {{t+|la|ille|alt=illa}}, {{t+|la|hic|alt=haec}}
+* Latvian: {{t+|lv|viņa}}
+* Limburgish: {{t+|li|het}}, {{t+|li|ze}}
+* Lingala: {{t|ln|yě}} {{qualifier|both male and female}}
+* Linngithigh: {{t|lnj|lu}}
+* Lithuanian: {{t+|lt|ji}}
+* Louisiana Creole French: {{t|lou|li}} {{qualifier|both male and female}}
+* Low German: {{t+|nds|sei}}, {{t+|nds|se}}
+* Macedonian: {{t+|mk|таа}}
+* Malay: {{t+|ms|dia}}, {{t+|ms|ia}} {{qualifier|both male and female}}
+* Maltese: {{t+|mt|hi}}
+* Maori: {{t|mi|ia}}
+* Mazanderani: {{t|mzn|وه|tr=ve}} {{qualifier|both male and female}}
+* Mbyá Guaraní: {{t|gun|ha'e}}
+* Mòcheno: {{t|mhn|si}}
+* Moksha: {{t|mdf|сон}} {{qualifier|both male and female}}
+* Mongolian: {{qualifier|he and she}} {{t+|mn|тэр}}
+* Motu: {{t|meu|ia}}
+* Ngazidja Comorian: {{t|zdj|ye}} {{qualifier|both male and female}}
+* Northern Sami: {{t|se|son}} {{qualifier|both male and female}}
+* Norwegian: {{t+|no|hun|f}}
+* Occitan: {{t+|oc|ela}}
+* Ojibwe: {{t|oj|wiin}} {{qualifier|both male and female}}
+* Old Church Slavonic: {{t|cu|она|f}}
+* Old East Slavic: {{t|orv|она|sc=Cyrs}}
+* Old English: {{t|ang|hēo}}
+* Old Irish: {{t|sga|sí}}
+* Old Occitan: {{t|pro|ella}}
+* Old Portuguese: {{t|roa-opt|ela}}
+* Ossetian: {{t|os|уый}}
+* Pashto: {{t+|ps|هغه|tr=hağë}} {{qualifier|absent or distant, both male and female}}, {{t+|ps|دا|tr=dâ}} {{qualifier|visible or present}}
+* Pela: {{t|bxd|jɔ̃³¹}}
+* Persian: {{t+|fa|او|tr=u}} {{qualifier|both male and female}}, {{t+|fa|وی|tr=vey/vay}} {{qualifier|formal}}, {{t|fa|اوی|tr=uy}} {{qualifier|archaic}}
+* Piedmontese: {{t|pms|chila}}
+* Pipil: {{t|ppl|yaja}}, {{t|ppl|yaha}}
+* Pirahã: {{t|myp|hi}}
+* Pitjantjatjara: {{qualifier|here}} {{t|pjt|ngaa}}, {{qualifier|there}} {{t|pjt|pala}}, {{qualifier|over there}} {{t|pjt|nyara}}, {{qualifier|not visible}} {{t|pjt|palunya}}
+* Polish: {{t+|pl|ona}}
+* Portuguese: {{t+|pt|ela}}
+* Quechua: {{qualifier|both male and female}} {{t+|qu|pay}}
+* Rapa Nui: {{t|rap|ia}}
+* Romani: {{t|rom|oj}}
+*: Kalo Finnish Romani: {{t|rmf|joi}}
+*: Vlax Romani: {{t|rmy|voj}}
+* Romanian: {{t+|ro|dumneaei}} {{qualifier|formal}}, {{t+|ro|ea}} {{qualifier|informal}}
+* Romansch: {{t|rm|ella}}
+* Russian: {{t+|ru|она́}}
+* Sami:
+*: Inari: {{t|smn|sun}} {{qualifier|both male and female}}
+*: Lule: {{t|smj|sån}} {{qualifier|both male and female}}
+*: Northern: {{t|se|son}} {{qualifier|both male and female}}
+*: Skolt: {{t|sms|son}} {{qualifier|both male and female}}
+*: Southern: {{t|sma|dïhte}} {{qualifier|both male and female}}
+* Scottish Gaelic: {{t|gd|i}} {{qualifier|nonemphatic}}, {{t|gd|ise}} {{qualifier|emphatic}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|она|sc=Cyrl}}
+*: Roman: {{t+|sh|ona}}
+* Sicilian: {{t+|scn|idda}}
+* Sidamo: {{t|sid|ise}}
+* Sinhalese: {{t+|si|ඈ|sc=Sinh}}
+* Slovak: {{t|sk|ona}}
+* Slovene: {{t+|sl|ôna}}
+* Sorbian:
+*: Lower Sorbian: {{t|dsb|wóna}}
+*: Upper Sorbian: {{t+|hsb|wona}}
+* Southern Altai: {{t|alt|ол}}
+* Spanish: {{t+|es|ella}}
+* Swahili: {{qualifier|both male and female}} {{t|sw|yeye}}
+* Swedish: {{t+|sv|hon}}
+* Sylheti: {{t|syl|ꠔꠣꠁ}}, {{t|syl|ꠔꠣꠁꠘ}}
+* Tagalog: {{t|tl|siya}} {{q|both male and female}}
+* Tajik: {{t+|tg|ӯ}} {{qualifier|both male and female}}
+* Taos: {{t|twf|ą́wąną}}
+* Tatar: {{t+|tt|ул}} {{qualifier|both male and female}}
+* Telugu: {{t+|te|ఆమె|sc=Telu}}
+* Thai: {{t+|th|เขา}} {{qualifier|both male and female}}, {{t+|th|เธอ}}, {{t+|th|หล่อน}}
+* Tigrinya: {{t+|ti|ንሳ}}
+* Tlingit: {{t|tli|hú}}
+* Tupinambá: {{qualifier|both male and female}} {{t|tpn|a'e}}
+* Turkish: {{t+|tr|o}} {{qualifier|both male and female}}
+* Turkmen: {{t|tk|ol}} {{qualifier|both male and female}}
+* Udmurt: {{t|udm|со}}
+* Ugaritic: {{t|uga|𐎅𐎊|tr=hy}}
+* Ukrainian: {{t+|uk|вона́}}
+* Unami: {{t|unm|nàni}} {{qualifier|both male and female}}
+* Urdu: {{t|ur|وہ|tr=vah|sc=ur-Arab}}, {{t|ur|یہ|tr=yah|sc=ur-Arab}}
+* Uyghur: {{qualifier|both male and female}} {{t+|ug|ئۇ|sc=ug-Arab}}
+* Uzbek: {{t+|uz|u}} {{qualifier|both male and female}}
+* Venetan: {{t|vec|eła}}
+* Vietnamese: {{qualifier|young girl and older than the speaker}} {{t|vi|chị ấy}}, {{qualifier|young girl or woman}} {{t|vi|cô ấy}}, {{qualifier|older or respected woman}} {{t|vi|bà ấy}}, {{qualifier|child}} {{t+|vi|nó}}
+* Volapük: {{t+|vo|of}}
+* Walloon: {{t+|wa|ele}} {{qualifier|before consonant}}, {{t+|wa|elle}} {{qualifier|before voyal}}, {{t+|wa|leye}} {{qualifier|tonic}}
+* Welsh: {{t|cy|hi}}
+* West Frisian: {{t+|fy|hja}}, {{t+|fy|sy}}
+* White Hmong: {{t|mww|nws}} {{qualifier|both male and female}}
+* Wolof: {{t+|wo|moom}}
+* Yámana: {{t|yag|kitu}}
+* Yiddish: {{t|yi|זי|sc=Hebr}}
+* Yoruba: {{t|yo|ó}}, {{qualifier|both male and female}} {{t|yo|á}}
+* Yucatec Maya: {{t|yua|letiʼ}} {{qualifier|both male and female}}
+* Zazaki: {{t+|zza|a}}
+* Zhuang: {{t|za|de}} {{qualifier|both male and female}}
+* Zulu: {{t|zu|yena|c1}} {{qualifier|most common}}, {{t|zu|wona|c3}}, {{t|zu|lona|c5}}, {{t|zu|sona|c7}}, {{t|zu|yona|c9}}, {{t|zu|lona|c11}}
+* ǃKung: {{t|khi-kun|ha}} {{qualifier|both male and female}}
+* ǃXóõ: {{t|nmn|èh}}, {{qualifier|emphatic}} {{t|nmn|èhʻè}}, {{t|nmn|ã`h}}, {{qualifier|emphatic}} {{t|nmn|ã̀hʻã̀}}
+{{trans-bottom}}
+
+{{trans-top|ship}}
+* Danish: {{t+|da|hun}}
+* Esperanto: {{t+|eo|ĝi}}
+* Finnish: {{t+|fi|se}}
+* German: {{t+|de|es}} {{q|in reference to {{m|de|Schiff}}, {{m|de|Boot}}}}, {{t+|de|sie}} {{q|in reference to proper nouns of ships like {{m|de|Titanic}}}}
+* Irish: {{t|ga|sí}} {{qualifier|even though the word for ‘boat’ is masculine}}
+{{trans-bottom}}
+
+{{trans-top|country, planet, machine, season etc.}}
+* German: {{t+|de|er}}, {{t+|de|sie}}, {{t+|de|es}} {{q|depending on the gender}}
+{{trans-bottom}}
+
+====See also====
+{{English personal pronouns}}
+
+===Determiner===
+{{head|en|determiner}}
+
+# {{lb|en|AAVE}} {{synonym of|en|her}}
+
+===Noun===
+{{en-noun}}
+
+# A [[female]].
+#: {{ux|en|Pat is definitely a '''she'''.}}
+#* {{RQ:Fielding Tom Jones|passage=Come, come, we know very well what all the matter is; but if one won’t, another will; so pretty a gentleman need never want a lady. I am sure, if I was you, I would see the finest '''she''' that ever wore a head hanged, before I would go for a soldier for her.}}
+#* {{RQ:Shakespeare Sonnets|130|passage=And yet, by heaven, I think my love as rare / As any '''she''' belied with false compare.}}
+#* {{RQ:Thackeray Vanity Fair|passage=he came home to find {{...}} honest Swartz in her favourite amber-coloured satin, with turquoise bracelets, countless rings, flowers, feathers, and all sorts of tags and gimcracks, about as elegantly decorated as a '''she''' chimney-sweep on May-day.}}
+#* {{quote-song|en|year=1972|author=Lou Reed|title={{w|Walk on the Wild Side (Lou Reed song)|Walk on the Wild Side}}|album=Transformer|passage=Plucked her eyebrows on the way / Shaved her legs and then he was a '''she'''}}
+#* '''2000''', Sue V. Rosser, ''Building inclusive science'' volume 28, issues 1–2, page 189:
+#*: A world where the hes are so much more common than the '''shes''' can hardly be seen as a welcoming place for women.
+
+===See also===
+{{col3|en|
+|She
+|shi
+|Shi
+|Shii
+|Shih
+|sis
+}}
+
+===References===
+&lt;references/&gt;
+
+===Anagrams===
+* {{anagrams|en|a=ehs|EH&amp;S|EHS|Esh|HSE|ehs|esh|he's|hes|hse}}
+
+{{cln|en|personal pronouns|third person pronouns|calculator words}}
+
+==Albanian==
+
+===Alternative forms===
+* {{alt|sq|shena||Gheg}}
+
+===Etymology===
+A derivative of {{l|sq|shi}}.&lt;ref&gt;{{R:sq:Orel:1998|she|page=409}}&lt;/ref&gt;
+
+===Pronunciation===
+* {{IPA|sq|/ˈʃe/}}
+* {{rhyme|sq|ʃe|s=1}}
+
+===Noun===
+{{sq-noun|m|she|sheu|shetë}}
+
+# undrying [[rivulet]], [[torrent]], [[rapid]] [[stream]]
+
+====Declension====
+{{sq-noun-m||u|ë}}
+
+====Related terms====
+* {{l|sq|shi}}
+
+===References===
+&lt;references/&gt;
+
+===Further reading===
+* {{R:FGSS}}
+* {{R:sq:Fjalorthi}}
+* {{R:sq:Mann:1948|shé|page=470}}
+
+{{C|sq|Geography}}
+
+==Japanese==
+
+===Romanization===
+{{ja-romaji}}
+
+# {{Latn-def|ja|syllable|-|シェ|she}}
+
+==Mandarin==
+
+===Romanization===
+{{cmn-pinyin|notr=1}}
+
+# {{nonstandard spelling of|cmn|sc=Latn|shē}}
+# {{nonstandard spelling of|cmn|sc=Latn|shé}}
+# {{nonstandard spelling of|cmn|sc=Latn|shě}}
+# {{nonstandard spelling of|cmn|sc=Latn|shè}}
+
+====Usage notes====
+* {{cmn-toneless-note}}
+
+==Manx==
+
+===Etymology===
+From {{inh|gv|sga|[[is]] [[ed]]|t=[[it]] [[is]] [[so]]}}. Compare {{cog|ga|sea}}, {{cog|gd|seadh}}.
+
+===Particle===
+{{head|gv|particle|dependent form|nee}}
+
+# {{non-gloss|Present/future copula form}}
+#: {{ux|gv|'''She''' ynseyder eh Juan.|John is a teacher.|inline=1}} {{qualifier|definition: predicate is indefinite}}
+#: {{ux|gv|'''She''' Juan yn ynseyder.|John is the teacher.|inline=1}} {{qualifier|identification: predicate is definite}}
+#: {{ux|gv|'''She''' mish honnick eh.|It's me who saw him.|inline=1}} {{qualifier|cleft sentence}}
+#: {{ux|gv|'''She''' Juan ta ny ynseyder.|It's John who is a teacher.|inline=1}} {{qualifier|cleft sentence}}
+
+====Usage notes====
+Used in present and future sentences for identification or definition of a subject as the person/object identified in the predicate of the sentence. Used to introduce [[w:cleft sentence|cleft sentences]], which are extremely common in Manx. It is not a verb. For the particle that introduces adjectives, see {{m|gv|s'}}.
+
+''She'' has no past tense; the appropriate conjugation of {{m|gv|ve}} must be used instead.
+* {{ux|gv|Shen '''va''''n soilshey firrinagh.|That was the true light.}}
+
+==Middle English==
+
+===Pronoun===
+{{head|enm|pronoun}}
+
+# {{alt form|enm|sche}}
+
+==Wutunhua==
+
+===Etymology===
+From {{der|wuh|cmn|十}}.
+
+===Numeral===
+{{head|wuh|numeral}}
+
+# [[ten]]
+
+===References===
+{{R:wuh:Sandman}}</text>
+            <sha1>1ebs5tanquk6jrpukkvlk2n18qkurri</sha1>
+        </revision>
+    </page>
+    <page>
+        <title>they</title>
+        <ns>0</ns>
+        <id>5749</id>
+        <revision>
+            <id>82405314</id>
+            <parentid>82401232</parentid>
+            <timestamp>2024-10-15T19:07:23Z</timestamp>
+            <contributor>
+                <username>Quercus solaris</username>
+                <id>1131030</id>
+            </contributor>
+            <comment>rel: the hyperendemicity of troglodytic neuropsychology</comment>
+            <origin>82405314</origin>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text bytes="34401" sha1="jptgc47b35tqm4kq0xyenf1fthl9ka4" xml:space="preserve">{{also|þey}}
+==English==
+{{wikipedia}}
+
+===Pronunciation===
+* {{enPR|thā}}, {{IPA|en|/ðeɪ/}}
+* {{audio|en|en-us-they.ogg|a=US}}
+* {{audio|en|En-uk-they.ogg|a=UK}}
+* {{rhymes|en|eɪ|s=1}}
+
+===Etymology 1===
+{{etymon|en|id=pronoun|inh|enm&gt;þei&gt;they|tree=1}}
+{{root|en|ine-pro|*só}} From {{inh|en|enm|þei}}, borrowed in the 1200s from {{der|en|non|þeir}},&lt;ref name=&quot;AHD&quot;&gt;{{R:American Heritage Dictionary}}&lt;/ref&gt; plural of the demonstrative {{m|non|sá}} which acted as a plural pronoun. Displaced native {{ncog|enm|he}} from {{ncog|ang|hīe}} — which vowel changes had left indistinct from {{m|enm|he||he}} — by the 1400s,&lt;ref name=&quot;AHD&quot;/&gt;&lt;ref&gt;{{R:Etymonline}}&lt;/ref&gt;&lt;ref&gt;Otto Jespersen, ''Growth and Structure of the English Language''&lt;/ref&gt; being readily incorporated alongside native words beginning with the same sound ({{m|en|the}}, {{m|en|that}}, {{m|en|this}}). Used as a singular pronoun since 1300,&lt;ref name=&quot;AHD&quot;/&gt; e.g. in the 1325 ''Cursor Mundi''&lt;!--(which uses ''[[their|þer]]'')--&gt;.
+
+The Norse term (whence also {{cog|is|þeir||they}}, {{cog|fo|teir|t=they}}, {{cog|da|de||they}}, {{cog|sv|de||they}}, {{cog|nn|dei||they}}) is from {{der|en|gem-pro|*þai||those}} (from {{der|en|ine-pro|*só|*to-|that}}), whence also {{cog|ang|þā||those}} (whence obsolete English {{dbt|en|tho|notext=1}}), {{cog|sco|thae}}, {{m|sco|thai}}, {{m|sco|thay||they; those}}.
+
+The origin of the determiner {{m|en|they||the, those}} is unclear. The ''OED'', ''English Dialect Dictionary'' and ''Middle English Dictionary''&lt;ref&gt;{{R:MED Online|entry=thei|pos=pron|id=MED45106|accessdate=2016-01-28}}&lt;/ref&gt; define it and its Middle English predecessor {{m|enm|thei}} as a demonstrative determiner or adjective meaning &quot;those&quot; or &quot;the&quot;. This could be a continuation of the use of the English pronoun {{m|en|they}}'s Old Norse etymon {{m|non|þeir}} as a demonstrative meaning &quot;those&quot;, but the ''OED'' and ''EDD'' say it is limited to southern, especially southwestern, England, specifically outside the region of Norse contact.
+
+====Pronoun====
+{{en-pron|desc=third-person, nominative case, usually plural, sometimes singular|objective case|them|possessive|their|possessive noun|theirs|reflexive|themselves|or reflexive singular|themself}}
+
+# {{senseid|en|third-person plural nominative}} {{lb|en|the third-person plural nominative}} A group of entities previously mentioned. {{defdate|since the 1200s}}
+#: {{ux|en|Fred and Jane? '''They''' just arrived.}}
+#: {{ux|en|Dogs may bark if '''they''' want to be fed.}}
+#: {{ux|en|Plants wilt if '''they''' are not watered.}}
+#: {{ux|en|I have a car and a truck, but '''they''' are both broken.}}
+#* {{quote-book|en|year=1620|section=Nouell 8, The Eighth Day|title= {{w|The Decameron|The Decameron, Containing an Hundred Pleaſant Nouels: Wittily Diſcourſed, Betweene Seuen Honourable Ladies, and Three Noble Gentlemen}} |author= w:Giovanni Bocaccio|tlr= w:John Florio |publisher=Isaac Iaggard|url= https://books.google.co.nz/books?id=FEz6_FECCI0C |passage={{...}}purſued his vnneighbourly purpoſe in ſuch ſort: that hee being the ſtronger perſwader, and ſhe (belike) too credulous in beleeuing or elſe ouer-feeble in reſiſting, from priuate imparlance, '''they''' fell to action; and continued their cloſe fight a long while together, vnſeene and vvithout ſuſpition, no doubt to their equall ioy and contentment.}}
+#* {{quote-book|en|year=2010|title=Iguana Invasion!: Exotic Pets Gone Wild in Florida|page=9|isbn=1561644684
+|passage=There is no reason to be scared of iguanas. '''They''' do not attack humans.}}
+# {{senseid|en|third-person singular nominative}} {{lb|en|the third-person singular nominative|occasionally|proscribed}} A single person, previously mentioned, but typically not if previously named and identified as male or female, especially if of unknown, irrelevant or (since 21st century) [[non-binary]] [[gender]]. Now increasingly used for an unnamed person even if the gender of the person is identified. {{defdate|since the 1300s}}
+#: {{ux|en|Somebody requested a seat at Friday's performance but didn't say if '''they''' preferred the balcony or the floor.}}
+#: {{ux|en|If someone enters the restricted area, '''they''' are required to present identification.}}
+#: {{ux|en|One of the boys tripped over, and '''they''' hit their head on the door.}}
+#* {{RQ:King James Version|Deuteronomy|17|5|passage=Then shalt thou bring forth that man, or that woman (which haue committed that wicked thing) vnto thy gates, euen that man, or that woman, and shalt stone '''them''' with stones till '''they''' die.}}
+#* {{quote-book
+|en
+| year = 1997
+| author = w:J. K. Rowling
+| chapter = 10
+| title = {{w|Harry Potter and the Philosopher's Stone}} &lt;!-- USA edition: Harry Potter and the Sorcerer's Stone --&gt;
+| location = (quoted edition: London &lt;!-- New York --&gt;
+| publisher=Bloomsbury, 2000 &lt;!-- Arthur A Levine, imprint of Scholastic, 1999 --&gt;
+| isbn = 0-7475-4955-9 &lt;!-- 0-590-35342-X --&gt;
+| page = 187) &lt;!-- 172 --&gt;
+| passage = Someone knocked into Harry as '''they''' hurried past him. It was Hermione.
+}}
+#* '''2008''', {{w|Michelle Obama}}, quoted in {{w|Lisa Rogak}}, ''Michelle Obama in Her Own Words'', New York, NY: PublicAffairs, 2009. {{ISBN|978 1 58648 762 1}}, page 18:
+#*: One thing a nominee earns is the right to pick the vice president that '''they''' think will best reflect their vision of the country, and I am just glad I will have nothing to do with it.
+#* {{quote-book|en|year=2014|author=Ivan E. Coyote; Rae Spoon|title=Gender Failure|isbn=1551525372
+|passage=The boycott, led by Elisha Lim, of a Toronto gay and lesbian newspaper after it refused to use '''their''' preferred pronoun [&quot;they&quot;], citing grammar considerations, inspired me.}}
+#* '''2015''' April, {{w|Stephanie Rawlings-Blake}} (mayor of Baltimore), commenting on the death of Freddie Gray:
+#*: I'm angry that we're here again, that we have had to tell another mother that '''their''' child is dead.
+#* {{seemoreCites|en}}
+# {{senseid|en|indefinite}} {{lb|en|indefinite pronoun, vague meaning}} People; some people; people in general; someone, excluding the speaker.
+#: {{ux|en|'''They''' say it’s a good place to live.}}
+#: {{ux|en|'''They''' didn’t have computers in the old days.}}
+#: {{cot|en|[[one#Pronoun|one]]|generic you}}
+#* {{quote-journal
+|en
+|date=February 16, 1986
+|first=William
+|last=Safire
+|authorlink=William Safire
+|title=On Language; Moon Of My Delight
+|journal=w:The New York Times
+|archiveurl=https://web.archive.org/web/20150524191416/https://www.nytimes.com/1986/02/16/magazine/on-language-moon-of-my-delight.html
+|archivedate=May 24, 2015
+|url=https://www.nytimes.com/1986/02/16/magazine/on-language-moon-of-my-delight.html
+|issn=0362-4331
+|oclc=1645522
+|section=Section 6 / Magazine
+|page=10
+|text=Always get a second source, '''they''' tell us in investigative lexicography;{{...}}}}
+#* {{quote-song|en|year=2002|author=w:Linda Perry|title={{w|Beautiful (Christina Aguilera song)|Beautiful}}|album=Stripped|artist=w:Christina Aguilera|passage=I am beautiful, no matter what '''they''' say}}
+# {{senseid|en|indefinite}} {{lb|en|indefinite pronoun}} The authorities: government, police, employers, etc.
+#: {{ux|en|'''They''''ll tax us for the air we breathe next.}}
+#: {{ux|en|'''They''' should increase our wages.}}
+#: {{ux|en|Ha, you believe the moon is real? That's just what '''they''' want you to think.}}
+# {{lb|en|bridge}} The opponents of the side which is [[keep score|keeping score]].
+#: {{ant|en|we}}
+
+=====Usage notes=====
+* {{sense|singular pronoun}} Usage of ''they'' as a singular pronoun began in the 1300s and has been common ever since, despite attempts by some grammarians, beginning in 1795,&lt;ref&gt;Anne Bodine, ''Androcentrism in Prescriptive Grammar: Singular `they', Sex-indefinite `he', and `he or she''', in ''Language in Society'', v. 4 (1975), pages 129-146&lt;/ref&gt; to condemn it as a violation of traditional ([[Latinate]]) agreement rules. Some other grammarians have countered that criticism since at least 1896.&lt;ref&gt;William Malone Baskervill and James Witt Sewell's ''An English Grammar'' (1896) says singular ''they'' is &quot;frequently found ''when the antecedent includes or implies both genders''. The masculine does not really represent a feminine antecedent&quot;; it furthermore recommends changing it to ''he'' or ''she'' &quot;''unless both genders are implied''&quot;. (Italics in original.)&lt;/ref&gt; ''Fowler's Modern English Usage'' (third edition) notes that it &quot;is being left unaltered by copy editors&quot; and is &quot;not widely felt to lie in a prohibited zone.&quot; Some authors compare use of singular ''they'' to widespread use of singular ''you'' instead of ''thou''.&lt;ref&gt;Michael Reed, ''Tech Book 1'' {{ISBN|0956081312}}, ''Note about pronoun usage'', page 9: &quot;Singular ''they'' can introduce some ambiguity because the antecedent of the pronoun “they” could theoretically be a male or female [... but] English has survived the loss of pronouns such as ''thou'' (singular ''you'') despite the consequent potential for ambiguity.&quot;&lt;/ref&gt;&lt;ref&gt;John McWhorter, ''Word on the Street: Debunking the Myth of a Pure Standard'' (2009, {{ISBN|0786731478}}: &quot;In this light, our modern grammarians' discomfort with singular ''they'' is nothing but this comical intermediate stage in an inevitable change, as misguided and futile as the old grumbles about singular ''you''.&quot;&lt;/ref&gt; See {{w|singular they|Wikipedia's article on singular ''they''}} for more; see also the usage notes about '''''[[themself]]'''''. (Compare '''[[he]]'''.)&lt;!--formerly a generic singular pronoun (for individuals of unspecified or female gender)--&gt;
+* {{sense|singular pronoun}} Even when used as a singular pronoun, in standard English&lt;!--as opposed to dialects with &quot;you was&quot;, &quot;they was&quot;, &quot;he go&quot;, etc--&gt; singular ''they'' uses the same verb conjugations as plural ''they'', like singular and plural ''you'': &quot;George, you ''were'' {{small|[not ''was'']}} here when the masked figure ran past, ''were'' {{small|[not ''was'']}} they wearing red or blue?&quot;
+* {{sense|singular pronoun}} Infrequently, ''they'' is used of an individual person of known, binary gender. See [[Citations:they#Pronoun:_single_person_of_specified_sex_or_gender|citations]].
+* {{sense|singular pronoun}} Infrequently, ''they'' is used of an individual animal which would more commonly be referred to as ''[[it]]''. See [[Citations:they#Pronoun:_single_animal_or_plant|citations]].
+* {{sense|indefinite pronoun}} ''[[one|One]]'' is also an indefinite pronoun, but the two words do not mean the same thing and are rarely interchangeable. &quot;They&quot; refers to people in general (hence the expressions {{m|en|they say}}, {{m|en|so they say}}, {{m|en|you know what they say}}), whereas &quot;one&quot; refers to one person (often such that what is true for that person is true for everyone). ''You'' may also be used to refer to people in general; such use of that pronoun is called the [[generic you#Noun|generic ''you'']].
+*: ''They say beauty is in the eye of the beholder.''
+*: ''One may say, &quot;Beauty is in the eye of the beholder.&quot;''
+*: ''You may say, &quot;Beauty is in the eye of the beholder.&quot;''
+
+=====Alternative forms=====
+* {{alt|en|dey||th-stopping}}
+* {{alt|en|thay|theye||archaic}}
+* {{alt|en|thaay|theye||Gloucestershire|Berkshire|possibly &lt;&lt;archaic&gt;&gt;}}
+
+=====Derived terms=====
+{{col-auto|en|as they come|as they say|if pigs had wings they would fly|it doesn't matter what they say about you as long as they spell your name right| generic they| they hit the Pentagon|let the chips fall where they may|let the dice fall where they may|they hate us 'cause they ain't us|they-uns|will-they-won't-they}}
+
+=====Related terms=====
+{{col-auto|en
+|us versus them
+}}
+
+=====Translations=====
+{{trans-top|third-person plural pronoun}}{{multitrans|data=
+* Abkhaz: {{tt|ab|дара}}
+* Adyghe: {{tt|ady|ахэр}}
+* Afar: {{tt|aa|usun}}
+* Afrikaans: {{tt+|af|hulle|p}}
+* Akan: {{tt|ak|wɔn}} {{qualifier|animate}}, {{tt|ak|ɛno}} {{qualifier|inanimate}}
+* Albanian: {{tt+|sq|ata|m-p}}, {{tt+|sq|ato|f-p}}
+* Alviri-Vidari: {{tt|avd|اووا|tr=uvā}}
+* Amharic: {{tt|am|እነሱ}}
+* Arabic: {{qualifier|dual}} {{tt|ar|هُمَا}}, {{tt+|ar|هُم|p}}, {{tt+|ar|هُنَّ|f-p}}, {{qualifier|non-human}} {{tt+|ar|هِيَ}}
+*: Chadian Arabic: {{t|shu|همن|tr=humman}}
+*: Egyptian Arabic: {{tt|arz|هما|tr=humma}}, {{tt|arz|هم|m-p|tr=humm}}
+*: Gulf Arabic: {{tt|afb|اهم|tr=uhum, uhmə}}
+*: Hijazi Arabic: {{t|acw|هُمَّ|tr=humma}}
+*: Levantine Arabic: {{tt|apc|هن|p|tr=hinne}}, {{tt|ajp|هم|p|tr=humme}}
+*: Tunisian Arabic: {{tt|aeb|هُمَا|m-p|f-p|tr=humā}}
+* Aragonese: {{tt|an|els}}, {{tt|an|ellos}} {{qualifier|masculine}}, {{tt|an|ellas}} {{qualifier|feminine}}
+* Armenian: {{tt+|hy|նրանք}}
+*: Old Armenian: {{tt|xcl|նոքա}}
+* Aromanian: {{tt|rup|nãsh|m-p}}, {{tt|rup|nãse|f-p}}, {{tt|rup|nãsi|f-p}}, {{tt|rup|elj|m-p}}, {{tt|rup|eali|f-p}}, {{tt|rup|eli|f-p}}
+* Assamese: {{tt|as|সিহঁত}} {{qualifier|distal}}, {{tt|as|ইহঁত}} {{qualifier|proximal}}, {{tt|as|তেওঁলোক}} {{qualifier|distal, polite}}, {{tt|as|এওঁলোক}} {{qualifier|proximal, polite}}
+* Asturian: {{tt+|ast|ellos|m-p}}, {{tt+|ast|elles|f-p}}
+* Aymara: {{tt|ay|jupanaka}}
+* Azerbaijani: {{tt+|az|onlar}}
+* Bambara: {{tt|bm|u}}
+* Bashkir: {{tt|ba|улар}}
+* Basque: {{tt|eu|haiek}}
+* Belarusian: {{tt+|be|яны́}}
+* Bengali: {{tt+|bn|তারা}}
+* Breton: {{tt+|br|i}}, {{tt+|br|int}}
+* Bulgarian: {{tt+|bg|те}}
+* Burmese: {{tt|my|သူတို့}}, {{tt+|my|သူများ}}
+* Buryat: {{tt|bua|тэдэ}}
+* Carpathian Rusyn: {{tt|rue|вни́}}
+* Catalan: {{tt+|ca|ells|m-p}}, {{tt+|ca|elles|f-p}}
+* Chechen: {{tt|ce|уьш}}, {{tt|ce|уьзуш}}
+* Chichewa: {{tt|ny|iwo}}
+* Chinese:
+*: Cantonese: {{qualifier|vernacular}} {{tt|yue|佢哋}}, {{qualifier|literary}} {{tt|yue|他們}}
+*: Dungan: {{tt|dng|таму}}, {{tt|dng|ана}}
+*: Eastern Min: {{tt|cdo|伊各儂}}
+*: Gan: {{tt|gan|佢們}}, {{tt|gan|渠們|tr=qie2 miin}}
+*: Hokkien: {{tt+|nan-hbl|𪜶|tr=in}}
+*: Jin: {{tt|cjy|他們}}
+*: Mandarin: {{tt+|cmn|他們|tr=tāmen}}, {{qualifier|females only}} {{tt+|cmn|她們|tr=tāmen}}, {{qualifier|non-human}} {{tt+|cmn|它們|tr=tāmen}}
+*: Teochew: {{tt|nan-tws|𪜶|tr=ing1}}, {{tt|nan-tws|伊儂}}
+*: Wu: {{tt|wuu|伊拉}}
+*: Xiang: {{tt|hsn|他們}}
+* Chuvash: {{tt|cv|вӗсем}}
+* Cornish: {{tt|kw|i}}, {{tt|kw|jei}}, {{tt|kw|anjei}}
+* Czech: {{tt+|cs|oni}}, {{tt+|cs|ony}}
+* Dalmatian: {{tt|dlm|jali|m-p}}, {{tt|dlm|jale|f-p}}
+* Danish: {{tt+|da|de}}
+* Dhivehi: {{tt|dv|އެ މީހުން}}
+* Dutch: {{tt+|nl|zij}}, {{tt+|nl|ze}}
+* Dyirbal: {{not used|dbl}} {{qualifier|Dyirbal has no third-person pronoun}}
+* Dzongkha: {{tt|dz|ཁོང}}
+* Egyptian: {{q|suffix pronoun}} {{t-egy|.sn|h=s-n:Z2}}, {{q|Late Egyptian suffix pronoun}} {{t-egy|.w|h=w-Z2ss::}}, {{q|enclitic pronoun}} {{t-egy|sn|h=s-n:Z2}}, {{q|stressed pronoun}} {{t-egy|ntsn|h=n:t-s-n:Z2}}
+* Erzya: {{tt|myv|сынь}}
+* Esperanto: {{tt+|eo|ili}}, {{tt+|eo|tiuj}}
+* Estonian: {{tt+|et|nemad|p}}, {{tt+|et|nad|p}}
+* Ewe: {{tt|ee|wo}}
+* Faroese: {{tt+|fo|teir|m}} {{tt+|fo|tær|f}}, {{tt+|fo|tey|n}}
+* Fijian: {{qualifier|dual}} {{t+check|fj|rau}}, {{qualifier|[[paucal]]}} {{t-check|fj|iratou}}, {{qualifier|pl}} {{t-check|fj|ira}}
+* Finnish: {{qualifier|of people}} {{tt+|fi|he}}, {{qualifier|of inanimate things and animals}} {{tt+|fi|ne}}, {{qualifier|informally of people}} {{tt+|fi|ne}}, {{tt+|fi|hyö}} {{qualifier|dialectal}}
+* French: {{tt+|fr|ils|m}}, {{tt+|fr|elles|f}}, {{qualifier|tonic}} {{tt+|fr|eux|m-p}}, {{qualifier|neologism}} {{tt+|fr|iels|n-p}}
+*: Louisiana French: {{tt+|fr|eux}}&lt;!--/ø/--&gt;, {{tt+|fr|eusse}}&lt;!--/øs/--&gt;, {{tt+|fr|eux-autres}}&lt;!--/øzot/,/øzɔt/--&gt;&lt;!--, ça ? --&gt;
+*: Old French: {{qualifier|male only or mixed}} {{tt|fro|il}}, {{qualifier|female only}} {{tt|fro|eles}}
+* Friulian: {{tt|fur|lôr}}
+* Galician: {{tt+|gl|eles|m}}, {{tt|gl|elas|f}}
+* Georgian: {{tt|ka|ისინი}}
+* German: {{tt+|de|sie}}
+* Greek: {{tt+|el|αυτοί|m}}, {{tt+|el|αυτές|f}}, {{tt+|el|αυτά|n}}
+*: Ancient Greek: {{tt|grc|οὗτοι|m}}, {{tt|grc|αὗται|f}} {{tt|grc|ταῦτα}}; {{tt|grc|σφεῖς}}
+* Guaraní: {{tt|gn|ha'ekuéra}}
+* Gujarati: {{tt|gu|એવણ}}
+* Hausa: {{qualifier|independent form}} {{tt|ha|súu}}
+* Hawaiian: {{tt|haw|lāua|d}}, {{tt|haw|lākou|p}}
+* Hebrew: {{tt+|he|הֵם|m|tr=hem}}, {{tt+|he|הֵן|f|tr=hen}}
+* Higaonon: {{tt|mba|sidan}}
+* Hindi: {{tt+|hi|वे}}, {{tt+|hi|ये}}
+* Hiri Motu: {{tt|ho|idia}}
+* Hopi: {{tt|hop|puma}}
+* Hungarian: {{tt+|hu|ők}}, {{q|usually indicated by the suffix only}} {{tt|hu|[[-nak#Hungarian: personal|-nak]], [[-nek#Hungarian: personal|-nek]]}}
+* Icelandic: {{tt+|is|þeir|m-p}}, {{tt+|is|þær|m|f}}, {{tt+|is|þau|n-p}}
+* Ido: {{tt+|io|li}}, {{tt+|io|ili|m}}, {{tt+|io|eli|f}}, {{qualifier|things}} {{tt+|io|oli}}
+* Indonesian: {{tt+|id|mereka}}
+* Ingrian: {{tt|izh|höö}}
+* Ingush: {{tt|inh|уж}}
+* Interlingua: {{tt+|ia|illes|m}}, {{tt+|ia|illas|f}}, {{tt+|ia|illos|n}}
+* Irish: {{tt|ga|siad}} {{qualifier|conjunctive}}, {{tt|ga|iad}} {{qualifier|disjunctive}}, {{tt|ga|siadsan}}, {{tt|ga|iadsan}} {{qualifier|emphatic}}
+*: Old Irish: {{tt|sga|é}}
+* Istriot: {{tt|ist|luri}}
+* Italian: {{tt+|it|essi}}, {{tt+|it|loro}}
+* Japanese: {{tt+|ja|彼ら|tr=かれら, karera}}, {{tt|ja|あいつら|tr=aitsura}}, {{qualifier|non-human}} {{tt+|ja|それら|tr=sorera}}, {{qualifier|polite}} {{tt|ja|あの人達|tr=あのひとたち, anohito-tachi}}, {{qualifier|more polite}} {{tt|ja|あの方々|tr=あのかたがた, anokata-gata}}, {{tt+|ja|彼女ら|tr=かのじょら, kanojora}} {{qualifier|females only}}
+* Judeo-Italian: {{tt|itk|אֵיסִי|tr=ʾesi|ts=essi}}
+* Kabuverdianu: {{tt|kea|es}}
+* Kaingang: {{tt|kgp|ag}}
+* Kalmyk: {{tt|xal|тедн}}
+* Kannada: {{tt|kn|ಇವರು|m|f}}, {{tt|kn|ಇವುಗಳು|n}}, {{tt+|kn|ಇವು|n}}, {{tt+|kn|ಅವರು|m|f}}, {{tt|kn|ಅವುಗಳು|n}}, {{tt+|kn|ಅವು|n}}
+* Karakalpak: {{tt|kaa|olar}}
+* Karakhanid: {{tt|xqa|اُلارْ|tr=olar}}
+* Kashubian: {{tt|csb|òni}}
+* Kazakh: {{tt+|kk|олар}}
+* Khakas: {{tt|kjh|олар}}
+* Khmer: {{tt+|km|គាត់|tr=koat}}, {{tt|km|ពួកគេ|tr=puək kee}}, {{tt+|km|គេ|tr=kei}}, {{tt|km|ពួកគាត់}}
+* Korean: {{tt|ko|그들}}, {{tt|ko|그녀들}} {{qualifier|females only}}
+* Kyrgyz: {{tt+|ky|алар}}
+* Laboya: {{tt|lmy|rattu}}
+* Lakota: {{tt|lkt|epi}}, {{tt|lkt|iyepi}}
+* Lao: {{tt|lo|ພວກເຂົາ}}
+* Latgalian: {{tt|ltg|jī|m}}, {{tt|ltg|juos|f}}, {{tt|ltg|šī|m}}, {{tt|ltg|šuos|f}}
+* Latin: {{tt+|la|ei}}/{{tt+|la|ii}}, {{tt+|la|hi}}, {{tt|la|illi}}
+* Latvian: {{tt+|lv|viņi|m}}, {{tt+|lv|viņas|f}}
+* Lithuanian: {{tt+|lt|jie|m-p}}, {{tt+|lt|jos|f-p}}
+* Livonian: {{tt|liv|nämād}}, {{tt|liv|ne}}
+* Louisiana Creole French: {{tt|lou|yé}}
+* Low German: {{tt+|nds|sei}}, {{tt+|nds|se}}
+* Lü: {{t-needed|khb}}
+* Macedonian: {{tt|mk|ти́е}}
+* Malay: {{tt+|ms|mereka}}
+* Maltese: {{tt+|mt|huma}}
+* Manchu: {{tt|mnc|ᠴᡝ}}
+* Manx: {{tt+|gv|ad}}, {{tt|gv|adsyn}} {{qualifier|emphatic}}
+* Maori: {{tt|mi|rāua|d}}, {{tt|mi|rātou|p}}
+* Mazanderani: {{tt|mzn|وشون|tr=vešun}}
+* Mòcheno: {{tt|mhn|sei}}
+* Mon: {{tt|mnw|ညး တံ|tr=ɲɛ̀h tɔʔ}}, {{tt|mnw|ဍေံ တံ|tr=ɗɛ̀h tɔʔ}}
+* Mongolian: {{tt|mn|тэд нар}}
+* Mori Bawah: {{tt|xmz|ira}}
+* Motu: {{tt|meu|idia}}
+* Neapolitan: {{tt|nap|loro}}
+* Ngarrindjeri: {{tt|nay|kar}}
+* North Frisian: {{qualifier|Heilgolandic}} {{tt|frr|djo}}, {{qualifier|Mooring}} {{tt|frr|ja}}
+* Northern Sami: {{t-check|se|soai}} ''dual'', {{t-check|se|sii|p}}
+* Norwegian: {{tt+|no|de}}
+*: Nynorsk: {{tt+|nn|dei}}
+* Occitan: {{tt+|oc|eles}}, {{tt|oc|elas}}
+* Ojibwe: {{tt|oj|wiinawaa}}
+* Old Church Slavonic:
+*: Cyrillic: {{tt|cu|они}}
+* Old East Slavic: {{tt|orv|они}}, {{tt|orv|онѣ|alt=онѣ}} {{qualifier|females or non-animate}}
+* Old English: {{tt|ang|hīe|p}}
+* Old Norse: {{tt|non|þeir}}, {{tt|non|þær}}, {{tt|non|þau}}
+* Oromo: {{tt|om|isaan}}
+* Ottoman Turkish: {{tt|ota|اولار|tr=olar}}
+* Papiamentu: {{t|pap|nan}}
+* Pashto: {{tt|ps|هغوی|tr=hoǧúy}} {{qualifier|absent or distant}}, {{tt+|ps|دوی|tr=dūy}} {{qualifier|visible or present}}
+* Persian: {{tt+|fa|ایشان|tr=išân}}, {{tt+|fa|آنها|tr=ânhâ}}, {{tt+|fa|آنان|tr=ânân}}
+* Pipil: {{tt|ppl|yejemet}}, {{tt|ppl|yehemet}}
+* Pitjantjatjara: {{qualifier|here}} {{tt|pjt|ngaa}}, {{qualifier|there}} {{tt|pjt|pala}}, {{qualifier|over there}} {{tt|pjt|nyara}}, {{qualifier|not visible}} {{tt|pjt|palunya}}
+* Polish: {{tt+|pl|oni|m}} {{qualifier|animate}}, {{tt+|pl|one|m|f|n}} {{qualifier|nonanimate}}
+* Portuguese: {{tt+|pt|eles|m}}, {{tt+|pt|elas|f}}
+* Quechua: {{tt+|qu|paykuna}}
+* Rapa Nui: {{tt|rap|raua}}
+* Romani: {{tt|rom|on}}
+*: Kalo Finnish Romani: {{tt|rmf|joon}}
+*: Vlax Romani: {{tt|rmy|von}}
+* Romanian: {{tt+|ro|ei|m}}, {{tt+|ro|ele|f}}, {{tt+|ro|dumnealor|m-p|f-p}} {{qualifier|formal, polite}}
+* Romansch: {{tt|rm|els|m}}, {{tt|rm|ellas|f}}
+* Russian: {{tt+|ru|они́}}
+* Saho: {{tt|ssy|usun}}
+* Scots: {{tt|sco|thay}}
+* Scottish Gaelic: {{qualifier|nonemphatic}} {{tt|gd|iad}}, {{qualifier|emphatic}} {{tt|gd|iadsan}}
+* Serbo-Croatian:
+*: Cyrillic: {{tt|sh|они|m-p}}, {{tt|sh|оне|f-p}}, {{tt|sh|она|n-p}}
+*: Roman: {{tt|sh|oni|m-p}}, {{tt+|sh|one|f-p}}, {{tt+|sh|ona|n-p}}
+* Shan: {{t-needed|shn}}
+* Shor: {{tt|cjs|ылар|tr=ılar}}
+* Sicilian: {{tt+|scn|iddi}}, {{tt|scn|idde|f}}
+* Sidamo: {{tt|sid|insa}}
+* Sinhalese: {{tt|si|ඔවුහු}}, {{tt|si|ඔව්හු}}, {{tt|si|ඔවුන්}}, {{tt|si|එයාලා}} {{qualifier|informal}}
+* Slovak: {{tt|sk|oni|m-p}}, {{tt|sk|ony|f-p|n-p}}
+* Slovene: {{tt+|sl|ôni|m}}, {{tt+|sl|ône|f}}, {{tt+|sl|ôna|n}}
+* Sorbian:
+*: Lower Sorbian: {{tt|dsb|wóni}}
+* Southern Altai: {{tt|alt|олор}}
+* Spanish: {{tt+|es|ellos|m}}, {{tt+|es|ellas|f}}, {{qualifier|neologism}} {{tt+|es|elles|n}}
+* Sranan Tongo: {{tt|srn|den}}
+* Swahili: {{tt|sw|wao}}
+* Swedish: {{tt+|sv|de}}, {{tt+|sv|dom}}
+* Sylheti: {{tt|syl|ꠔꠣꠁꠘ}}, {{tt|syl|ꠔꠣꠞꠣ}}
+* Tagalog: {{tt+|tl|sila}}
+* Tajik: {{tt+|tg|эшон}}, {{tt+|tg|онҳо}}
+* Tamil: {{tt+|ta|அவர்}}, {{tt+|ta|இவர்}}
+* Taos: {{tt|twf|ą́wąną}}
+* Tatar: {{tt|tt|алар}}
+* Telugu: {{tt+|te|వారు}}, {{tt|te|వాళ్ళు}}
+* Tetum: {{tt|tet|sira}}
+* Thai: {{tt+|th|เขา}}, {{tt|th|พวกเขา}}
+* Tibetan: {{tt|bo|ཁོ་ཚོ}}, {{tt|bo|ཁོ་རང་ཚོ}}; {{tt|bo|ཁོ་གཉིས}} {{q|dual}}; {{tt|bo|མོ་ཚོ}}, {{tt|bo|མོ་རང་ཚོ}} {{q|female}}; {{tt|bo|མོ་གཉིས}} {{q|female, dual}}; {{tt|bo|ཁོང་ཚོ}} {{qualifier|honorific}}; {{tt|bo|ཁོང་གཉིས}} {{qualifier|honorific, dual}}; {{tt|bo|ཁོང་རྣམ་ཚོ}} {{qualifier|high honorific}}
+* Tigrinya: {{tt|ti|ንሳቶም|m}}, {{tt|ti|ንሳተን|f}}
+* Tlingit: {{tt|tli|hás}}
+* Tok Pisin: {{tt+|tpi|ol}}
+* Turkish: {{tt+|tr|onlar}}
+* Turkmen: {{tt|tk|olar}}
+* Ukrainian: {{tt+|uk|вони́}}
+* Urdu: {{tt|ur|وہ|tr=ve, vah}}, {{tt|ur|یہ|tr=ye, yah}}
+* Uyghur: {{tt|ug|ئۇلار}}
+* Uzbek: {{tt+|uz|ular}}
+* Venetan: {{tt+|vec|lori|m-p}}, {{tt+|vec|lore|f-p}}, {{tt|vec|łore}}, {{tt|vec|łori}}, {{tt|vec|łuri}}
+* Veps: {{tt|vep|hö}}
+* Vietnamese: {{tt+|vi|họ}}
+* Volapük: {{qualifier|masculine}} {{tt+|vo|oms}}, {{qualifier|feminine}} {{tt+|vo|ofs}}, {{qualifier|neuter or mixed gender}} {{tt+|vo|ons}}
+* Welsh: {{qualifier|literary}} {{tt|cy|hwy}}, {{qualifier|literary}} {{tt|cy|hwynt}}, {{qualifier|spoken}} {{tt|cy|nhw}}
+* West Frisian: {{tt+|fy|hja}}, {{tt+|fy|sy}}, {{tt|fy|se}}
+* Wolof: {{tt+|wo|ñoom}}
+* Yiddish: {{tt|yi|זיי}}
+* Yoruba: {{qualifier|weak pronoun}} {{tt|yo|wọ́n}}, {{qualifier|strong pronoun}} {{tt|yo|àwọn}}
+* Yucatec Maya: {{tt|yua|letiʼob}}
+* Zealandic: {{tt|zea|'ulder}}, {{qualifier|unemphatic}} {{tt|zea|ze}}
+* Zhuang: {{tt|za|dohde}}, {{tt|za|vajde}}, {{tt|za|hongminz}}, {{tt|za|mbongmiz}}, {{tt|za|gyoengqde}}
+* Zulu: {{tt|zu|bona|c2}} {{qualifier|usually for people}}, {{tt|zu|yona|c4}}, {{tt|zu|wona|c6}}, {{tt|zu|zona|c8}}, {{tt|zu|zona|c10}}
+* ǃKung: {{tt|khi-kun|si}} {{qualifier|people}}, {{tt|khi-kun|hi}} {{qualifier|animals, things}}
+* ǃXóõ: {{tt|nmn|ùh}}, {{qualifier|emphatic}} {{tt|nmn|ùhʻù}}
+{{trans-bottom}}
+
+{{trans-top|third-person singular, of unknown, irrelevant{{,}} or non-binary gender}}
+* Azerbaijani: {{tt+|az|o}}
+* Bashkir: {{tt|ba|ул}}
+* Bengali: {{tt+|bn|সে}}
+* Burmese: {{tt+|my|သူ}}
+* Catalan: {{tt+|ca|elli}} {{qualifier|neologism}}
+* Chichewa: {{tt|ny|iye}}
+* Chinese:
+*: Cantonese: {{tt+|yue|佢|tr=keoi5}}
+*: Dungan: {{tt|dng|та}}
+*: Hokkien: {{tt+|nan-hbl|伊|tr=i}}
+*: Mandarin: {{tt|cmn|TA|tr=tā}} {{qualifier|internet slang}}, {{tt+|cmn|他|tr=tā}}
+*: Wu: {{tt|wuu|伊|tr=hhi}}
+* Chuvash: {{tt|cv|вӑл}}
+* Cree: {{tt|cr|wiya}}
+* Dutch: {{tt+|nl|die}} {{q|gender unknown or irrelevant}}, {{tt+|nl|hen}} {{q|non-binary gender, neologism}}
+* Dyirbal: {{not used|dbl}} {{qualifier|Dyirbal has no third-person pronoun}}
+* Dzongkha: {{tt|dz|ཕྱོ}}, {{tt|dz|ནཱ}}
+* Esperanto: {{tt+|eo|li}}, {{tt+|eo|ri}} {{qualifier|neologism}}, {{tt+|eo|ĝi}} {{qualifier|nonstandard}}, {{tt+|eo|ŝli}} {{qualifier|neologism}}
+* Estonian: {{tt+|et|tema|s}}, {{tt+|et|ta|s}}, {{tt+|et|see|s}}
+* Fijian: {{tt|fj|koya}}
+* Finnish: {{tt+|fi|hän}} {{qualifier|of people}}, {{tt+|fi|se}} {{qualifier|of things or informally of people}}
+* French: {{tt+|fr|iel|n}} {{qualifier|neologism}} {{tt+|fr|ille|n}} {{qualifier|neologism|rare}} {{tt+|fr|al|n}} {{qualifier|neologism|rare}} {{tt+|fr|ul|n}} {{qualifier|neologism|rare}} {{tt+|fr|ol|n}} {{qualifier|neologism|rare}}
+* Georgian: {{tt+|ka|ის}}
+* German: {{tt+|de|sier}} {{qualifier|nonstandard|neologism}}
+* Guaraní: {{tt|gn|ahẽ}}
+* Hawaiian: {{tt|haw|ia}}
+* Hindi: {{tt+|hi|वह}}, {{tt+|hi|यह}}
+* Hungarian: {{tt+|hu|ő}}, {{q|usually indicated by the third-person singular zero suffix only}} {{tt|hu|-∅}}
+* Icelandic: {{tt+|is|hán}}
+* Ido: {{tt+|io|lu}}
+* Indonesian: {{tt+|id|dia}}, {{tt+|id|ia}}
+* Ingrian: {{tt|izh|hää}}
+* Interlingua: {{tt|ia|uno}}, {{tt|ia|on}}
+* Japanese: {{tt|ja|あの人|tr=あのひと, anohito}}, {{tt+|ja|氏|tr=し, shi}}
+* Kabuverdianu: {{tt|kea|es}}
+* Karelian: {{tt|krl|häi}}
+* Kazakh: {{tt+|kk|ол}}
+* Ket: {{tt|ket|бу|tr=bu}}
+* Korean: {{tt+|ko|그}} {{q|literary, poetic, or in translated works only}}
+* Kurdish:
+*: Northern Kurdish: {{tt+|kmr|ew}}
+* Kyrgyz: {{tt+|ky|ал}}
+* Lakota: {{tt|lkt|ish}}, {{tt|lkt|iye}}
+* Lao: {{tt+|lo|ເຂົາ}}
+* Malay: {{tt+|ms|dia}}, {{tt+|ms|ia}}
+* Maltese: {{tt+|mt|huma}}
+* Maori: {{tt|mi|ia}}
+* Mongolian: {{tt+|mn|тэр}}
+* Norwegian: {{tt+|no|hen}}
+* Ojibwe: {{tt|oj|wiin}}
+* Pashto: {{tt+|ps|هغه|tr=hağë}}
+* Persian: {{tt+|fa|او|tr=u}}, {{tt+|fa|وی|tr=vay}}, {{tt+|fa|وی|tr=vey}}
+* Pipil: {{tt|ppl|yaha}}, {{tt|ppl|yaja}}
+* Portuguese: {{tt+|pt|elu|n}} {{q|neologism}}, {{tt+|pt|ile|n}} {{q|neologism}}, {{tt+|pt|se}} {{q|reflexive}}
+* Quechua: {{tt+|qu|pay}}
+* Romanian: {{not used|ro}}
+* Russian: {{tt+|ru|они́}} {{qualifier|rare}}
+* Sami:
+*: Inari: {{tt|smn|sun}}
+*: Lule: {{tt|smj|sån}}
+*: Northern: {{tt|se|son}}
+*: Skolt: {{tt|sms|son}}
+*: Southern: {{tt|sma|dïhte}}
+* Scots: {{tt|sco|thay}}
+* Southern Altai: {{t|alt|олор}}
+* Spanish: {{tt+|es|elle|n}} {{qualifier|neologism}}, {{tt+|es|se}} {{qualifier|reflexive}}
+* Swahili: {{tt|sw|yeye}}
+* Swedish: {{tt+|sv|hen}}
+* Tagalog: {{qualifier|ng form}} {{tt|tl|niya}}, {{qualifier|sa form}} {{tt|tl|kaniya}}, {{qualifier|unmarked form}} {{tt|tl|siya}}
+* Tatar: {{tt+|tt|ул}}
+* Thai: {{tt+|th|เขา}}
+* Tibetan: {{tt|bo|ཁོང}}
+* Tupinambá: {{tt|tpn|a'e}}
+* Turkish: {{tt+|tr|o}}
+* Turkmen: {{tt|tk|ol}}
+* Ukrainian: {{tt+|uk|вони́}}
+* Urdu: {{tt|ur|وہ|tr=voh}}, {{tt|ur|یہ|tr=yeh}}
+* Uyghur: {{tt+|ug|ئۇ}}
+* Uzbek: {{tt+|uz|u}}
+* Vietnamese: {{tt+|vi|họ}}, {{tt+|vi|nó}}
+* Volapük: {{tt+|vo|on}}
+* Yoruba: {{tt|yo|ó}}, {{tt|yo|á}}
+* Yucatec Maya: {{tt|yua|letiʼ}}
+* ǃKung: {{tt|khi-kun|ha}}
+{{trans-bottom}}
+
+{{trans-top|one, people, some people}}
+* Dutch: {{tt+|nl|ze}}
+* Esperanto: {{tt+|eo|oni}}
+* Ewe: {{tt|ee|wo}}
+* Finnish: ''passive tense or null subject used''
+* French: {{tt+|fr|on}}
+* Georgian: {{tt+|ka|ერთი}}, {{tt|ka|ვინმე}}, {{tt+|ka|შენ}}
+* German: {{tt+|de|man}}
+* Hungarian: {{tt|hu|az ember}}, {{tt|hu|[[-nak#Hungarian: personal|-nak]]/[[-nek#Hungarian: personal|-nek]]}}, {{tt|hu|[[-ják#Hungarian: indicative|-ják]]/[[-ik#Hungarian: definite|-ik]]}}
+* Italian: {{tt+|it|si}}
+* Khmer: {{tt|km|ពួកគេ}}
+* Persian: {{tt+|fa|ایشان|tr=išân}}
+* Portuguese: {{tt+|pt|se}}
+* Spanish: {{tt+|es|se}}, {{tt+|es|uno|m}}, {{tt+|es|una|f}}
+* Swedish: {{tt+|sv|de}}, {{tt+|sv|dom}}, {{tt+|sv|man}}
+* Tibetan: {{tt|bo|མི}}
+* Zealandic: {{tt|zea|'ulder}}, {{qualifier|unemphatic}} {{tt|zea|ze}}
+}}
+{{trans-bottom}}
+
+=====See also=====
+{{English personal pronouns}}
+* other [[Appendix:English third-person singular pronouns|attested third-person singular pronouns]]
+* {{l|en|theirselves}}, {{l|en|theirself}} {{q|nonstandard}}
+
+====Determiner====
+{{en-det}}
+
+# {{lb|en|now|Southern England|_|dialect|or|nonstandard}} [[the|The]], [[those]]. {{defdate|from 14th c.}}
+#* '''1878''', Louis John Jennings, ''Field Paths and Green Lanes'', quoting an old East Sussex&lt;!---&quot;he spoke the East Sussex dialect&quot;--&gt; man:
+#*: &quot;'''They''' rooks as you see [...] only coom a few year agoo.&quot;
+#* {{quote-text|en|year=1883|title=Judy, or the London serio-comic journal|volume=33|publisher=Harvard University|url=http://books.google.ca/books?id=8iEoAAAAYAAJ&amp;dq=%22they%20Cockney%22&amp;pg=PA190#v=onepage&amp;q=%22they%20Cockney%22&amp;f=false
+|passage=Darn'd if '''they''' Cockney Chaps can zee there worn't nort but lie in him.}}
+#* {{quote-text|en|year=1895|title=Under the Chilterns: A Story of English Village Life
+|passage=page 21: &quot;But you spile [spoil] '''they''' gals - they won't be for no good, they won't.&quot;&lt;br&gt;page 30: &quot;'Twas all about '''they''' rewks [rooks],&quot; he sobbed.&lt;br&gt;page 54: &quot;mucking the place up with '''they''' weeds&quot;}}
+#* '''1901''', Gwendoline Keats (of Devon), ''Tales of Dunstáble Weir'', page 55:
+#*: &quot;Bodies and souls,&quot; she cried, &quot;if I didn't reckon to have hidden '''they''' boots safe from un in the stick-rick.&quot; &quot;Off wi&amp;apos; '''they''' tight-wasted shoes o' yours, Martha.&quot;
+#* {{RQ:Welsh Trainspotting|page=114|passage=Forty quid a fuckin ticket. No shy '''they''' British Rail cunts, ah kin fuckin tell ye.}}
+# {{lb|en|US|_|dialects|including|AAVE}} [[their|Their]]. {{defdate|from 19th c.}}
+#* {{quote-book|en|year=1974|author=Arthur Hippler|title=Hunter's Point: a black ghetto in America|page=88|passage=MARY ELLEN is a different case from the others. She has five children and, she claims: &quot;I don't know who '''they''' father is. I ain't never kept track. They is always another one. You know, I can catch me a guy[.]&quot;}}
+#* {{quote-text|en|year=2002|author=w:Eminem|title={{w|Sing for the Moment |Sing for the Moment}}
+|passage=But all '''they''' kids be listenin' to me religiously / So I'm signin' CDs while police fingerprint me}}
+#* {{quote-song|en|title=Energy|year=2015|album=If You’re Reading This It’s Too Late|artist=Drake|passage=I got bitches askin' me about the code for the Wi-Fi / So they can talk about '''they''' timeline / And show me pictures of '''they''' friends}}
+#* {{quote-book|en|year=2016|author=w:Alan Moore|title=Jerusalem|publisher=Liveright|year_published=2016|page=175
+|passage=He guessed one of the well-off people living in these houses must have took a shine to Cody and decided how he'd look good stuck up on '''they''' roof.}}
+
+=====Alternative forms=====
+* {{alt|en|the||&lt;&lt;rare&gt;&gt;, &lt;&lt;dialect&gt;&gt; or &lt;&lt;eye dialect&gt;&gt;}}
+* {{alt|en|thay|thaay||Gloucestershire|Berkshire|possibly &lt;&lt;archaic&gt;&gt;}}
+
+===Etymology 2===
+From earlier {{m|en|the'e}}, from {{m|en|there}}.
+
+====Pronoun====
+{{en-pron}}
+
+# {{lb|en|US|_|dialectal}} [[there|There]] {{qualifier|especially as an expletive subject of be}}. {{defdate|from 19th c.}}
+#* {{quote-text|en|year=1889|author=w:James Whitcomb Riley|title=Pipes o' Pan
+|passage='''They'''’s music in the twitter of the bluebird and the jay.}}
+#* {{quote-book|en|year=1974|author=Arthur Hippler|title=Hunter's Point: a black ghetto in America|page=88|passage=MARY ELLEN is a different case from the others. She has five children and, she claims: &quot;I don't know who they father is. I ain't never kept track. '''They''' is always another one. You know, I can catch me a guy[.]&quot;}}
+#* {{quote-book|en|year=2000|author=Janice Giles|title=Hill Man|pageurl=https://books.google.com/books?id=nvmjVapqBOYC&amp;lpg=PA58&amp;dq=%22they%20ain't%20nothin%22&amp;pg=PA58#v=onepage&amp;q=%22they%20ain't%20nothin%22&amp;f=false|page=58
+|passage='''They''' ain’t nothin’ wrong with that.}}
+#* {{quote-book|en|year=2008|author=Christian Carvajal|title=Lightfall|pageurl=https://books.google.com/books?id=J3kkoYvglrQC&amp;lpg=PA82&amp;dq=%22they%20ain't%20nothin%22&amp;pg=PA82#v=onepage&amp;q=%22they%20ain't%20nothin%22&amp;f=false|page=82
+|passage=But '''they''' ain’t nothin’ in there you didn’t already have.}}
+#* {{quote-book|en|year=2010|author=Alessandro Portelli|title=They Say in Harlan County: An Oral History|pageurl=https://books.google.com/books?id=uOU6n6zP1W8C&amp;lpg=PA207&amp;dq=%22they%20a%20lot%22&amp;pg=PA207#v=onepage&amp;q=%22they%20a%20lot%22&amp;f=false|page=207
+|passage=Well, '''they'''’s a lot of ‘em didn’t survive, if you believe me.}}
+
+===References===
+&lt;references/&gt;
+
+===Anagrams===
+* {{anagrams|en|a=ehty|hyte|thye|ythe}}
+
+{{cln|en|personal pronouns|plural pronouns|third person pronouns}}
+{{C|en|Non-binary}}
+
+==Middle English==
+
+===Etymology 1===
+
+====Pronoun====
+{{head|enm|pronoun}}
+
+# {{alt form|enm|þei|t=they|id=they}}
+
+===Etymology 2===
+
+====Determiner====
+{{head|enm|determiner}}
+
+# {{alt form|enm|þi|t=thy|id=thy}}
+
+===Etymology 3===
+
+====Pronoun====
+{{head|enm|pronoun}}
+
+# {{alt form|enm|þe|t=thee|id=thee}}
+
+===Etymology 4===
+
+====Noun====
+{{enm-noun|þeies}}
+
+# {{alt sp|enm|þey||thigh}}
+
+===Etymology 5===
+
+====Adverb====
+{{enm-adv}}
+
+# {{alt sp|enm|þey||though}}
+
+====Conjunction====
+{{head|enm|conjunction}}
+
+# {{alt sp|enm|þey||though}}
+
+===Etymology 6===
+
+====Numeral====
+{{head|enm|numeral}}
+
+# {{alt sp|enm|þey||two}}</text>
+            <sha1>jptgc47b35tqm4kq0xyenf1fthl9ka4</sha1>
+        </revision>
+    </page>
+</mediawiki>

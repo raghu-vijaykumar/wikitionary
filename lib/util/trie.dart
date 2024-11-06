@@ -1,12 +1,31 @@
+import 'dart:convert';
 import 'dart:io';
 
 class TrieNode {
   Map<String, TrieNode> children = {};
   bool isEndOfWord = false;
+
+  // Convert the TrieNode to a Map for JSON serialization
+  Map<String, dynamic> toJson() {
+    return {
+      'isEndOfWord': isEndOfWord,
+      'children': children.map((key, value) => MapEntry(key, value.toJson())),
+    };
+  }
+
+  // Create a TrieNode from a Map for JSON deserialization
+  static TrieNode fromJson(Map<String, dynamic> json) {
+    TrieNode node = TrieNode();
+    node.isEndOfWord = json['isEndOfWord'];
+    json['children'].forEach((key, value) {
+      node.children[key] = TrieNode.fromJson(value);
+    });
+    return node;
+  }
 }
 
 class Trie {
-  final TrieNode root = TrieNode();
+  TrieNode root = TrieNode();
 
   void insert(String word) {
     TrieNode current = root;
@@ -52,54 +71,23 @@ class Trie {
     return words;
   }
 
-  // Serialize the trie to a file
-  Future<void> saveToFile(String filePath) async {
+  // Serialize the trie to a JSON file
+  Future<void> saveToJsonFile(String filePath) async {
     final file = File(filePath);
-    final data = _serialize(root);
-    await file.writeAsString(data);
+    final jsonData = jsonEncode(root.toJson());
+    await file.writeAsString(jsonData);
   }
 
-  String _serialize(TrieNode node) {
-    StringBuffer buffer = StringBuffer();
-    _serializeNode(node, buffer);
-    return buffer.toString();
-  }
-
-  void _serializeNode(TrieNode node, StringBuffer buffer) {
-    if (node.isEndOfWord) {
-      buffer.write('1');
-    } else {
-      buffer.write('0');
-    }
-    buffer.write(node.children.length);
-    for (var entry in node.children.entries) {
-      buffer.write(entry.key);
-      _serializeNode(entry.value, buffer);
-    }
-  }
-
-  // Load the trie from a file
-  static Future<Trie> loadFromFile(String filePath) async {
+  // Load the trie from a JSON file
+  static Future<Trie> loadFromJsonFile(String filePath) async {
     final file = File(filePath);
-    final data = await file.readAsString();
-    return _deserialize(data);
+    final jsonData = await file.readAsString();
+    return _deserializeFromJson(jsonDecode(jsonData));
   }
 
-  static Trie _deserialize(String data) {
+  static Trie _deserializeFromJson(Map<String, dynamic> json) {
     Trie trie = Trie();
-    int index = 0;
-    _deserializeNode(trie.root, data, index);
+    trie.root = TrieNode.fromJson(json);
     return trie;
-  }
-
-  static void _deserializeNode(TrieNode node, String data, int index) {
-    node.isEndOfWord = data[index++] == '1';
-    int childrenCount = int.parse(data[index++].toString());
-    for (int i = 0; i < childrenCount; i++) {
-      String char = data[index++];
-      TrieNode childNode = TrieNode();
-      node.children[char] = childNode;
-      _deserializeNode(childNode, data, index);
-    }
   }
 }
