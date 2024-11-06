@@ -120,52 +120,27 @@ class WikiTemplateParser {
     return buffer.toString();
   }
 
-  /// Parses the {{lang-noun-m|...}} template and returns a formatted string.
-  String parseLangNounTemplate(String template, String language, String title) {
-    final regex =
-        RegExp(r'\{\{(\w+)-noun-(m|f|n)?\|([^|]*)\|([^|]*)\|([^|]*)\}\}');
+  /// Parses the {{lang-noun|...}} and {{lang-noun-m|...}} templates generically.
+  String parseLangNoun(String template, String language, String title,
+      {bool isGendered = false}) {
+    final regex = isGendered
+        ? RegExp(r'\{\{(\w+)-noun-(m|f|n)?\|([^|]*)\|([^|]*)\|([^|]*)\}\}')
+        : RegExp(r'\{\{(\w+)-noun\|([^|]*)\|([^|]*)\|([^|]*)\|([^|]*)\}\}');
+
     final match = regex.firstMatch(template);
 
     if (match != null) {
-      String langCode = match.group(1) ?? ''; // The language code (e.g., "sq")
-      String gender = match.group(2) ?? ''; // The gender (e.g., "m", "f", "n")
-      String singular = match.group(3) ?? ''; // The singular form
-      String plural = match.group(4) ?? ''; // The plural form
-      String declension = match.group(5) ?? ''; // The declension
-
-      String genderDisplay = _mapGenderToDisplay(gender);
+      String langCode = match.group(1) ?? ''; // The language code
+      String singular = match.group(2) ?? ''; // The singular form
+      String plural = match.group(3) ?? ''; // The plural form
+      String gender = match.group(4) ?? ''; // The gender (optional)
+      String declension = match.group(5) ?? ''; // The declension (optional)
 
       // Construct the display text
-      return '$singular ($genderDisplay) - Plural: $plural, Declension: $declension';
+      return '''$singular (singular), $plural (plural), Gender: $gender, Declension: $declension in $langCode''';
     }
 
     return '';
-  }
-
-  /// Parses the {{lang-noun|...}} template generically for all language codes.
-  String parseLangNounV2(String template, String language, String title) {
-    final regex =
-        RegExp(r'\{\{(\w+)-noun\|([^|]*)\|([^|]*)\|([^|]*)\|([^|]*)\}\}');
-    final match = regex.firstMatch(template);
-
-    if (match != null) {
-      String langCode = match.group(1) ?? ''; // The language code (e.g., "sq")
-      String gender = match.group(2) ?? ''; // The gender (e.g., "m", "f", "n")
-      String singular = match.group(3) ?? ''; // The singular form
-      String plural = match.group(4) ?? ''; // The plural form
-      String declension = match.group(5) ?? ''; // The declension
-
-      String genderDisplay = _mapGenderToDisplay(gender);
-
-      // Construct the display text in the specified format
-      return '$singular $genderDisplay (plural $plural, definite $singular, definite plural $declension)';
-    }
-
-    return '';
-  }
-
-  String _mapGenderToDisplay(String gender) {
-    return gender.isNotEmpty ? '$gender (${gender.toUpperCase()})' : '';
   }
 
   /// Parses the {{head|...}} template and returns a formatted string.
@@ -332,29 +307,16 @@ class WikiTemplateParser {
     return '';
   }
 
-  /// Parses the {{gloss|...}} template and returns a formatted string.
-  String parseGlossTemplate(String template, String language, String title) {
-    final regex =
-        RegExp(r'\{\{gloss\|([^}]*)\}\}'); // Regex to capture the gloss text
+  /// Parses the {{gloss|...}} and {{gl|...}} templates and returns a formatted string.
+  String parseGloss(String template, String language, String title) {
+    final regex = RegExp(r'\{\{(gloss|gl)\|([^}]*)\}\}');
     final match = regex.firstMatch(template);
 
     if (match != null) {
-      String glossText = match.group(1) ?? ''; // The gloss text
-      return '($glossText)'; // Format as needed
-    }
-
-    return '';
-  }
-
-  /// Parses the {{gl|...}} template and returns a formatted string.
-  String parseGlTemplate(String template, String language, String title) {
-    final regex =
-        RegExp(r'\{\{gl\|([^}]*)\}\}'); // Regex to capture the gloss text
-    final match = regex.firstMatch(template);
-
-    if (match != null) {
-      String glossText = match.group(1) ?? ''; // The gloss text
-      return glossText; // Return the gloss text directly
+      String glossText = match.group(2) ?? ''; // The gloss text
+      return match.group(1) == 'gloss'
+          ? '($glossText)'
+          : glossText; // Format as needed
     }
 
     return '';
@@ -375,42 +337,20 @@ class WikiTemplateParser {
     return '';
   }
 
-  /// Parses the {{uxi|...}} template and returns a formatted string.
-  String parseUxTemplate(String template, String language, String title) {
-    final regex = RegExp(
-        r'\{\{ux\|([^|]*)\|([^|]*)\|?([^}]*)\}\}'); // Regex to capture language code, example, and optional translation
+  /// Parses the {{ux|...}} and {{uxi|...}} templates and returns a formatted string.
+  String parseUx(String template, String language, String title) {
+    final regex = RegExp(r'\{\{(ux|uxi)\|([^|]*)\|([^|]*)\|?([^}]*)\}\}');
     final matches = regex.allMatches(template);
 
     List<String> results = [];
 
     for (final match in matches) {
-      String langCode = match.group(1) ?? ''; // The language code (e.g., "br")
+      String langCode = match.group(1) ?? ''; // The language code
       String example = match.group(2) ?? ''; // The example text
       String translation = match.group(3) ?? ''; // The translation text
 
       // Format the output as needed
-      results.add(translation.isNotEmpty
-          ? '$example | $translation'
-          : example); // Example format with optional translation
-    }
-
-    return results.join(', '); // Join multiple results with a comma
-  }
-
-  String parseUxiTemplate(String template, String language, String title) {
-    final regex = RegExp(
-        r'\{\{uxi\|([^|]*)\|([^|]*)\|([^}]*)\}\}'); // Regex to capture language code, example, and translation
-    final matches = regex.allMatches(template);
-
-    List<String> results = [];
-
-    for (final match in matches) {
-      String langCode = match.group(1) ?? ''; // The language code (e.g., "br")
-      String example = match.group(2) ?? ''; // The example text
-      String translation = match.group(3) ?? ''; // The translation text
-
-      // Format the output as needed
-      results.add('$example | $translation'); // Example format
+      results.add(translation.isNotEmpty ? '$example | $translation' : example);
     }
 
     return results.join(', '); // Join multiple results with a comma
@@ -567,124 +507,119 @@ class WikiTemplateParser {
     return ''; // Return empty if only {{(\w+)-adj}} is present
   }
 
-  /// Parses the {{langCode-noun|...}} template and returns a formatted string.
-  String parseLangCodeNounTemplate(
+  /// Parses the {{desc|...}} template and returns a formatted string.
+  String parseDescendantsTemplate(
       String template, String language, String title) {
-    final regex =
-        RegExp(r'\{\{(\w+)-noun\|([^|]*)\|([^|]*)\|([^|]*)\|([^|]*)\}\}');
+    final regex = RegExp(r'\{\{desc\|([^|]+)\|([^|]*)\}\}');
     final match = regex.firstMatch(template);
 
     if (match != null) {
-      String langCode = match.group(1) ?? ''; // The language code (e.g., "en")
-      String singular = match.group(2) ?? ''; // The singular form
-      String plural = match.group(3) ?? ''; // The plural form
-      String gender = match.group(4) ?? ''; // The gender (optional)
-      String declension = match.group(5) ?? ''; // The declension (optional)
+      String langCode =
+          match.group(1) ?? ''; // The language code (e.g., "gmw-jdt")
+      String term = match.group(2) ?? ''; // The term (e.g., "wê")
 
-      if (singular.isEmpty &&
-          plural.isEmpty &&
-          gender.isEmpty &&
-          declension.isEmpty) {
-        return ''; // Return empty if nothing is present after -noun
+      // Construct the display text
+      return '''Descendants: $term (in $langCode)''';
+    }
+
+    return '';
+  }
+
+  /// Parses the {{quote-journal|...}} or {{quote-book|...}} template and returns a formatted string.
+  String parseQuoteTemplate(String template, String language, String title) {
+    final regex = RegExp(
+        r'\{\{(quote-journal\s*\|\s*|quote-book\s*\|\s*|quote-text\s*\|\s*quote-web\s*|\s*|cite-book\s*\|)([^|]*)\|([^|]*)\}\}'); // Updated regex to allow spaces after quote-journal
+    final match = regex.firstMatch(template);
+
+    if (match != null) {
+      String type =
+          match.group(1) ?? ''; // The type (quote-journal or quote-book)
+      String content =
+          match.group(2) ?? ''; // The content containing key-value pairs
+
+      // Split the content into key-value pairs
+      final keyValuePairs = content.split('|');
+      Map<String, String> values = {};
+
+      for (var pair in keyValuePairs) {
+        final keyValue = pair.split('=');
+        if (keyValue.length == 2) {
+          values[keyValue[0].trim()] = keyValue[1].trim();
+        }
       }
 
-      // Construct the display text
-      return '''$singular (singular), $plural (plural), Gender: $gender, Declension: $declension in $langCode''';
+      // Construct the display text using the extracted values
+      StringBuffer displayText = StringBuffer();
+      displayText.writeln('Quote from ${values['magazine'] ?? ''}:');
+      values.forEach((key, value) {
+        displayText.writeln('${key.capitalize()}: $value');
+      });
+      return displayText.toString();
     }
 
     return '';
   }
 
-  /// Parses the {{RQ:<lang_code>:<any_string>|...}} template and returns a formatted string.
-  String parseRQTemplate(String template, String language, String title) {
-    final regex =
-        RegExp(r'\{\{RQ:([^:]+):([^|]+)\|([^|]*)\|([^|]*)\|lit=([^|]*)\}\}');
+  /// Parses the {{non-gloss|...}} template and returns a formatted string.
+  String parseNonGlossTemplate(String template, String language, String title) {
+    final regex = RegExp(r'\{\{non-gloss\|([^}]*)\}\}');
     final match = regex.firstMatch(template);
 
     if (match != null) {
-      String langCode = match.group(1) ?? ''; // The language code (e.g., "jam")
-      String referenceCode =
-          match.group(2) ?? ''; // The reference code (e.g., "YDYR")
-      String mainText = match.group(3) ?? ''; // The main text
-      String translation = match.group(4) ?? ''; // The translation
-      String literalTranslation =
-          match.group(5) ?? ''; // The literal translation
-
-      // Construct the display text
-      return '''Language Code: $langCode
-Reference: $referenceCode
-Main Text: $mainText
-Translation: $translation
-Literal Translation: $literalTranslation''';
+      String description = match.group(1) ?? ''; // The description text
+      return 'Non-gloss: $description'; // Format as needed
     }
 
     return '';
   }
 
-  /// Parses the {{t+|...}} template and returns a formatted string.
-  String parseTranslationPlusTemplate(
+  /// Parses the {{misspelling of|...}} template and returns a formatted string.
+  String parseMisspellingOfTemplate(
       String template, String language, String title) {
-    final regex = RegExp(r'\{\{t\+\|([^|]+)\|([^|]*)\|?([^|]*)\}\}');
+    final regex = RegExp(r'\{\{misspelling of\|([^|]*)\|([^|]*)\}\}');
     final match = regex.firstMatch(template);
 
     if (match != null) {
-      String langCode = match.group(1) ?? ''; // The language code (e.g., "cs")
-      String translatedWord =
-          match.group(2) ?? ''; // The translated word (e.g., "kapitál")
-      String gender = match.group(3) ?? ''; // The gender (optional, e.g., "m")
+      String langCode = match.group(1) ?? ''; // The language code (e.g., "nl")
+      String misspelledWord =
+          match.group(2) ?? ''; // The misspelled word (e.g., "hé")
+
+      // Construct the display text
+      return 'Misspelling of "$misspelledWord" in language code: $langCode';
+    }
+
+    return '';
+  }
+
+  /// Parses the {{t|...}}, {{t+|...}}, {{tt|...}}, and {{tt+|...}} templates and returns a formatted string.
+  String parseTranslation(String template, String language, String title,
+      {bool isPlus = false}) {
+    final regex = isPlus
+        ? RegExp(r'\{\{t\+\|([^|]+)\|([^|]*)\|?([^|]*)\}\}')
+        : RegExp(r'\{\{t\|([^|]+)\|([^|]*)\|?([^|]*)\}\}');
+
+    final match = regex.firstMatch(template);
+
+    if (match != null) {
+      String langCode = match.group(1) ?? ''; // The language code
+      String translatedWord = match.group(2) ?? ''; // The translated word
+      String gender = match.group(3) ?? ''; // The gender (optional)
 
       // Construct the display text
       String genderDisplay = gender.isNotEmpty ? " ($gender)" : '';
       return '$translatedWord$genderDisplay ($langCode)'; // Format as needed
     }
 
-    return '';
-  }
+    // Handle {{tt|...}} and {{tt+|...}} templates
+    final ttRegex = isPlus
+        ? RegExp(r'\{\{tt\+\|([^|]+)\|([^|]*)\}\}')
+        : RegExp(r'\{\{tt\|([^|]+)\|([^|]*)\}\}');
 
-  /// Parses the {{t|...}} template and returns a formatted string.
-  String parseTranslationTemplate(
-      String template, String language, String title) {
-    final regex = RegExp(r'\{\{t\|([^|]+)\|([^|]*)\|?([^|]*)\}\}');
-    final match = regex.firstMatch(template);
+    final ttMatch = ttRegex.firstMatch(template);
 
-    if (match != null) {
-      String langCode = match.group(1) ?? ''; // The language code (e.g., "rm")
-      String translatedWord =
-          match.group(2) ?? ''; // The translated word (e.g., "chapital")
-      String gender = match.group(3) ?? ''; // The gender (optional, e.g., "m")
-
-      // Construct the display text
-      String genderDisplay = gender.isNotEmpty ? " ($gender)" : '';
-      return '$translatedWord$genderDisplay ($langCode)'; // Format as needed
-    }
-
-    return '';
-  }
-
-  /// Parses the {{tt|...}} template and returns a formatted string.
-  String parseTTTemplate(String template, String language, String title) {
-    final regex = RegExp(r'\{\{tt\|([^|]+)\|([^|]*)\}\}');
-    final match = regex.firstMatch(template);
-
-    if (match != null) {
-      String langCode = match.group(1) ?? ''; // The language code (e.g., "xal")
-      String translatedWord =
-          match.group(2) ?? ''; // The translated word (e.g., "бидн")
-      return '$translatedWord ($langCode)'; // Format as needed
-    }
-
-    return '';
-  }
-
-  /// Parses the {{tt+|...}} template and returns a formatted string.
-  String parseTTPlusTemplate(String template, String language, String title) {
-    final regex = RegExp(r'\{\{tt\+\|([^|]+)\|([^|]*)\}\}');
-    final match = regex.firstMatch(template);
-
-    if (match != null) {
-      String langCode = match.group(1) ?? ''; // The language code (e.g., "kn")
-      String translatedWord =
-          match.group(2) ?? ''; // The translated word (e.g., "ನಾವು")
+    if (ttMatch != null) {
+      String langCode = ttMatch.group(1) ?? ''; // The language code
+      String translatedWord = ttMatch.group(2) ?? ''; // The translated word
       return '$translatedWord ($langCode)'; // Format as needed
     }
 
@@ -761,81 +696,55 @@ Literal Translation: $literalTranslation''';
     return '';
   }
 
-  /// Parses the {{langCode-adj}} template and returns a message indicating it's empty.
-  String parseLangCodeNounEmpty(
+  /// Parses the {{langCode-noun|...}} template and returns a formatted string.
+  String parseLangCodeNounTemplate(
       String template, String language, String title) {
-    final regex = RegExp(r'\{\{(\w+)-noun\}\}');
-    final matches = regex.allMatches(template);
-
-    if (matches.isNotEmpty) {
-      // Return a message indicating that the langCode-adj template is empty for each occurrence
-      return '';
-    }
-
-    return '';
-  }
-
-  /// Parses the {{desc|...}} template and returns a formatted string.
-  String parseDescendantsTemplate(
-      String template, String language, String title) {
-    final regex = RegExp(r'\{\{desc\|([^|]+)\|([^|]*)\}\}');
+    final regex =
+        RegExp(r'\{\{(\w+)-noun\|([^|]*)\|([^|]*)\|([^|]*)\|([^|]*)\}\}');
     final match = regex.firstMatch(template);
 
     if (match != null) {
-      String langCode =
-          match.group(1) ?? ''; // The language code (e.g., "gmw-jdt")
-      String term = match.group(2) ?? ''; // The term (e.g., "wê")
+      String langCode = match.group(1) ?? ''; // The language code (e.g., "en")
+      String singular = match.group(2) ?? ''; // The singular form
+      String plural = match.group(3) ?? ''; // The plural form
+      String gender = match.group(4) ?? ''; // The gender (optional)
+      String declension = match.group(5) ?? ''; // The declension (optional)
 
-      // Construct the display text
-      return '''Descendants: $term (in $langCode)''';
-    }
-
-    return '';
-  }
-
-  /// Parses the {{quote-journal|...}} or {{quote-book|...}} template and returns a formatted string.
-  String parseQuoteTemplate(String template, String language, String title) {
-    final regex = RegExp(
-        r'\{\{(quote-journal\s*\|\s*|quote-book\s*\|\s*|quote-text\s*\|\s*quote-web\s*|\s*|cite-book\s*\|)([^|]*)\|([^|]*)\}\}'); // Updated regex to allow spaces after quote-journal
-    final match = regex.firstMatch(template);
-
-    if (match != null) {
-      String type =
-          match.group(1) ?? ''; // The type (quote-journal or quote-book)
-      String content =
-          match.group(2) ?? ''; // The content containing key-value pairs
-
-      // Split the content into key-value pairs
-      final keyValuePairs = content.split('|');
-      Map<String, String> values = {};
-
-      for (var pair in keyValuePairs) {
-        final keyValue = pair.split('=');
-        if (keyValue.length == 2) {
-          values[keyValue[0].trim()] = keyValue[1].trim();
-        }
+      if (singular.isEmpty &&
+          plural.isEmpty &&
+          gender.isEmpty &&
+          declension.isEmpty) {
+        return ''; // Return empty if nothing is present after -noun
       }
 
-      // Construct the display text using the extracted values
-      StringBuffer displayText = StringBuffer();
-      displayText.writeln('Quote from ${values['magazine'] ?? ''}:');
-      values.forEach((key, value) {
-        displayText.writeln('${key.capitalize()}: $value');
-      });
-      return displayText.toString();
+      // Construct the display text
+      return '''$singular (singular), $plural (plural), Gender: $gender, Declension: $declension in $langCode''';
     }
 
     return '';
   }
 
-  /// Parses the {{non-gloss|...}} template and returns a formatted string.
-  String parseNonGlossTemplate(String template, String language, String title) {
-    final regex = RegExp(r'\{\{non-gloss\|([^}]*)\}\}');
+  /// Parses the {{RQ:<lang_code>:<any_string>|...}} template and returns a formatted string.
+  String parseRQTemplate(String template, String language, String title) {
+    final regex =
+        RegExp(r'\{\{RQ:([^:]+):([^|]+)\|([^|]*)\|([^|]*)\|lit=([^|]*)\}\}');
     final match = regex.firstMatch(template);
 
     if (match != null) {
-      String description = match.group(1) ?? ''; // The description text
-      return 'Non-gloss: $description'; // Format as needed
+      String langCode = match.group(1) ?? ''; // The language code (e.g., "jam")
+      String referenceCode =
+          match.group(2) ?? ''; // The reference code (e.g., "YDYR")
+      String mainText = match.group(3) ?? ''; // The main text
+      String translation = match.group(4) ?? ''; // The translation
+      String literalTranslation =
+          match.group(5) ?? ''; // The literal translation
+
+      // Construct the display text
+      return '''Language Code: $langCode
+Reference: $referenceCode
+Main Text: $mainText
+Translation: $translation
+Literal Translation: $literalTranslation''';
     }
 
     return '';
@@ -864,20 +773,14 @@ Literal Translation: $literalTranslation''';
     if (content.contains('{{rhyme|') || content.contains('{{rhymes|')) {
       return parseRhymeTemplate(content, language, title);
     }
-    if (content.contains('{{gloss|')) {
-      return parseGlossTemplate(content, language, title);
-    }
-    if (content.contains('{{gl|')) {
-      return parseGlTemplate(content, language, title);
+    if (content.contains('{{gloss|') || content.contains('{{gl|')) {
+      return parseGloss(content, language, title);
     }
     if (content.contains('{{cog|')) {
       return parseCogTemplate(content, language, title);
     }
-    if (content.contains('{{ux|')) {
-      return parseUxTemplate(content, language, title);
-    }
-    if (content.contains('{{uxi|')) {
-      return parseUxiTemplate(content, language, title);
+    if (content.contains('{{ux|') || content.contains('{{uxi|')) {
+      return parseUx(content, language, title);
     }
     if (content.contains('{{alter|')) {
       return parseAlterTemplate(content, language, title);
@@ -907,12 +810,8 @@ Literal Translation: $literalTranslation''';
       return parseLbTemplate(
           content, language, title); // Handle {{lb|...}} template
     }
-    if (RegExp(r'\{\{(\w+)-noun-(m|f|n)?\|').hasMatch(content)) {
-      return parseLangNounTemplate(
-          content, language, title); // Handle noun templates generically
-    }
-    if (RegExp(r'\{\{(\w+)-noun\|').hasMatch(content)) {
-      return parseLangNounV2(
+    if (RegExp(r'\{\{(\w+)-noun(-(m|f|n))?\|').hasMatch(content)) {
+      return parseLangNoun(
           content, language, title); // Handle noun templates generically
     }
     if (content.contains('{{bor+|')) {
@@ -932,21 +831,15 @@ Literal Translation: $literalTranslation''';
       return parseRQTemplate(
           content, language, title); // Handle {{RQ:...}} template
     }
-    if (content.contains('{{t+|')) {
-      return parseTranslationPlusTemplate(
-          content, language, title); // Handle {{t+|...}} template
+    if (content.contains('{{t+|') || content.contains('{{t|')) {
+      return parseTranslation(content, language, title,
+          isPlus: content
+              .contains('{{t+|}')); // Handle {{t+|...}} or {{t|...}} template
     }
-    if (content.contains('{{t|')) {
-      return parseTranslationTemplate(
-          content, language, title); // Handle {{t|...}} template
-    }
-    if (content.contains('{{tt|')) {
-      return parseTTTemplate(
-          content, language, title); // Handle {{tt|...}} template
-    }
-    if (content.contains('{{tt+|')) {
-      return parseTTPlusTemplate(
-          content, language, title); // Handle {{tt+|...}} template
+    if (content.contains('{{tt|') || content.contains('{{tt+|')) {
+      return parseTranslation(content, language, title,
+          isPlus: content
+              .contains('{{tt+|')); // Handle {{tt|...}} or {{tt+|...}} template
     }
     if (content.contains('{{qualifier|')) {
       return parseQualifierTemplate(
@@ -965,7 +858,7 @@ Literal Translation: $literalTranslation''';
           content, language, title); // Handle {{langCode-adj}} template
     }
     if (RegExp(r'\{\{(\w+)-noun\}\}').hasMatch(content)) {
-      return parseLangCodeNounEmpty(
+      return parseLangCodeNounTemplate(
           content, language, title); // Handle {{langCode-noun}} template
     }
     if (content.contains('{{desc|')) {
@@ -979,6 +872,10 @@ Literal Translation: $literalTranslation''';
     if (content.contains('{{non-gloss|')) {
       return parseNonGlossTemplate(
           content, language, title); // Handle {{non-gloss|...}} template
+    }
+    if (content.contains('{{misspelling of|')) {
+      return parseMisspellingOfTemplate(
+          content, language, title); // Handle {{misspelling of|...}} template
     }
 
     // Add more conditions for other templates as needed
