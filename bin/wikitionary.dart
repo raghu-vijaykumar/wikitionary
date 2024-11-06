@@ -22,12 +22,12 @@ void main() async {
   await processXmlStream(filePath, outputDir);
   stopwatch.stop(); // Stop the stopwatch
   print('Processing completed in ${stopwatch.elapsed.inSeconds} seconds.');
-  print('Saving words to trie...');
-  await saveWordsToTrie(outputDir);
+  //print('Saving words to trie...');
+  //await saveWordsToTrie(outputDir);
 
-  final trie = await Trie.loadFromJsonFile('./output/english.trie');
-  print(trie.autocomplete('elo'));
-  print(trie.search('hello'));
+  //final trie = await Trie.loadFromJsonFile('./output/english.trie');
+  //print(trie.autocomplete('elo'));
+  //print(trie.search('hello'));
 }
 
 Future<void> processXmlStream(String filePath, String outputDir) async {
@@ -129,7 +129,9 @@ Future<void> processPage(String title, String textContent, String outputDir,
       // Skip "References" and "Further reading" sections
       if (sectionName == 'References' ||
           sectionName == 'Further reading' ||
-          sectionName == 'Related terms') {
+          sectionName == 'Related terms' ||
+          sectionName == 'See also' ||
+          sectionName == 'Declension') {
         continue; // Skip these sections
       }
 
@@ -157,7 +159,6 @@ Future<void> processPage(String title, String textContent, String outputDir,
       final contentKey = 'content';
       if (!currentSectionMap.containsKey(contentKey)) {
         currentSectionMap[contentKey] = '';
-        currentSectionMap['parsedContent'] = ''; // Initialize parsedContent
       }
       currentSectionMap[contentKey] += '${cleanedLine.trim()}\n';
     }
@@ -191,22 +192,6 @@ Future<void> processPage(String title, String textContent, String outputDir,
 
     // if any language sections contains text within <!-- -->, remove those are comments recursively
     cleanCommentsInSections(languageSections[language]!);
-
-    // Recursive function to parse content in sections
-    void parseSections(
-        Map<String, dynamic> sections, String language, String title) {
-      for (var section in sections.entries) {
-        if (section.key == 'content') {
-          final parsedContent = parser.parse(section.value, language, title);
-          sections['parsedContent'] = parsedContent; // Store parsed content
-        } else if (section.value is Map<String, dynamic>) {
-          parseSections(
-              section.value, language, title); // Recursively parse nested maps
-        }
-      }
-    }
-
-    parseSections(languageSections[language]!, language, title);
 
     if (!batchData.containsKey(dbPath)) {
       batchData[dbPath] = [];
