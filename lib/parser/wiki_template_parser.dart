@@ -36,6 +36,27 @@ class WikiTemplateParser {
     // Remove topics templates
     cleanedInput = _removeTopicsTemplates(cleanedInput);
 
+    // Remove {{cln|...}} templates
+    cleanedInput = _removeClnTemplates(cleanedInput);
+
+    // Remove {{C|...}} templates
+    cleanedInput = _removeCTemplates(cleanedInput);
+
+    // Remove {{wikipedia}} templates
+    cleanedInput = _removeWikipediaTemplates(cleanedInput);
+
+    // Remove {{multiple images|...}} templates
+    cleanedInput = _removeMultipleImagesTemplates(cleanedInput);
+
+    // Remove {{t-needed|...}} templates
+    cleanedInput = _removeTNeededTemplates(cleanedInput);
+
+    // Remove {{t-check|...}} templates
+    cleanedInput = _removeTCheckTemplates(cleanedInput);
+
+    cleanedInput = _removeIPAByLangCode(
+        cleanedInput, 'ca'); // Remove {{ca-IPA|...}} templates
+
     // Parse [link word] format
     cleanedInput = parseLinkWord(cleanedInput);
 
@@ -44,6 +65,16 @@ class WikiTemplateParser {
 
     // Parse the content and return the formatted output
     return _parseContent(cleanedInput, language, title);
+  }
+
+  /// Removes {{cln|...}} templates from the input text.
+  String _removeClnTemplates(String content) {
+    return content.replaceAll(RegExp(r'\{\{cln\|.*?\}\}'), '');
+  }
+
+  /// Removes {{C|...}} templates from the input text.
+  String _removeCTemplates(String content) {
+    return content.replaceAll(RegExp(r'\{\{C\|.*?\}\}'), '');
   }
 
   // Recursive function to parse content in sections
@@ -140,7 +171,7 @@ class WikiTemplateParser {
       return '''$singular (singular), $plural (plural), Gender: $gender, Declension: $declension in $langCode''';
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{head|...}} template and returns a formatted string.
@@ -182,7 +213,7 @@ class WikiTemplateParser {
       return displayText;
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{alt|...}} template and returns a formatted string.
@@ -198,7 +229,7 @@ class WikiTemplateParser {
       return '$word — $alternative';
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{inflection of|...}} template and returns a formatted string.
@@ -236,7 +267,7 @@ class WikiTemplateParser {
       return displayText;
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{bor|...}} template and returns a formatted string.
@@ -254,7 +285,7 @@ class WikiTemplateParser {
       return '$borrowedWord ($languageDisplay)';
     }
 
-    return '';
+    return template;
   }
 
   String _mapLanguageToDisplay(String language) {
@@ -273,7 +304,7 @@ class WikiTemplateParser {
       return 'plural: $pluralForm'; // Format as needed
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{IPA|...}} template and returns a formatted string.
@@ -288,7 +319,7 @@ class WikiTemplateParser {
       return 'IPA: /$ipa/'; // Format as needed
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{rhyme|...}} or {{rhymes|...}} template and returns a formatted string.
@@ -304,7 +335,7 @@ class WikiTemplateParser {
       return 'Rhymes in $langCode: -$rhymeWord (syllables: $syllableCount)'; // Format as needed
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{gloss|...}} and {{gl|...}} templates and returns a formatted string.
@@ -319,7 +350,7 @@ class WikiTemplateParser {
           : glossText; // Format as needed
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{cog|...}} template and returns a formatted string.
@@ -334,7 +365,7 @@ class WikiTemplateParser {
       return '$word ($langCode)'; // Format as needed
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{ux|...}} and {{uxi|...}} templates and returns a formatted string.
@@ -371,7 +402,7 @@ class WikiTemplateParser {
       return '$baseForm (alternatives: $altForm1, $altForm2)'; // Example format
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{der|...}} template and returns a formatted string.
@@ -389,7 +420,7 @@ class WikiTemplateParser {
       return '$baseForm (derived: $derivedForm in $langCode)'; // Example format
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{n-g|...}} template and returns a formatted string.
@@ -403,7 +434,7 @@ class WikiTemplateParser {
       return 'Noun-Gender: $description'; // Format as needed
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{wes-...}} template and returns a formatted string.
@@ -427,7 +458,7 @@ class WikiTemplateParser {
       return '$word ($langCode)'; // Format as needed
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{der2|...}} template and returns a formatted string.
@@ -448,7 +479,7 @@ class WikiTemplateParser {
       return '$baseForm (derived: $form1, $form2, $form3, $form4, $form5)'; // Format as needed
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{lb|...}} template and returns a formatted string.
@@ -461,7 +492,7 @@ class WikiTemplateParser {
       return word; // Return the word directly
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{bor+|...}} template and returns a formatted string.
@@ -482,7 +513,7 @@ class WikiTemplateParser {
       return '$borrowedWord (borrowed from $sourceLangDisplay in $borrowingLangDisplay)'; // Format as needed
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{adj|...}} template and returns a formatted string.
@@ -504,7 +535,7 @@ class WikiTemplateParser {
       return '''$masculine (masculine), $feminine (feminine), $plural (plural) in $langCode''';
     }
 
-    return ''; // Return empty if only {{(\w+)-adj}} is present
+    return template; // Return empty if only {{(\w+)-adj}} is present
   }
 
   /// Parses the {{desc|...}} template and returns a formatted string.
@@ -522,7 +553,7 @@ class WikiTemplateParser {
       return '''Descendants: $term (in $langCode)''';
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{quote-journal|...}} or {{quote-book|...}} template and returns a formatted string.
@@ -557,7 +588,7 @@ class WikiTemplateParser {
       return displayText.toString();
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{non-gloss|...}} template and returns a formatted string.
@@ -570,7 +601,7 @@ class WikiTemplateParser {
       return 'Non-gloss: $description'; // Format as needed
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{misspelling of|...}} template and returns a formatted string.
@@ -588,7 +619,7 @@ class WikiTemplateParser {
       return 'Misspelling of "$misspelledWord" in language code: $langCode';
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{t|...}}, {{t+|...}}, {{tt|...}}, and {{tt+|...}} templates and returns a formatted string.
@@ -623,7 +654,7 @@ class WikiTemplateParser {
       return '$translatedWord ($langCode)'; // Format as needed
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{qualifier|...}} template and returns a formatted string.
@@ -643,7 +674,7 @@ class WikiTemplateParser {
 
     return qualifiers.isNotEmpty
         ? '(${qualifiers.join(', ')})'
-        : ''; // Format as needed
+        : template; // Format as needed
   }
 
   /// Parses the {{inh|...}} template and returns a formatted string.
@@ -662,7 +693,7 @@ class WikiTemplateParser {
       return '''Term: $term (inherited from $inheritedLangCode in $langCode)''';
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{langCode-verb form of|...}} template and returns a formatted string.
@@ -677,10 +708,10 @@ class WikiTemplateParser {
           match.group(2) ?? ''; // The verb form (e.g., "haver<var:aux>")
 
       // Construct the display text
-      return '''Verb Form: $verbForm (in $langCode)''';
+      return '''Verb Form: $verbForm (in $langCode)'''; // Format as needed
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{langCode-adj}} template and returns a message indicating it's empty.
@@ -693,7 +724,7 @@ class WikiTemplateParser {
       return '';
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{langCode-noun|...}} template and returns a formatted string.
@@ -714,14 +745,14 @@ class WikiTemplateParser {
           plural.isEmpty &&
           gender.isEmpty &&
           declension.isEmpty) {
-        return ''; // Return empty if nothing is present after -noun
+        return template; // Return empty if nothing is present after -noun
       }
 
       // Construct the display text
       return '''$singular (singular), $plural (plural), Gender: $gender, Declension: $declension in $langCode''';
     }
 
-    return '';
+    return template;
   }
 
   /// Parses the {{RQ:<lang_code>:<any_string>|...}} template and returns a formatted string.
@@ -747,7 +778,40 @@ Translation: $translation
 Literal Translation: $literalTranslation''';
     }
 
-    return '';
+    return template;
+  }
+
+  /// Parses the {{langCode-IPA|...}} template and returns a formatted string.
+  String parseLangCodeIPATemplate(
+      String template, String language, String title) {
+    final regex = RegExp(r'\{\{(\w+)-IPA\|([^|]*)\}\}');
+    final match = regex.firstMatch(template);
+
+    if (match != null) {
+      String langCode = match.group(1) ?? ''; // The language code (e.g., "ca")
+      String ipa = match.group(2) ?? ''; // The IPA representation (e.g., "é")
+
+      // Construct the display text
+      return 'IPA: /$ipa/ (in $langCode)'; // Format as needed
+    }
+
+    return template;
+  }
+
+  /// Parses the {{ISBN|...}} template and returns a formatted string.
+  String parseISBNTemplate(String template, String language, String title) {
+    final regex = RegExp(r'\{\{ISBN\|([^|]*)\}\}');
+    final match = regex.firstMatch(template);
+
+    if (match != null) {
+      String isbn =
+          match.group(1) ?? ''; // The ISBN number (e.g., "0858831007")
+
+      // Construct the display text
+      return 'ISBN: $isbn'; // Format as needed
+    }
+
+    return template;
   }
 
   /// Chooses the appropriate parsing logic based on the content.
@@ -877,6 +941,82 @@ Literal Translation: $literalTranslation''';
       return parseMisspellingOfTemplate(
           content, language, title); // Handle {{misspelling of|...}} template
     }
+    if (RegExp(r'\{\{(\w+)-IPA\|').hasMatch(content)) {
+      return parseLangCodeIPATemplate(
+          content, language, title); // Handle {{langCode-IPA|...}} template
+    }
+    if (content.contains('{{ISBN|')) {
+      return parseISBNTemplate(
+          content, language, title); // Handle {{ISBN|...}} template
+    }
+    if (RegExp(r'\{\{homophones\|').hasMatch(content)) {
+      return parseHomophonesTemplate(
+          content, language, title); // Handle {{homophones|...}} template
+    }
+    if (RegExp(r'\{\{m\|').hasMatch(content)) {
+      return parseMTemplate(
+          content, language, title); // Handle {{m|...}} template
+    }
+    if (content.contains('{{alt form|')) {
+      return parseAltFormTemplate(
+          content, language, title); // Handle {{alt form|...}} template
+    }
+    if (RegExp(r'\{\{(\w+)-pron\|').hasMatch(content)) {
+      return parseLangCodePronTemplate(
+          content, language, title); // Handle {{langCode-pron|...}} template
+    }
+    if (content.contains('{{dercat|')) {
+      return parseDerCatTemplate(
+          content, language, title); // Handle {{dercat|...}} template
+    }
+    if (content.contains('{{desctree|')) {
+      return parseDescTreeTemplate(
+          content, language, title); // Handle {{desctree|...}} template
+    }
+    if (content.contains('{{senseid|')) {
+      return parseSenseIdTemplate(
+          content, language, title); // Handle {{senseid|...}} template
+    }
+    if (content.contains('{{doublet|')) {
+      return parseDoubletTemplate(
+          content, language, title); // Handle {{doublet|...}} template
+    }
+    if (content.contains('{{sense|')) {
+      return parseSenseTemplate(
+          content, language, title); // Handle {{sense|...}} template
+    }
+    if (content.contains('{{antsense|')) {
+      return parseAntSenseTemplate(
+          content, language, title); // Handle {{antsense|...}} template
+    }
+    if (content.contains('{{root|')) {
+      return parseRootTemplate(
+          content, language, title); // Handle {{root|...}} template
+    }
+    if (content.contains('{{anagrams|')) {
+      return parseAnagramsTemplate(
+          content, language, title); // Handle {{anagrams|...}} template
+    }
+    if (content.contains('{{etymid|')) {
+      return parseEtymIdTemplate(
+          content, language, title); // Handle {{etymid|...}} template
+    }
+    if (content.contains('{{rfe|')) {
+      return parseRfeTemplate(
+          content, language, title); // Handle {{rfe|...}} template
+    }
+    if (content.contains('{{catlangname|')) {
+      return parseCatLangNameTemplate(
+          content, language, title); // Handle {{catlangname|...}} template
+    }
+    if (content.contains('{{enPR|')) {
+      return parseEnPRTemplate(
+          content, language, title); // Handle {{enPR|...}} template
+    }
+    if (content.contains('{{synonym of|')) {
+      return parseSynonymOfTemplate(
+          content, language, title); // Handle {{synonym of|...}} template
+    }
 
     // Add more conditions for other templates as needed
 
@@ -917,5 +1057,283 @@ Literal Translation: $literalTranslation''';
       String word = match.group(2) ?? ''; // The word (e.g., "word")
       return '$word ($link)'; // Format as needed
     });
+  }
+
+  /// Removes {{wikipedia}} templates from the input text.
+  String _removeWikipediaTemplates(String content) {
+    return content.replaceAll(RegExp(r'\{\{wikipedia\}\}'), '');
+  }
+
+  /// Removes {{langCode-IPA|...}} templates for a specific language code from the input text.
+  String _removeIPAByLangCode(String content, String langCode) {
+    return content.replaceAll(
+        RegExp(r'\{\{' + RegExp.escape(langCode) + r'-IPA\}\}'), '');
+  }
+
+  /// Parses the {{homophones|...}} template and returns a formatted string.
+  String parseHomophonesTemplate(
+      String template, String language, String title) {
+    final regex = RegExp(r'\{\{homophones\|([^|]+)\|([^|]*)\}\}');
+    final match = regex.firstMatch(template);
+
+    if (match != null) {
+      String langCode = match.group(1) ?? ''; // The language code (e.g., "en")
+      String word = match.group(2) ?? ''; // The word (e.g., "capitol")
+
+      // Construct the display text
+      return 'Homophones in $langCode: $word'; // Format as needed
+    }
+
+    return template;
+  }
+
+  /// Parses the {{m|...}} template and returns a formatted string.
+  String parseMTemplate(String template, String language, String title) {
+    final regex = RegExp(r'\{\{m\|([^|]+)\|([^|]*)\|?([^|]*)\}\}');
+    final match = regex.firstMatch(template);
+
+    if (match != null) {
+      String langCode = match.group(1) ?? ''; // The language code (e.g., "la")
+      String term = match.group(2) ?? ''; // The term (e.g., "caput")
+      String additionalInfo =
+          match.group(3) ?? ''; // Additional info (e.g., "t=head")
+
+      // Construct the display text
+      return additionalInfo.isNotEmpty
+          ? '$term (in $langCode, additional info: $additionalInfo)'
+          : '$term (in $langCode)'; // Format as needed
+    }
+
+    return template;
+  }
+
+  /// Parses the {{alt form|...}} template and returns a formatted string.
+  String parseAltFormTemplate(String template, String language, String title) {
+    final regex = RegExp(r'\{\{alt form\|([^|]+)\|([^|]*)\}\}');
+    final match = regex.firstMatch(template);
+
+    if (match != null) {
+      String langCode = match.group(1) ?? ''; // The language code
+      String altForm = match.group(2) ?? ''; // The alternative form
+      return 'Alternative form: $altForm (in $langCode)'; // Format as needed
+    }
+
+    return template;
+  }
+
+  /// Parses the {{dercat|...}} template and returns a formatted string.
+  String parseDerCatTemplate(String template, String language, String title) {
+    final regex = RegExp(r'\{\{dercat\|([^|]*)\|([^|]*)\|([^|]*)\|([^|]*)\}\}');
+    final match = regex.firstMatch(template);
+
+    if (match != null) {
+      String langCode = match.group(1) ?? ''; // The language code
+      String category = match.group(2) ?? ''; // The category
+      String gmw = match.group(3) ?? ''; // The gmw
+      String inh = match.group(4) ?? ''; // The inh
+      return 'Derived Category: $category (in $langCode, gmw: $gmw, inh: $inh)'; // Format as needed
+    }
+
+    return template;
+  }
+
+  /// Parses the {{desctree|...}} template and returns a formatted string.
+  String parseDescTreeTemplate(String template, String language, String title) {
+    final regex = RegExp(r'\{\{desctree\|([^|]*)\|([^|]*)\}\}');
+    final match = regex.firstMatch(template);
+
+    if (match != null) {
+      String langCode = match.group(1) ?? ''; // The language code
+      String term = match.group(2) ?? ''; // The term
+      return 'Descendants Tree: $term (in $langCode)'; // Format as needed
+    }
+
+    return template;
+  }
+
+  /// Parses the {{senseid|...}} template and returns a formatted string.
+  String parseSenseIdTemplate(String template, String language, String title) {
+    final regex = RegExp(r'\{\{senseid\|([^|]*)\|([^|]*)\}\}');
+    final match = regex.firstMatch(template);
+
+    if (match != null) {
+      String langCode = match.group(1) ?? ''; // The language code
+      String sense = match.group(2) ?? ''; // The sense
+      return 'Sense ID: $sense (in $langCode)'; // Format as needed
+    }
+
+    return template;
+  }
+
+  String parseLangCodePronTemplate(
+      String content, String language, String title) {
+    final regex = RegExp(r'\{\{(\w+)-pron\|([^|]*)\}\}');
+    final match = regex.firstMatch(content);
+
+    if (match != null) {
+      String langCode = match.group(1) ?? ''; // The language code
+      String description = match.group(2) ?? ''; // The description
+      return 'Pronunciation: $description (in $langCode)'; // Format as needed
+    }
+
+    return content;
+  }
+
+  /// Parses the {{doublet|...}} template and returns a formatted string.
+  String parseDoubletTemplate(String template, String language, String title) {
+    final regex = RegExp(r'\{\{doublet\|([^|]*)\|([^|]*)(?:\|([^|]*))?\}\}');
+    final match = regex.firstMatch(template);
+
+    if (match != null && match.groupCount >= 2) {
+      String langCode = match.group(1) ?? ''; // The language code
+      String word1 = match.group(2) ?? ''; // The first word
+      String word2 = match.group(3) ?? ''; // The second word (optional)
+      return 'Doublet: $word1${word2.isNotEmpty ? ' and $word2' : ''} (in $langCode)'; // Format as needed
+    }
+
+    return template; // Handle invalid format
+  }
+
+  /// Parses the {{sense|...}} template and returns a formatted string.
+  String parseSenseTemplate(String template, String language, String title) {
+    final regex = RegExp(r'\{\{sense\|([^}]*)\}\}');
+    final match = regex.firstMatch(template);
+
+    if (match != null) {
+      String senseText = match.group(1) ?? ''; // The sense text
+      return 'Sense: $senseText'; // Format as needed
+    }
+
+    return template;
+  }
+
+  /// Parses the {{antsense|...}} template and returns a formatted string.
+  String parseAntSenseTemplate(String template, String language, String title) {
+    final regex = RegExp(r'\{\{antsense\|([^}]*)\}\}');
+    final match = regex.firstMatch(template);
+
+    if (match != null) {
+      String antSenseText = match.group(1) ?? ''; // The ant sense text
+      return 'Ant Sense: $antSenseText'; // Format as needed
+    }
+
+    return template;
+  }
+
+  /// Parses the {{root|...}} template and returns a formatted string.
+  String parseRootTemplate(String template, String language, String title) {
+    final regex =
+        RegExp(r'\{\{root\|([^|]*)\|([^|]*)\|([^|]*)\|([^|]*)\|([^|]*)\}\}');
+    final match = regex.firstMatch(template);
+
+    if (match != null) {
+      String langCode = match.group(1) ?? ''; // The language code
+      String rootWord = match.group(2) ?? ''; // The root word
+      String id1 = match.group(3) ?? ''; // The id1
+      return 'Root: $rootWord (in $langCode, id1: $id1)'; // Format as needed
+    }
+
+    return template;
+  }
+
+  /// Parses the {{anagrams|...}} template and returns a formatted string.
+  String parseAnagramsTemplate(String template, String language, String title) {
+    final regex = RegExp(r'\{\{anagrams\|([^|]*)\|([^|]*)\}\}');
+    final match = regex.firstMatch(template);
+
+    if (match != null) {
+      String langCode = match.group(1) ?? ''; // The language code
+      String anagramWords = match.group(2) ?? ''; // The anagram words
+      return 'Anagrams: $anagramWords (in $langCode)'; // Format as needed
+    }
+
+    return template;
+  }
+
+  /// Parses the {{etymid|...}} template and returns a formatted string.
+  String parseEtymIdTemplate(String template, String language, String title) {
+    final regex = RegExp(r'\{\{etymid\|([^|]*)\}\}');
+    final match = regex.firstMatch(template);
+
+    if (match != null) {
+      String langCode = match.group(1) ?? ''; // The language code
+      return 'Etymology ID (in $langCode)'; // Format as needed
+    }
+
+    return template;
+  }
+
+  /// Parses the {{rfe|...}} template and returns a formatted string.
+  String parseRfeTemplate(String template, String language, String title) {
+    final regex = RegExp(r'\{\{rfe\}\}');
+    final match = regex.firstMatch(template);
+
+    if (match != null) {
+      return 'Request for Etymology'; // Format as needed
+    }
+
+    return template;
+  }
+
+  /// Parses the {{catlangname|...}} template and returns a formatted string.
+  String parseCatLangNameTemplate(
+      String template, String language, String title) {
+    final regex = RegExp(
+        r'\{\{catlangname\|([^|]*)\|([^|]*)\|([^|]*)\|([^|]*)\|([^|]*)\}\}');
+    final match = regex.firstMatch(template);
+
+    if (match != null) {
+      String langCode = match.group(1) ?? ''; // The language code
+      String name1 = match.group(2) ?? ''; // The first name
+      String name2 = match.group(3) ?? ''; // The second name
+      return 'Category Language Name: $name1, $name2 (in $langCode)'; // Format as needed
+    }
+
+    return template;
+  }
+
+  /// Parses the {{enPR|...}} template and returns a formatted string.
+  String parseEnPRTemplate(String template, String language, String title) {
+    final regex = RegExp(r'\{\{enPR\|([^|]*)\|([^|]*)\}\}');
+    final match = regex.firstMatch(template);
+
+    if (match != null) {
+      String pronunciation = match.group(1) ?? ''; // The pronunciation
+      String region = match.group(2) ?? ''; // The region
+      return 'Pronunciation: $pronunciation (Region: $region)'; // Format as needed
+    }
+
+    return template;
+  }
+
+  /// Parses the {{synonym of|...}} template and returns a formatted string.
+  String parseSynonymOfTemplate(
+      String template, String language, String title) {
+    final regex = RegExp(r'\{\{synonym of\|([^|]*)\|([^|]*)\}\}');
+    final match = regex.firstMatch(template);
+
+    if (match != null) {
+      String langCode = match.group(1) ?? ''; // The language code
+      String synonym = match.group(2) ?? ''; // The synonym
+      return 'Synonym of: $synonym (in $langCode)'; // Format as needed
+    }
+
+    return template;
+  }
+
+  /// Removes {{multiple images|...}} templates from the input text.
+  String _removeMultipleImagesTemplates(String content) {
+    return content.replaceAll(
+        RegExp(r'\{\{multiple images\s*\|[^}]*\}\}\s*'), '');
+  }
+
+  /// Removes {{t-needed|...}} templates from the input text.
+  String _removeTNeededTemplates(String content) {
+    return content.replaceAll(RegExp(r'\{\{t-needed\|[^}]*\}\}'), '');
+  }
+
+  /// Removes {{t-check|...}} templates from the input text.
+  String _removeTCheckTemplates(String content) {
+    return content.replaceAll(RegExp(r'\{\{t-check\|[^}]*\}\}'), '');
   }
 }
